@@ -1,0 +1,25 @@
+{
+  "APP": {
+    "TITLE": "Lịch Sử Việt Nam",
+    "FOOTER": "© 2024 Lịch Sử Việt Nam - Tất cả quyền được bảo lưu"
+  },
+  "PERIODS": {
+    "HUNG_KINGS": "Thời Kỳ Hùng Vương",
+    "ANCIENT": "Thời Kỳ Cổ Đại",
+    "MEDIEVAL": "Thời Kỳ Trung Đại",
+    "MODERN": "Thời Kỳ Cận Đại",
+    "CONTEMPORARY": "Thời Kỳ Hiện Đại",
+    "DATES": {
+      "HUNG_KINGS": "2879 TCN - 258 TCN",
+      "ANCIENT": "257 TCN - 938",
+      "MEDIEVAL": "939 - 1858",
+      "MODERN": "1858 - 1945",
+      "CONTEMPORARY": "1945 - Hiện tại"
+    }
+  },
+  "NAVIGATION": {
+    "HOME": "Trang Chủ",
+    "TIMELINE": "Dòng Thời Gian",
+    "ABOUT": "Giới Thiệu"
+  }
+} 
