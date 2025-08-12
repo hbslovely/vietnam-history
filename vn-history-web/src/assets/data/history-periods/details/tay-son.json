@@ -1,0 +1,333 @@
+{
+  "id": "tay-son",
+  "name": "Thời kỳ Tây Sơn",
+  "nameEn": "Tay Son Period",
+  "timeRange": {
+    "from": 1771,
+    "to": 1802,
+    "display": "1771 - 1802"
+  },
+  "overview": {
+    "vi": "Phong trào Tây Sơn là một cuộc khởi nghĩa nông dân phát triển thành một triều đại ngắn ngủi nhưng có ý nghĩa lịch sử to lớn. Dưới sự lãnh đạo của anh em nhà Nguyễn Nhạc, Nguyễn Huệ, và Nguyễn Lữ, phong trào đã thống nhất đất nước, đánh bại quân Xiêm và nhà Thanh, thực hiện nhiều cải cách tiến bộ.",
+    "en": "The Tay Son movement began as a peasant uprising that evolved into a brief but historically significant dynasty. Under the leadership of the Nguyen brothers (Nhac, Hue, and Lu), the movement unified the country, defeated Siamese and Qing forces, and implemented progressive reforms."
+  },
+  "leaders": [
+    {
+      "name": "Nguyễn Nhạc",
+      "title": {
+        "vi": "Tây Sơn Vương",
+        "en": "Tay Son King"
+      },
+      "period": "1778-1793",
+      "territory": {
+        "vi": "Kiểm soát vùng Quảng Nam - Bình Định",
+        "en": "Controlled Quang Nam - Binh Dinh region"
+      },
+      "achievements": [
+        {
+          "vi": "Khởi xướng phong trào Tây Sơn",
+          "en": "Initiated Tay Son movement"
+        },
+        {
+          "vi": "Đánh đổ chúa Nguyễn ở Đàng Trong",
+          "en": "Overthrew Nguyen Lords in the South"
+        }
+      ]
+    },
+    {
+      "name": "Nguyễn Huệ (Quang Trung)",
+      "title": {
+        "vi": "Hoàng đế Quang Trung",
+        "en": "Emperor Quang Trung"
+      },
+      "period": "1788-1792",
+      "territory": {
+        "vi": "Kiểm soát phần lớn đất nước",
+        "en": "Controlled most of the country"
+      },
+      "achievements": [
+        {
+          "vi": "Đại thắng quân Thanh",
+          "en": "Great victory over Qing forces"
+        },
+        {
+          "vi": "Thống nhất đất nước",
+          "en": "Unified the country"
+        },
+        {
+          "vi": "Cải cách toàn diện",
+          "en": "Comprehensive reforms"
+        }
+      ],
+      "militaryVictories": [
+        {
+          "name": "Chiến thắng Ngọc Hồi - Đống Đa",
+          "year": 1789,
+          "significance": {
+            "vi": "Đánh bại 29 vạn quân Thanh trong 5 ngày Tết",
+            "en": "Defeated 290,000 Qing troops during 5 days of Lunar New Year"
+          }
+        },
+        {
+          "name": "Chiến thắng Rạch Gầm - Xoài Mút",
+          "year": 1785,
+          "significance": {
+            "vi": "Đánh bại quân Xiêm La",
+            "en": "Defeated Siamese forces"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Nguyễn Lữ",
+      "title": {
+        "vi": "Đông Định Vương",
+        "en": "Dong Dinh King"
+      },
+      "period": "1777-1787",
+      "territory": {
+        "vi": "Kiểm soát vùng Gia Định",
+        "en": "Controlled Gia Dinh region"
+      }
+    }
+  ],
+  "militaryCampaigns": {
+    "northernCampaigns": [
+      {
+        "year": 1786,
+        "target": "Bắc Hà",
+        "result": {
+          "vi": "Lật đổ chúa Trịnh",
+          "en": "Overthrew Trinh Lords"
+        }
+      },
+      {
+        "year": 1788,
+        "target": "Thăng Long",
+        "result": {
+          "vi": "Đánh đuổi quân Thanh",
+          "en": "Expelled Qing forces"
+        }
+      }
+    ],
+    "southernCampaigns": [
+      {
+        "year": 1777,
+        "target": "Gia Định",
+        "result": {
+          "vi": "Đánh bại chúa Nguyễn",
+          "en": "Defeated Nguyen Lords"
+        }
+      },
+      {
+        "year": 1785,
+        "target": "Nam Bộ",
+        "result": {
+          "vi": "Đánh bại quân Xiêm",
+          "en": "Defeated Siamese forces"
+        }
+      }
+    ]
+  },
+  "reforms": {
+    "administrative": [
+      {
+        "vi": "Cải cách bộ máy hành chính",
+        "en": "Reformed administrative system"
+      },
+      {
+        "vi": "Thực hiện chính sách khoan hồng",
+        "en": "Implemented lenient policies"
+      }
+    ],
+    "economic": [
+      {
+        "vi": "Giảm thuế cho nông dân",
+        "en": "Reduced taxes for farmers"
+      },
+      {
+        "vi": "Khuyến khích thương mại",
+        "en": "Encouraged commerce"
+      },
+      {
+        "vi": "Phát triển tiểu thủ công nghiệp",
+        "en": "Developed handicraft industries"
+      }
+    ],
+    "education": [
+      {
+        "vi": "Sử dụng chữ Nôm trong thi cử",
+        "en": "Used Nom script in examinations"
+      },
+      {
+        "vi": "Cải cách giáo dục theo hướng thực tiễn",
+        "en": "Reformed education towards practicality"
+      }
+    ],
+    "military": [
+      {
+        "vi": "Cải tiến vũ khí",
+        "en": "Improved weapons"
+      },
+      {
+        "vi": "Cải cách tổ chức quân đội",
+        "en": "Reformed military organization"
+      }
+    ]
+  },
+  "culture": {
+    "literature": {
+      "characteristics": [
+        {
+          "vi": "Phát triển văn học chữ Nôm",
+          "en": "Development of Nom literature"
+        },
+        {
+          "vi": "Đề cao tinh thần dân tộc",
+          "en": "Emphasized national spirit"
+        }
+      ],
+      "works": [
+        {
+          "title": "Cáo thị dụ",
+          "author": "Quang Trung",
+          "type": "Military proclamation"
+        },
+        {
+          "title": "Hoàng Lê nhất thống chí",
+          "author": "Ngô gia văn phái",
+          "type": "Historical chronicle"
+        }
+      ]
+    },
+    "education": {
+      "reforms": [
+        {
+          "vi": "Khuyến khích sử dụng chữ Nôm",
+          "en": "Encouraged use of Nom script"
+        },
+        {
+          "vi": "Cải cách khoa cử",
+          "en": "Reformed examination system"
+        }
+      ]
+    }
+  },
+  "economy": {
+    "policies": [
+      {
+        "vi": "Phát triển nông nghiệp",
+        "en": "Agricultural development"
+      },
+      {
+        "vi": "Khuyến khích thương mại",
+        "en": "Trade promotion"
+      },
+      {
+        "vi": "Cải cách tiền tệ",
+        "en": "Currency reform"
+      }
+    ],
+    "trade": {
+      "domestic": {
+        "markets": ["Phú Xuân", "Thăng Long"],
+        "products": ["Gạo", "Thủ công mỹ nghệ"]
+      },
+      "international": {
+        "partners": ["Trung Quốc", "Nhật Bản"],
+        "ports": ["Hội An", "Phố Hiến"]
+      }
+    }
+  },
+  "militaryInnovations": {
+    "weapons": [
+      {
+        "name": "Đại bác đồng",
+        "nameEn": "Bronze cannons",
+        "description": {
+          "vi": "Cải tiến từ công nghệ phương Tây",
+          "en": "Improved from Western technology"
+        }
+      },
+      {
+        "name": "Thuyền chiến",
+        "nameEn": "War boats",
+        "description": {
+          "vi": "Cải tiến để phù hợp với chiến thuật",
+          "en": "Modified to suit tactics"
+        }
+      }
+    ],
+    "tactics": [
+      {
+        "vi": "Đánh nhanh thắng nhanh",
+        "en": "Quick attack and victory"
+      },
+      {
+        "vi": "Kết hợp thủy bộ",
+        "en": "Combined naval and land forces"
+      }
+    ]
+  },
+  "significance": {
+    "political": {
+      "vi": "Thống nhất tạm thời đất nước, chấm dứt phân tranh Nam - Bắc",
+      "en": "Temporarily unified the country, ended North-South division"
+    },
+    "military": {
+      "vi": "Chiến thắng vẻ vang trước quân Thanh và Xiêm",
+      "en": "Glorious victories over Qing and Siamese forces"
+    },
+    "social": {
+      "vi": "Thực hiện nhiều cải cách tiến bộ",
+      "en": "Implemented many progressive reforms"
+    },
+    "cultural": {
+      "vi": "Phát triển bản sắc văn hóa dân tộc",
+      "en": "Developed national cultural identity"
+    }
+  },
+  "images": [
+    {
+      "url": "/assets/images/history-periods/tay-son/quang-trung.jpg",
+      "caption": {
+        "vi": "Tượng Quang Trung",
+        "en": "Statue of Quang Trung"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/tay-son/dong-da.jpg",
+      "caption": {
+        "vi": "Gò Đống Đa",
+        "en": "Dong Da Mound"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/tay-son/tay-son-army.jpg",
+      "caption": {
+        "vi": "Quân đội Tây Sơn",
+        "en": "Tay Son Army"
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Hoàng Lê nhất thống chí",
+      "author": "Ngô gia văn phái",
+      "year": 1800,
+      "publisher": "NXB Văn học"
+    },
+    {
+      "title": "The Tay Son Uprising",
+      "author": "George Dutton",
+      "year": 2006,
+      "publisher": "University of Hawaii Press"
+    },
+    {
+      "title": "Tây Sơn thực lục",
+      "author": "Nhiều tác giả",
+      "year": 1970,
+      "publisher": "NXB Khoa học Xã hội"
+    }
+  ]
+} 

@@ -1,0 +1,74 @@
+@import "variables";
+
+.historical-maps {
+  padding: $spacing-lg 0;
+
+  .card {
+    margin-bottom: $spacing-xl;
+
+    h1 {
+      color: $text-color;
+      font-size: $font-size-xl;
+      font-weight: $font-weight-bold;
+      margin: 0;
+    }
+  }
+}
+
+:host ::ng-deep {
+  .map-card {
+    height: 100%;
+    background: $surface-card;
+    border-radius: $border-radius-lg;
+    box-shadow: $shadow-sm;
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+      box-shadow: $shadow-lg;
+    }
+
+    .map-period {
+      color: $text-secondary;
+      font-size: $font-size-sm;
+      margin-bottom: $spacing-sm;
+    }
+
+    h3 {
+      color: $text-color;
+      font-size: $font-size-lg;
+      font-weight: $font-weight-bold;
+      margin: 0 0 $spacing-sm 0;
+    }
+
+    p {
+      color: $text-color;
+      line-height: 1.6;
+      margin: 0 0 $spacing-md 0;
+    }
+
+    .map-preview {
+      margin: $spacing-md 0;
+      border-radius: $border-radius-md;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: $spacing-md;
+    }
+  }
+
+  .p-image-preview-container {
+    > img {
+      max-width: 90vw;
+      max-height: 90vh;
+    }
+  }
+}

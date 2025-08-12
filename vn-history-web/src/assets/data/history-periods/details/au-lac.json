@@ -1,0 +1,281 @@
+{
+  "id": "au-lac",
+  "name": "Thời kỳ Âu Lạc",
+  "nameEn": "Au Lac Period",
+  "timeRange": {
+    "from": -258,
+    "to": -207,
+    "display": "258 BCE - 207 BCE"
+  },
+  "overview": {
+    "vi": "Thời kỳ Âu Lạc đánh dấu sự thống nhất giữa hai tộc người Âu Việt và Lạc Việt dưới sự lãnh đạo của An Dương Vương, với những tiến bộ vượt bậc về kỹ thuật quân sự và kiến trúc phòng thủ.",
+    "en": "The Au Lac period marks the unification of Au Viet and Lac Viet peoples under King An Duong Vuong's leadership, with remarkable advances in military technology and defensive architecture."
+  },
+  "rulers": {
+    "mainRuler": {
+      "name": "An Dương Vương (Thục Phán)",
+      "period": "258 BCE - 207 BCE",
+      "biography": {
+        "vi": "Thục Phán, thủ lĩnh của người Âu Việt, đã thống nhất Âu Việt và Lạc Việt, xây dựng nhà nước Âu Lạc và thành Cổ Loa",
+        "en": "Thuc Phan, leader of the Au Viet people, unified Au Viet and Lac Viet, established Au Lac state and built Co Loa Citadel"
+      },
+      "achievements": [
+        {
+          "vi": "Thống nhất Âu Việt và Lạc Việt",
+          "en": "Unified Au Viet and Lac Viet peoples"
+        },
+        {
+          "vi": "Xây dựng thành Cổ Loa",
+          "en": "Built Co Loa Citadel"
+        },
+        {
+          "vi": "Phát triển kỹ thuật quân sự",
+          "en": "Developed military technology"
+        }
+      ]
+    },
+    "administration": {
+      "structure": {
+        "vi": "Tổ chức nhà nước theo mô hình quân chủ tập quyền, kết hợp với hệ thống Lạc tướng, Lạc hầu truyền thống",
+        "en": "State organization followed centralized monarchy model, combined with traditional Lac general and Lac lord system"
+      },
+      "territories": {
+        "vi": "Chia thành các đơn vị hành chính với các Lạc tướng cai quản",
+        "en": "Divided into administrative units governed by Lac generals"
+      }
+    }
+  },
+  "capital": {
+    "name": "Cổ Loa",
+    "location": {
+      "modern": "Đông Anh, Hà Nội",
+      "coordinates": {
+        "latitude": 21.1089,
+        "longitude": 105.8699
+      }
+    },
+    "architecture": {
+      "structure": {
+        "vi": "Thành xây theo hình xoắn ốc với ba vòng thành, sử dụng kỹ thuật xây dựng tiên tiến",
+        "en": "Spiral-shaped citadel with three walls, using advanced construction techniques"
+      },
+      "details": [
+        {
+          "name": "Thành ngoại",
+          "nameEn": "Outer wall",
+          "description": {
+            "vi": "Chu vi 8 km, cao 4-5m, chân rộng 20-30m",
+            "en": "8 km perimeter, 4-5m high, 20-30m wide at base"
+          }
+        },
+        {
+          "name": "Thành trung",
+          "nameEn": "Middle wall",
+          "description": {
+            "vi": "Chu vi 6.5 km, được gia cố đặc biệt",
+            "en": "6.5 km perimeter, specially reinforced"
+          }
+        },
+        {
+          "name": "Thành nội",
+          "nameEn": "Inner wall",
+          "description": {
+            "vi": "Trung tâm chính trị-quân sự của kinh đô",
+            "en": "Political-military center of the capital"
+          }
+        }
+      ]
+    }
+  },
+  "military": {
+    "weapons": {
+      "noThan": {
+        "name": "Nỏ thần",
+        "nameEn": "Magic Crossbow",
+        "description": {
+          "vi": "Vũ khí tiên tiến có khả năng bắn hàng loạt mũi tên, được chế tạo bằng công nghệ đúc đồng tinh xảo",
+          "en": "Advanced weapon capable of firing multiple arrows, made with sophisticated bronze casting technology"
+        },
+        "features": [
+          {
+            "vi": "Cơ chế bắn tự động nhiều mũi tên",
+            "en": "Automatic multi-arrow firing mechanism"
+          },
+          {
+            "vi": "Tầm bắn xa và chính xác",
+            "en": "Long range and high accuracy"
+          }
+        ]
+      },
+      "otherWeapons": [
+        {
+          "name": "Giáo dài",
+          "nameEn": "Long spears",
+          "material": "Bronze and iron"
+        },
+        {
+          "name": "Kiếm đồng",
+          "nameEn": "Bronze swords",
+          "material": "Bronze"
+        }
+      ]
+    },
+    "defenseSystem": {
+      "description": {
+        "vi": "Hệ thống phòng thủ nhiều lớp kết hợp địa hình tự nhiên và công sự nhân tạo",
+        "en": "Multi-layered defense system combining natural terrain and artificial fortifications"
+      },
+      "elements": [
+        {
+          "vi": "Hào nước sâu và rộng",
+          "en": "Deep and wide moats"
+        },
+        {
+          "vi": "Tường thành cao dày",
+          "en": "High and thick walls"
+        },
+        {
+          "vi": "Các chốt canh và tháp quan sát",
+          "en": "Guard posts and watchtowers"
+        }
+      ]
+    }
+  },
+  "culture": {
+    "society": {
+      "structure": {
+        "vi": "Xã hội phân chia thành các tầng lớp rõ rệt, với tầng lớp quý tộc và thường dân",
+        "en": "Society divided into distinct classes, with nobility and commoners"
+      },
+      "customs": [
+        {
+          "name": "Tín ngưỡng",
+          "nameEn": "Religious beliefs",
+          "description": {
+            "vi": "Thờ cúng tổ tiên và các vị thần tự nhiên",
+            "en": "Ancestor worship and nature deities"
+          }
+        },
+        {
+          "name": "Lễ hội",
+          "nameEn": "Festivals",
+          "description": {
+            "vi": "Các lễ hội theo mùa và tín ngưỡng dân gian",
+            "en": "Seasonal and folk belief festivals"
+          }
+        }
+      ]
+    },
+    "economy": {
+      "agriculture": {
+        "vi": "Phát triển nông nghiệp lúa nước, sử dụng công cụ sắt",
+        "en": "Development of wet rice agriculture using iron tools"
+      },
+      "crafts": {
+        "vi": "Phát triển nghề đúc đồng, rèn sắt và gốm",
+        "en": "Development of bronze casting, iron forging and pottery"
+      },
+      "trade": {
+        "vi": "Giao thương với các vùng lân cận",
+        "en": "Trade with neighboring regions"
+      }
+    }
+  },
+  "achievements": [
+    {
+      "category": "Quân sự",
+      "categoryEn": "Military",
+      "items": [
+        {
+          "name": "Công nghệ vũ khí",
+          "nameEn": "Weapons technology",
+          "description": {
+            "vi": "Phát triển vũ khí tiên tiến như nỏ thần",
+            "en": "Development of advanced weapons like the magic crossbow"
+          }
+        },
+        {
+          "name": "Kiến trúc phòng thủ",
+          "nameEn": "Defensive architecture",
+          "description": {
+            "vi": "Xây dựng thành Cổ Loa với kỹ thuật tiên tiến",
+            "en": "Construction of Co Loa Citadel with advanced techniques"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Kinh tế - Xã hội",
+      "categoryEn": "Socio-economic",
+      "items": [
+        {
+          "name": "Tổ chức xã hội",
+          "nameEn": "Social organization",
+          "description": {
+            "vi": "Hình thành cơ cấu xã hội phân tầng",
+            "en": "Formation of stratified social structure"
+          }
+        },
+        {
+          "name": "Phát triển sản xuất",
+          "nameEn": "Production development",
+          "description": {
+            "vi": "Tiến bộ trong nông nghiệp và thủ công nghiệp",
+            "en": "Progress in agriculture and handicrafts"
+          }
+        }
+      ]
+    }
+  ],
+  "significance": {
+    "political": {
+      "vi": "Xây dựng nhà nước tập quyền với hệ thống phòng thủ hiện đại",
+      "en": "Building centralized state with modern defense system"
+    },
+    "cultural": {
+      "vi": "Phát triển văn hóa Đông Sơn đến đỉnh cao",
+      "en": "Development of Dong Son culture to its peak"
+    },
+    "technological": {
+      "vi": "Đạt được những tiến bộ quan trọng về kỹ thuật quân sự và xây dựng",
+      "en": "Achieving significant advances in military and construction technology"
+    }
+  },
+  "images": [
+    {
+      "url": "/assets/images/history-periods/au-lac/co-loa-thanh.jpg",
+      "caption": {
+        "vi": "Thành Cổ Loa ngày nay",
+        "en": "Co Loa Citadel today"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/au-lac/no-than.jpg",
+      "caption": {
+        "vi": "Mô hình nỏ thần",
+        "en": "Model of the magic crossbow"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/au-lac/do-dong.jpg",
+      "caption": {
+        "vi": "Hiện vật đồ đồng thời Âu Lạc",
+        "en": "Bronze artifacts from Au Lac period"
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Cổ Loa: Thành quách, con người và lịch sử",
+      "author": "Trần Quốc Vượng",
+      "year": 2004,
+      "publisher": "NXB Văn hóa Thông tin"
+    },
+    {
+      "title": "The Birth of Vietnam",
+      "author": "Keith Weller Taylor",
+      "year": 1983,
+      "publisher": "University of California Press"
+    }
+  ]
+} 

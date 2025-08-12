@@ -1,60 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap');
+/* Import variables */
+@import "assets/scss/variables";
 
-:root {
-  --dong-son-color: #B8860B;
-  --dong-son-dark: #8B6914;
-  --dong-son-light: #F4E4BC;
-}
+/* Import custom theme */
+@import "assets/theme/vietnam-history-theme.css";
 
-body {
-  background-color: var(--dong-son-light);
-  color: #1a1a1a;
-  font-family: 'Noto Sans', sans-serif;
+/* PrimeNG */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+@import "primeflex/primeflex.css";
+
+/* Base styles */
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--surface-b);
+  color: var(--text-color);
 }
 
-/* Language-specific font classes */
-.lang-vi {
-  font-family: 'Noto Sans', sans-serif;
+* {
+  box-sizing: border-box;
 }
 
-.lang-ja {
-  font-family: 'Noto Sans JP', sans-serif;
+/* Layout styles */
+.layout-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.lang-zh {
-  font-family: 'Noto Sans SC', sans-serif;
+.layout-main-container {
+  flex: 1 1 auto;
+  padding: $spacing-xl $spacing-lg $spacing-lg;
+  transition: margin-left 0.2s;
+  max-width: $container-max-width;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.lang-ko {
-  font-family: 'Noto Sans KR', sans-serif;
+/* Card styles */
+.card {
+  background: var(--surface-e);
+  padding: $spacing-lg;
+  border-radius: $border-radius-lg;
+  box-shadow: $shadow-sm;
+  margin-bottom: $spacing-lg;
 }
 
-/* Common utility classes */
-.btn-primary {
-  background-color: var(--dong-son-color);
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.2s;
+/* Button styles */
+.p-button {
+  &.p-button-text {
+    color: var(--primary-color);
+
+    &:hover {
+      background: rgba(218, 165, 32, 0.04);
+    }
+  }
 }
 
-.btn-primary:hover {
-  background-color: var(--dong-son-dark);
-}
-
-.section-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--dong-son-dark);
-  margin-bottom: 1rem;
-}
-
-@media (min-width: 768px) {
-  .section-title {
-    font-size: 2rem;
+/* Responsive styles */
+@media screen and (max-width: $breakpoint-lg) {
+  .layout-main-container {
+    padding: calc($topbar-height + $spacing-lg) $spacing-md $spacing-md;
   }
 }

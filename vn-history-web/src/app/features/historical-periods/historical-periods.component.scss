@@ -1,0 +1,197 @@
+@import "variables";
+
+.historical-periods {
+  .hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('/assets/images/dong-son/hero-bg.jpg') center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 3rem;
+
+    .hero-content {
+      max-width: 800px;
+      padding: 2rem;
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+      }
+
+      p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+      }
+    }
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    h2 {
+      color: var(--dong-son-gold);
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: var(--text-color-secondary);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }
+
+  .timeline-section {
+    padding: 4rem 2rem;
+    background-color: var(--surface-ground);
+
+    ::ng-deep .custom-timeline {
+      .p-timeline-event-content {
+        line-height: 1.5;
+      }
+
+      .timeline-card {
+        background: var(--surface-card);
+        padding: 1.5rem;
+        border-radius: 1rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        h3 {
+          color: var(--dong-son-gold);
+          margin-bottom: 1rem;
+        }
+
+        .time-range {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          color: var(--text-color-secondary);
+
+          fa-icon {
+            color: var(--dong-son-bronze);
+          }
+        }
+      }
+    }
+  }
+
+  .periods-grid {
+    padding: 4rem 2rem;
+
+    .period-category {
+      margin-bottom: 4rem;
+    }
+
+    .period-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+
+      ::ng-deep .period-card {
+        height: 100%;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+
+        &:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        .period-image {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+        }
+
+        .p-card-title {
+          color: var(--dong-son-gold);
+          font-size: 1.5rem;
+          margin-bottom: 0.5rem;
+        }
+
+        .period-metadata {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1rem;
+          margin-bottom: 1rem;
+          color: var(--text-color-secondary);
+
+          span {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+
+            fa-icon {
+              color: var(--dong-son-bronze);
+            }
+          }
+        }
+
+        .period-description {
+          color: var(--text-color);
+          line-height: 1.6;
+          margin-bottom: 1rem;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+        }
+
+        .p-button-text {
+          color: var(--dong-son-gold);
+
+          &:hover {
+            background: rgba(var(--dong-son-gold-rgb), 0.1);
+          }
+
+          fa-icon {
+            margin-left: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .hero-section {
+      height: 300px;
+
+      .hero-content {
+        h1 {
+          font-size: 2rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .section-header {
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+
+    .periods-grid {
+      padding: 2rem 1rem;
+
+      .period-cards {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "common": {
+    "explore": "Explore",
+    "readMore": "Read More",
+    "viewDetails": "View Details"
+  },
+  "nav": {
+    "home": "Home",
+    "historicalPeriods": "Historical Periods",
+    "historicalFigures": "Historical Figures",
+    "historicalSites": "Historical Sites",
+    "culture": "Culture",
+    "virtualMuseum": "Virtual Museum",
+    "historicalMaps": "Historical Maps",
+    "news": "News"
+  },
+  "historicalPeriods": {
+    "title": "Historical Periods of Vietnam",
+    "description": "Explore the rich history of Vietnam through its major historical periods, from prehistoric times to the modern era.",
+    "timeline": "Timeline",
+    "prehistoric": "Prehistoric Era",
+    "dynasties": "Dynastic Periods",
+    "recognition": {
+      "national": "National Heritage",
+      "special-national": "Special National Heritage",
+      "world-heritage": "World Heritage"
+    },
+    "periodTypes": {
+      "prehistoric": "Prehistoric Period",
+      "ancient": "Ancient Period",
+      "medieval": "Medieval Period",
+      "modern": "Modern Period"
+    },
+    "culturalAspects": {
+      "literature": "Literature",
+      "architecture": "Architecture",
+      "arts": "Arts and Crafts",
+      "religion": "Religion and Philosophy",
+      "science": "Science and Technology"
+    },
+    "filters": {
+      "all": "All Periods",
+      "byDynasty": "By Dynasty",
+      "byEra": "By Era",
+      "byYear": "By Year"
+    },
+    "details": {
+      "overview": "Overview",
+      "rulers": "Rulers",
+      "culture": "Culture",
+      "achievements": "Achievements",
+      "significance": "Historical Significance",
+      "artifacts": "Artifacts",
+      "events": "Key Events",
+      "gallery": "Gallery"
+    }
+  },
+  "historicalFigures": {
+    "title": "Historical Figures",
+    "categories": [
+      {
+        "id": "kings",
+        "name": "Kings",
+        "figures": [
+          {
+            "id": "hung-vuong",
+            "name": "Hung Kings",
+            "period": "2879 BCE - 258 BCE",
+            "description": "The first kings of the Vietnamese people"
+          }
+        ]
+      }
+    ]
+  },
+  "historicalSites": {
+    "title": "Historical Sites",
+    "sites": [
+      {
+        "id": "van-mieu",
+        "name": "Temple of Literature",
+        "location": "Hanoi",
+        "period": "1070",
+        "description": "Vietnam's first university"
+      }
+    ]
+  },
+  "culture": {
+    "title": "Culture",
+    "categories": [
+      {
+        "id": "festivals",
+        "name": "Traditional Festivals",
+        "items": [
+          {
+            "id": "tet",
+            "name": "Lunar New Year",
+            "description": "The most important festival of Vietnamese people"
+          }
+        ]
+      }
+    ]
+  },
+  "virtualMuseum": {
+    "title": "Virtual Museum",
+    "exhibits": [
+      {
+        "id": "dong-son",
+        "name": "Dong Son Culture",
+        "period": "1000 BCE - 100 CE",
+        "description": "Exhibition of Dong Son cultural artifacts"
+      }
+    ]
+  },
+  "historicalMaps": {
+    "title": "Historical Maps",
+    "periods": [
+      {
+        "id": "van-lang",
+        "name": "Van Lang Map",
+        "period": "2879 BCE - 258 BCE",
+        "description": "Map of Van Lang during the Hung Kings period"
+      }
+    ]
+  },
+  "news": {
+    "title": "News & Events",
+    "categories": [
+      {
+        "id": "discoveries",
+        "name": "New Discoveries",
+        "description": "New archaeological and historical findings"
+      }
+    ]
+  }
+} 

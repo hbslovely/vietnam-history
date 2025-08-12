@@ -1,51 +1,56 @@
-<div class="py-8">
-  <h1 class="section-title text-center mb-8">{{ 'APP.TITLE' | translate }}</h1>
-
-  <div class="grid grid-cols-1 periods-grid gap-6">
-    <!-- Historical Periods -->
-    <div class="period-card">
-      <div class="period-header">
-        <h3 class="period-title">{{ 'PERIODS.HUNG_KINGS' | translate }}</h3>
-      </div>
-      <div class="period-content">
-        <p class="period-date">{{ 'PERIODS.DATES.HUNG_KINGS' | translate }}</p>
-      </div>
+<div class="grid">
+  <div class="col-12">
+    <div class="card">
+      <h1>Chào mừng đến với Vietnam History</h1>
+      <p>Khám phá lịch sử và văn hóa Việt Nam qua các thời kỳ</p>
     </div>
+  </div>
 
-    <div class="period-card">
-      <div class="period-header">
-        <h3 class="period-title">{{ 'PERIODS.ANCIENT' | translate }}</h3>
-      </div>
-      <div class="period-content">
-        <p class="period-date">{{ 'PERIODS.DATES.ANCIENT' | translate }}</p>
-      </div>
-    </div>
+  <div class="col-12 md:col-6 lg:col-3">
+    <p-card header="Thời kỳ lịch sử">
+      <ng-template pTemplate="header">
+        <fa-icon [icon]="faBook" size="3x"></fa-icon>
+      </ng-template>
+      <p class="feature-description">Tìm hiểu về các giai đoạn lịch sử quan trọng của Việt Nam</p>
+      <ng-template pTemplate="footer">
+        <p-button label="Khám phá" [routerLink]="['/historical-periods']" styleClass="p-button-outlined"></p-button>
+      </ng-template>
+    </p-card>
+  </div>
 
-    <div class="period-card">
-      <div class="period-header">
-        <h3 class="period-title">{{ 'PERIODS.MEDIEVAL' | translate }}</h3>
-      </div>
-      <div class="period-content">
-        <p class="period-date">{{ 'PERIODS.DATES.MEDIEVAL' | translate }}</p>
-      </div>
-    </div>
+  <div class="col-12 md:col-6 lg:col-3">
+    <p-card header="Nhân vật lịch sử">
+      <ng-template pTemplate="header">
+        <fa-icon [icon]="faUsers" size="3x"></fa-icon>
+      </ng-template>
+      <p class="feature-description">Tìm hiểu về các anh hùng và nhân vật lịch sử Việt Nam</p>
+      <ng-template pTemplate="footer">
+        <p-button label="Khám phá" [routerLink]="['/historical-figures']" styleClass="p-button-outlined"></p-button>
+      </ng-template>
+    </p-card>
+  </div>
 
-    <div class="period-card">
-      <div class="period-header">
-        <h3 class="period-title">{{ 'PERIODS.MODERN' | translate }}</h3>
-      </div>
-      <div class="period-content">
-        <p class="period-date">{{ 'PERIODS.DATES.MODERN' | translate }}</p>
-      </div>
-    </div>
+  <div class="col-12 md:col-6 lg:col-3">
+    <p-card header="Di tích lịch sử">
+      <ng-template pTemplate="header">
+        <fa-icon [icon]="faLandmark" size="3x"></fa-icon>
+      </ng-template>
+      <p class="feature-description">Khám phá các di tích và danh thắng lịch sử của Việt Nam</p>
+      <ng-template pTemplate="footer">
+        <p-button label="Khám phá" [routerLink]="['/historical-sites']" styleClass="p-button-outlined"></p-button>
+      </ng-template>
+    </p-card>
+  </div>
 
-    <div class="period-card">
-      <div class="period-header">
-        <h3 class="period-title">{{ 'PERIODS.CONTEMPORARY' | translate }}</h3>
-      </div>
-      <div class="period-content">
-        <p class="period-date">{{ 'PERIODS.DATES.CONTEMPORARY' | translate }}</p>
-      </div>
-    </div>
+  <div class="col-12 md:col-6 lg:col-3">
+    <p-card header="Bảo tàng ảo">
+      <ng-template pTemplate="header">
+        <fa-icon [icon]="faImages" size="3x"></fa-icon>
+      </ng-template>
+      <p class="feature-description">Tham quan bảo tàng ảo với công nghệ 3D và thực tế ảo</p>
+      <ng-template pTemplate="footer">
+        <p-button label="Khám phá" [routerLink]="['/virtual-museum']" styleClass="p-button-outlined"></p-button>
+      </ng-template>
+    </p-card>
   </div>
 </div> 

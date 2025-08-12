@@ -1,0 +1,65 @@
+@import "variables";
+
+.culture {
+  padding: $spacing-lg 0;
+
+  .card {
+    margin-bottom: $spacing-xl;
+
+    h1 {
+      color: $text-color;
+      font-size: $font-size-xl;
+      font-weight: $font-weight-bold;
+      margin: 0;
+    }
+  }
+}
+
+:host ::ng-deep {
+  .p-tabview {
+    .p-tabview-panels {
+      padding: $spacing-lg 0;
+    }
+
+    .p-tabview-nav {
+      li {
+        .p-tabview-nav-link {
+          &:not(.p-disabled):focus {
+            box-shadow: none;
+          }
+        }
+      }
+    }
+  }
+
+  .culture-card {
+    height: 100%;
+    background: $surface-card;
+    border-radius: $border-radius-lg;
+    box-shadow: $shadow-sm;
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+      box-shadow: $shadow-lg;
+    }
+
+    h3 {
+      color: $text-color;
+      font-size: $font-size-lg;
+      font-weight: $font-weight-bold;
+      margin: 0 0 $spacing-sm 0;
+    }
+
+    p {
+      color: $text-color;
+      line-height: 1.6;
+      margin: 0 0 $spacing-md 0;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: $spacing-md;
+    }
+  }
+}

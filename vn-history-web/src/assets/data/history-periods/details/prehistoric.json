@@ -1,0 +1,192 @@
+{
+  "id": "prehistoric",
+  "name": "Thời kỳ tiền sử",
+  "nameEn": "Prehistoric Period",
+  "timeRange": {
+    "from": -300000,
+    "to": -2879,
+    "display": "300,000 BCE - 2879 BCE"
+  },
+  "overview": {
+    "vi": "Thời kỳ tiền sử Việt Nam kéo dài từ khoảng 300.000 năm trước công nguyên đến khi kết thúc thời đại đồ đá mới, đánh dấu sự xuất hiện và phát triển của con người trên lãnh thổ Việt Nam.",
+    "en": "The prehistoric period of Vietnam spans from around 300,000 BCE to the end of the Neolithic period, marking the appearance and development of humans in the territory of Vietnam."
+  },
+  "cultures": [
+    {
+      "name": "Văn hóa Sơn Vi",
+      "nameEn": "Son Vi Culture",
+      "period": "30,000 - 10,000 BCE",
+      "location": {
+        "region": "Bắc bộ",
+        "sites": ["Phú Thọ", "Hòa Bình", "Thanh Hóa"]
+      },
+      "description": "Đặc trưng bởi công cụ đá ghè đẽo thô sơ, chủ yếu là rìu tay và công cụ mảnh tước. Người Sơn Vi sống chủ yếu bằng săn bắt và hái lượm.",
+      "descriptionEn": "Characterized by crude stone tools, mainly hand axes and flake tools. Son Vi people lived primarily by hunting and gathering.",
+      "artifacts": [
+        {
+          "name": "Rìu tay",
+          "nameEn": "Hand axes",
+          "description": "Công cụ đá được ghè đẽo hai mặt",
+          "descriptionEn": "Stone tools chipped on both sides"
+        },
+        {
+          "name": "Công cụ mảnh tước",
+          "nameEn": "Flake tools",
+          "description": "Công cụ được chế tác từ các mảnh đá tước",
+          "descriptionEn": "Tools made from stone flakes"
+        }
+      ],
+      "significance": {
+        "vi": "Đánh dấu giai đoạn đầu tiên của thời kỳ đồ đá cũ ở Việt Nam",
+        "en": "Marks the first phase of the Paleolithic period in Vietnam"
+      }
+    },
+    {
+      "name": "Văn hóa Hòa Bình",
+      "nameEn": "Hoa Binh Culture",
+      "period": "12,000 - 10,000 BCE",
+      "location": {
+        "region": "Bắc bộ và Bắc Trung bộ",
+        "sites": ["Hòa Bình", "Thanh Hóa", "Ninh Bình"]
+      },
+      "description": "Nổi tiếng với công cụ đá cuội ghè đẽo một mặt, sống trong hang động. Bắt đầu xuất hiện hoạt động trồng trọt sơ khai.",
+      "descriptionEn": "Famous for single-faced pebble tools and cave dwelling. Early agricultural activities began to appear.",
+      "artifacts": [
+        {
+          "name": "Rìu mài",
+          "nameEn": "Polished axes",
+          "description": "Công cụ đá được mài nhẵn",
+          "descriptionEn": "Smoothly polished stone tools"
+        },
+        {
+          "name": "Đồ gốm thô",
+          "nameEn": "Crude pottery",
+          "description": "Đồ gốm làm thủ công, nung ở nhiệt độ thấp",
+          "descriptionEn": "Handmade pottery, fired at low temperatures"
+        }
+      ],
+      "significance": {
+        "vi": "Phát triển kỹ thuật chế tác công cụ và khởi đầu của nông nghiệp",
+        "en": "Development of tool-making techniques and the beginning of agriculture"
+      }
+    },
+    {
+      "name": "Văn hóa Bắc Sơn",
+      "nameEn": "Bac Son Culture",
+      "period": "10,000 - 8,000 BCE",
+      "location": {
+        "region": "Đông Bắc bộ",
+        "sites": ["Lạng Sơn", "Thái Nguyên", "Bắc Giang"]
+      },
+      "description": "Phát triển kỹ thuật mài đá, làm đồ gốm. Xuất hiện các hoạt động nông nghiệp có tổ chức.",
+      "descriptionEn": "Development of stone polishing techniques and pottery making. Organized agricultural activities appeared.",
+      "artifacts": [
+        {
+          "name": "Rìu mài",
+          "nameEn": "Polished axes",
+          "description": "Công cụ đá được mài tinh xảo",
+          "descriptionEn": "Finely polished stone tools"
+        },
+        {
+          "name": "Đồ gốm",
+          "nameEn": "Pottery",
+          "description": "Đồ gốm có hoa văn, nung ở nhiệt độ cao hơn",
+          "descriptionEn": "Decorated pottery, fired at higher temperatures"
+        }
+      ],
+      "significance": {
+        "vi": "Đánh dấu sự chuyển tiếp sang thời kỳ đồ đá mới với kỹ thuật tiên tiến hơn",
+        "en": "Marks the transition to the Neolithic period with more advanced techniques"
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "category": "Công cụ lao động",
+      "categoryEn": "Labor tools",
+      "items": [
+        {
+          "name": "Kỹ thuật ghè đẽo đá",
+          "nameEn": "Stone knapping techniques",
+          "description": "Phát triển từ thô sơ đến tinh xảo",
+          "descriptionEn": "Development from crude to sophisticated techniques"
+        },
+        {
+          "name": "Kỹ thuật mài đá",
+          "nameEn": "Stone polishing",
+          "description": "Tạo ra công cụ sắc bén và bền hơn",
+          "descriptionEn": "Creating sharper and more durable tools"
+        }
+      ]
+    },
+    {
+      "category": "Đời sống",
+      "categoryEn": "Lifestyle",
+      "items": [
+        {
+          "name": "Cư trú",
+          "nameEn": "Settlement",
+          "description": "Từ hang động đến nhà sàn đơn giản",
+          "descriptionEn": "From cave dwelling to simple stilt houses"
+        },
+        {
+          "name": "Kinh tế",
+          "nameEn": "Economy",
+          "description": "Từ săn bắt hái lượm đến nông nghiệp sơ khai",
+          "descriptionEn": "From hunting-gathering to primitive agriculture"
+        }
+      ]
+    }
+  ],
+  "significance": {
+    "cultural": {
+      "vi": "Hình thành nền tảng văn hóa đầu tiên của người Việt cổ",
+      "en": "Formation of the first cultural foundation of ancient Vietnamese people"
+    },
+    "historical": {
+      "vi": "Đánh dấu sự xuất hiện và phát triển của con người trên lãnh thổ Việt Nam",
+      "en": "Marking the appearance and development of humans in Vietnam's territory"
+    },
+    "technological": {
+      "vi": "Phát triển kỹ thuật chế tác công cụ từ đơn giản đến phức tạp",
+      "en": "Development of tool-making techniques from simple to complex"
+    }
+  },
+  "images": [
+    {
+      "url": "/assets/images/history-periods/prehistoric/son-vi-tools.jpg",
+      "caption": {
+        "vi": "Công cụ đá văn hóa Sơn Vi",
+        "en": "Son Vi culture stone tools"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/prehistoric/hoa-binh-pottery.jpg",
+      "caption": {
+        "vi": "Đồ gốm văn hóa Hòa Bình",
+        "en": "Hoa Binh culture pottery"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/prehistoric/bac-son-artifacts.jpg",
+      "caption": {
+        "vi": "Hiện vật văn hóa Bắc Sơn",
+        "en": "Bac Son culture artifacts"
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Khảo cổ học Việt Nam",
+      "author": "Hà Văn Tấn",
+      "year": 1999,
+      "publisher": "NXB Khoa học Xã hội"
+    },
+    {
+      "title": "The Hoabinhian and before",
+      "author": "Charles Higham",
+      "year": 2013,
+      "publisher": "Cambridge University Press"
+    }
+  ]
+} 

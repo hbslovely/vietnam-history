@@ -1,0 +1,329 @@
+{
+  "id": "ngo-dinh-early-le",
+  "name": "Thời kỳ Ngô - Đinh - Tiền Lê",
+  "nameEn": "Ngo - Dinh - Early Le Dynasty Period",
+  "timeRange": {
+    "from": 939,
+    "to": 1009,
+    "display": "939 - 1009"
+  },
+  "overview": {
+    "vi": "Thời kỳ Ngô - Đinh - Tiền Lê đánh dấu giai đoạn đầu tiên của nền độc lập hoàn toàn của Việt Nam, với sự ra đời của ba triều đại kế tiếp nhau. Đây là thời kỳ xây dựng nền móng cho nhà nước phong kiến độc lập và phát triển văn hóa dân tộc.",
+    "en": "The Ngo - Dinh - Early Le period marks Vietnam's first era of complete independence, with three successive dynasties. This period laid the foundation for the independent feudal state and development of national culture."
+  },
+  "dynasties": [
+    {
+      "name": "Nhà Ngô",
+      "nameEn": "Ngo Dynasty",
+      "period": "939-965",
+      "rulers": [
+        {
+          "name": "Ngô Quyền",
+          "period": "939-944",
+          "title": "Tiền Ngô Vương",
+          "achievements": [
+            {
+              "vi": "Đánh bại quân Nam Hán trên sông Bạch Đằng",
+              "en": "Defeated Nam Han forces at Bach Dang River"
+            },
+            {
+              "vi": "Đặt đô ở Cổ Loa",
+              "en": "Established capital at Co Loa"
+            },
+            {
+              "vi": "Tổ chức bộ máy nhà nước độc lập",
+              "en": "Organized independent state apparatus"
+            }
+          ]
+        },
+        {
+          "name": "Dương Tam Kha",
+          "period": "945-950",
+          "events": [
+            {
+              "vi": "Cướp ngôi của con Ngô Quyền",
+              "en": "Usurped throne from Ngo Quyen's son"
+            }
+          ]
+        }
+      ],
+      "significance": {
+        "vi": "Đặt nền móng cho nền độc lập lâu dài của dân tộc",
+        "en": "Laid foundation for long-term national independence"
+      }
+    },
+    {
+      "name": "Nhà Đinh",
+      "nameEn": "Dinh Dynasty",
+      "period": "968-980",
+      "rulers": [
+        {
+          "name": "Đinh Bộ Lĩnh",
+          "period": "968-979",
+          "title": "Đinh Tiên Hoàng",
+          "achievements": [
+            {
+              "vi": "Thống nhất đất nước, chấm dứt loạn 12 sứ quân",
+              "en": "Unified the country, ended the period of 12 warlords"
+            },
+            {
+              "vi": "Đặt quốc hiệu Đại Cồ Việt",
+              "en": "Named the country Dai Co Viet"
+            },
+            {
+              "vi": "Định đô ở Hoa Lư",
+              "en": "Established capital at Hoa Lu"
+            }
+          ]
+        }
+      ],
+      "administration": {
+        "structure": {
+          "vi": "Tổ chức bộ máy nhà nước theo mô hình phong kiến tập quyền",
+          "en": "Organized state apparatus following centralized feudal model"
+        },
+        "titles": [
+          {
+            "vi": "Thập đạo tướng quân",
+            "en": "Ten Generals of Military Districts"
+          },
+          {
+            "vi": "Các chức quan văn võ",
+            "en": "Civil and military officials"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nhà Tiền Lê",
+      "nameEn": "Early Le Dynasty",
+      "period": "980-1009",
+      "rulers": [
+        {
+          "name": "Lê Hoàn",
+          "period": "980-1005",
+          "title": "Lê Đại Hành",
+          "achievements": [
+            {
+              "vi": "Đánh bại quân Tống xâm lược",
+              "en": "Defeated Song invasion forces"
+            },
+            {
+              "vi": "Mở rộng lãnh thổ về phía nam",
+              "en": "Expanded territory southward"
+            },
+            {
+              "vi": "Phát triển kinh tế, văn hóa",
+              "en": "Developed economy and culture"
+            }
+          ]
+        }
+      ],
+      "military": {
+        "victories": [
+          {
+            "name": "Chiến thắng Chi Lăng - Lạng Sơn",
+            "year": "981",
+            "significance": {
+              "vi": "Đánh bại quân Tống",
+              "en": "Defeated Song forces"
+            }
+          },
+          {
+            "name": "Chiến thắng Champa",
+            "year": "982",
+            "significance": {
+              "vi": "Mở rộng lãnh thổ về phía nam",
+              "en": "Expanded territory southward"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "capitals": [
+    {
+      "name": "Cổ Loa",
+      "period": "939-944",
+      "dynasty": "Nhà Ngô",
+      "location": {
+        "modern": "Đông Anh, Hà Nội",
+        "description": {
+          "vi": "Tận dụng thành cổ thời An Dương Vương",
+          "en": "Utilized ancient citadel from An Duong Vuong period"
+        }
+      }
+    },
+    {
+      "name": "Hoa Lư",
+      "period": "968-1009",
+      "dynasty": "Nhà Đinh, Tiền Lê",
+      "location": {
+        "modern": "Ninh Bình",
+        "description": {
+          "vi": "Kinh đô được bao bọc bởi núi đá vôi, có giá trị phòng thủ cao",
+          "en": "Capital surrounded by limestone mountains, highly defensible"
+        }
+      }
+    }
+  ],
+  "achievements": {
+    "political": [
+      {
+        "name": "Tổ chức nhà nước",
+        "nameEn": "State organization",
+        "description": {
+          "vi": "Xây dựng bộ máy nhà nước phong kiến tập quyền",
+          "en": "Built centralized feudal state apparatus"
+        }
+      },
+      {
+        "name": "Ngoại giao",
+        "nameEn": "Diplomacy",
+        "description": {
+          "vi": "Thiết lập quan hệ ngoại giao với nhà Tống",
+          "en": "Established diplomatic relations with Song Dynasty"
+        }
+      }
+    ],
+    "military": [
+      {
+        "name": "Quốc phòng",
+        "nameEn": "Defense",
+        "description": {
+          "vi": "Tổ chức quân đội chuyên nghiệp",
+          "en": "Organized professional army"
+        }
+      },
+      {
+        "name": "Chiến thuật",
+        "nameEn": "Tactics",
+        "description": {
+          "vi": "Phát triển chiến thuật phòng thủ và tấn công",
+          "en": "Developed defensive and offensive tactics"
+        }
+      }
+    ],
+    "economic": [
+      {
+        "name": "Nông nghiệp",
+        "nameEn": "Agriculture",
+        "description": {
+          "vi": "Phát triển kỹ thuật canh tác lúa nước",
+          "en": "Developed wet rice cultivation techniques"
+        }
+      },
+      {
+        "name": "Thủ công nghiệp",
+        "nameEn": "Handicrafts",
+        "description": {
+          "vi": "Phát triển các nghề thủ công truyền thống",
+          "en": "Developed traditional handicraft industries"
+        }
+      }
+    ],
+    "cultural": [
+      {
+        "name": "Giáo dục",
+        "nameEn": "Education",
+        "description": {
+          "vi": "Bắt đầu áp dụng khoa cử",
+          "en": "Began implementing examination system"
+        }
+      },
+      {
+        "name": "Tôn giáo",
+        "nameEn": "Religion",
+        "description": {
+          "vi": "Phát triển Phật giáo và tín ngưỡng dân gian",
+          "en": "Developed Buddhism and folk beliefs"
+        }
+      }
+    ]
+  },
+  "society": {
+    "structure": {
+      "classes": [
+        {
+          "name": "Hoàng tộc",
+          "nameEn": "Royal family",
+          "description": {
+            "vi": "Nắm quyền tối cao",
+            "en": "Held supreme power"
+          }
+        },
+        {
+          "name": "Quý tộc",
+          "nameEn": "Nobility",
+          "description": {
+            "vi": "Quan lại và tướng lĩnh",
+            "en": "Officials and generals"
+          }
+        },
+        {
+          "name": "Thường dân",
+          "nameEn": "Commoners",
+          "description": {
+            "vi": "Nông dân và thợ thủ công",
+            "en": "Farmers and craftsmen"
+          }
+        }
+      ],
+      "organization": {
+        "vi": "Xã hội phân chia theo đẳng cấp, nhưng có tính linh hoạt",
+        "en": "Society divided by class but with some flexibility"
+      }
+    }
+  },
+  "significance": {
+    "political": {
+      "vi": "Xây dựng nền móng cho nhà nước phong kiến độc lập",
+      "en": "Built foundation for independent feudal state"
+    },
+    "cultural": {
+      "vi": "Phát triển bản sắc văn hóa dân tộc",
+      "en": "Developed national cultural identity"
+    },
+    "historical": {
+      "vi": "Mở đầu thời kỳ độc lập lâu dài của dân tộc",
+      "en": "Began long period of national independence"
+    }
+  },
+  "images": [
+    {
+      "url": "/assets/images/history-periods/ngo-dinh-early-le/ngo-quyen.jpg",
+      "caption": {
+        "vi": "Tượng Ngô Quyền",
+        "en": "Statue of Ngo Quyen"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/ngo-dinh-early-le/hoa-lu.jpg",
+      "caption": {
+        "vi": "Cố đô Hoa Lư",
+        "en": "Ancient capital Hoa Lu"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/ngo-dinh-early-le/dinh-tien-hoang.jpg",
+      "caption": {
+        "vi": "Đền thờ Đinh Tiên Hoàng",
+        "en": "Temple of Dinh Tien Hoang"
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Đại Việt Sử Ký Toàn Thư",
+      "author": "Ngô Sĩ Liên",
+      "year": 1479,
+      "publisher": "NXB Khoa học Xã hội"
+    },
+    {
+      "title": "Lịch sử Việt Nam tập 2",
+      "author": "Ủy ban Khoa học Xã hội Việt Nam",
+      "year": 2017,
+      "publisher": "NXB Khoa học Xã hội"
+    }
+  ]
+} 

@@ -1,0 +1,397 @@
+{
+  "id": "later-le",
+  "name": "Thời kỳ Lê sơ",
+  "nameEn": "Later Le Dynasty Period",
+  "timeRange": {
+    "from": 1428,
+    "to": 1527,
+    "display": "1428 - 1527"
+  },
+  "overview": {
+    "vi": "Thời Lê sơ là thời kỳ thịnh trị nhất của chế độ phong kiến Việt Nam, đặc biệt dưới thời vua Lê Thánh Tông. Đây là giai đoạn phát triển toàn diện về chính trị, kinh tế, văn hóa, giáo dục và quân sự, đưa Đại Việt trở thành một quốc gia hùng mạnh trong khu vực.",
+    "en": "The Later Le Dynasty period represents the pinnacle of Vietnamese feudal society, especially under Emperor Le Thanh Tong. This era saw comprehensive development in politics, economy, culture, education, and military affairs, establishing Dai Viet as a powerful regional state."
+  },
+  "rulers": [
+    {
+      "name": "Lê Thái Tổ (Lê Lợi)",
+      "period": "1428-1433",
+      "achievements": [
+        {
+          "vi": "Đánh đuổi quân Minh, giành độc lập",
+          "en": "Expelled Ming forces, gained independence"
+        },
+        {
+          "vi": "Định đô tại Thăng Long",
+          "en": "Established capital at Thang Long"
+        },
+        {
+          "vi": "Ban hành luật pháp mới",
+          "en": "Promulgated new laws"
+        }
+      ]
+    },
+    {
+      "name": "Lê Thái Tông",
+      "period": "1433-1442",
+      "achievements": [
+        {
+          "vi": "Cải cách hành chính",
+          "en": "Administrative reforms"
+        },
+        {
+          "vi": "Phát triển văn học",
+          "en": "Development of literature"
+        }
+      ]
+    },
+    {
+      "name": "Lê Thánh Tông",
+      "period": "1460-1497",
+      "achievements": [
+        {
+          "vi": "Ban hành Bộ luật Hồng Đức",
+          "en": "Promulgated Hong Duc Code"
+        },
+        {
+          "vi": "Cải cách hành chính với Hình bộ",
+          "en": "Administrative reform with Ministry of Justice"
+        },
+        {
+          "vi": "Thành lập Đông Kinh Nghĩa Thục",
+          "en": "Established Dong Kinh Nghia Thuc"
+        },
+        {
+          "vi": "Chinh phạt Chiêm Thành",
+          "en": "Conquered Champa"
+        }
+      ],
+      "significance": {
+        "vi": "Được coi là minh quân, đưa Đại Việt đến thời kỳ thịnh trị nhất",
+        "en": "Considered a sage emperor, led Dai Viet to its golden age"
+      }
+    }
+  ],
+  "administration": {
+    "structure": {
+      "central": {
+        "name": "Lục Bộ",
+        "nameEn": "Six Ministries",
+        "departments": [
+          {
+            "vi": "Bộ Lại (Nhân sự)",
+            "en": "Ministry of Personnel"
+          },
+          {
+            "vi": "Bộ Hộ (Tài chính)",
+            "en": "Ministry of Finance"
+          },
+          {
+            "vi": "Bộ Lễ (Nghi lễ)",
+            "en": "Ministry of Rites"
+          },
+          {
+            "vi": "Bộ Binh (Quân sự)",
+            "en": "Ministry of Military"
+          },
+          {
+            "vi": "Bộ Hình (Pháp luật)",
+            "en": "Ministry of Justice"
+          },
+          {
+            "vi": "Bộ Công (Công trình)",
+            "en": "Ministry of Public Works"
+          }
+        ]
+      },
+      "local": {
+        "units": [
+          {
+            "vi": "Đạo",
+            "en": "Province"
+          },
+          {
+            "vi": "Phủ",
+            "en": "Prefecture"
+          },
+          {
+            "vi": "Huyện",
+            "en": "District"
+          },
+          {
+            "vi": "Xã",
+            "en": "Commune"
+          }
+        ]
+      }
+    },
+    "laws": {
+      "hongDucCode": {
+        "name": "Bộ luật Hồng Đức",
+        "nameEn": "Hong Duc Code",
+        "year": 1483,
+        "significance": {
+          "vi": "Bộ luật tiến bộ, bảo vệ quyền phụ nữ và dân chúng",
+          "en": "Progressive law code protecting women's and people's rights"
+        },
+        "categories": [
+          {
+            "vi": "Luật hình sự",
+            "en": "Criminal law"
+          },
+          {
+            "vi": "Luật dân sự",
+            "en": "Civil law"
+          },
+          {
+            "vi": "Luật hôn nhân gia đình",
+            "en": "Family law"
+          }
+        ]
+      }
+    }
+  },
+  "culture": {
+    "education": {
+      "system": {
+        "institutions": [
+          {
+            "name": "Quốc Tử Giám",
+            "nameEn": "Royal College",
+            "purpose": {
+              "vi": "Đào tạo con em quý tộc",
+              "en": "Education for noble families"
+            }
+          }
+        ],
+        "examinations": {
+          "types": [
+            {
+              "name": "Hương cử",
+              "nameEn": "Regional examination"
+            },
+            {
+              "name": "Hội cử",
+              "nameEn": "Metropolitan examination"
+            },
+            {
+              "name": "Đình cử",
+              "nameEn": "Palace examination"
+            }
+          ]
+        }
+      }
+    },
+    "literature": {
+      "genres": [
+        {
+          "name": "Thơ Nôm",
+          "nameEn": "Nom poetry",
+          "representatives": [
+            "Nguyễn Trãi",
+            "Lê Thánh Tông"
+          ]
+        },
+        {
+          "name": "Văn xuôi chữ Hán",
+          "nameEn": "Chinese prose",
+          "works": [
+            "Đại Việt sử ký toàn thư",
+            "Dư địa chí"
+          ]
+        }
+      ],
+      "majorWorks": [
+        {
+          "title": "Quốc âm thi tập",
+          "author": "Nguyễn Trãi",
+          "significance": {
+            "vi": "Tập thơ chữ Nôm đầu tiên",
+            "en": "First collection of Nom poetry"
+          }
+        },
+        {
+          "title": "Hồng Đức quốc âm thi tập",
+          "author": "Lê Thánh Tông",
+          "significance": {
+            "vi": "Phát triển văn học chữ Nôm",
+            "en": "Development of Nom literature"
+          }
+        }
+      ]
+    },
+    "science": {
+      "achievements": [
+        {
+          "field": "Mathematics",
+          "works": [
+            "Đại thành toán pháp"
+          ]
+        },
+        {
+          "field": "Medicine",
+          "works": [
+            "Hải Thượng y tông tâm lĩnh"
+          ]
+        }
+      ]
+    }
+  },
+  "economy": {
+    "agriculture": {
+      "developments": [
+        {
+          "vi": "Cải tiến kỹ thuật canh tác",
+          "en": "Improved farming techniques"
+        },
+        {
+          "vi": "Mở rộng diện tích đất canh tác",
+          "en": "Expanded farming land"
+        }
+      ],
+      "landSystem": {
+        "vi": "Quân điền - chia đều ruộng đất",
+        "en": "Equal land distribution system"
+      }
+    },
+    "crafts": {
+      "centers": [
+        {
+          "name": "Phố Hiến",
+          "products": ["Gốm", "Lụa"]
+        },
+        {
+          "name": "Thăng Long",
+          "products": ["Kim hoàn", "Dệt"]
+        }
+      ]
+    },
+    "trade": {
+      "domestic": {
+        "markets": ["Chợ Đông", "Chợ Bắc"],
+        "products": ["Gạo", "Vải", "Gốm"]
+      },
+      "international": {
+        "partners": [
+          "Trung Quốc",
+          "Chiêm Thành",
+          "Ai Lao"
+        ],
+        "ports": [
+          "Vân Đồn",
+          "Hội Thống"
+        ]
+      }
+    }
+  },
+  "military": {
+    "organization": {
+      "structure": [
+        {
+          "vi": "Quân thường trực",
+          "en": "Standing army"
+        },
+        {
+          "vi": "Quân địa phương",
+          "en": "Local forces"
+        }
+      ],
+      "units": [
+        {
+          "vi": "Vệ",
+          "en": "Guard"
+        },
+        {
+          "vi": "Đội",
+          "en": "Squad"
+        }
+      ]
+    },
+    "campaigns": [
+      {
+        "name": "Chinh phạt Chiêm Thành",
+        "year": 1471,
+        "result": {
+          "vi": "Thắng lợi, mở rộng lãnh thổ về phía nam",
+          "en": "Victory, expanded territory southward"
+        }
+      },
+      {
+        "name": "Chinh phạt Lão Qua",
+        "year": 1479,
+        "result": {
+          "vi": "Thắng lợi, bảo vệ biên giới phía tây",
+          "en": "Victory, protected western border"
+        }
+      }
+    ]
+  },
+  "territory": {
+    "expansion": {
+      "south": {
+        "vi": "Đánh chiếm Chiêm Thành, mở rộng đến Quảng Nam",
+        "en": "Conquered Champa, expanded to Quang Nam"
+      },
+      "west": {
+        "vi": "Kiểm soát vùng Tây Bắc và biên giới Ai Lao",
+        "en": "Controlled Northwest and Laos border"
+      }
+    }
+  },
+  "significance": {
+    "political": {
+      "vi": "Xây dựng bộ máy nhà nước hoàn chỉnh",
+      "en": "Built complete state apparatus"
+    },
+    "cultural": {
+      "vi": "Phát triển văn hóa dân tộc đỉnh cao",
+      "en": "Peak development of national culture"
+    },
+    "economic": {
+      "vi": "Kinh tế phát triển toàn diện",
+      "en": "Comprehensive economic development"
+    }
+  },
+  "images": [
+    {
+      "url": "/assets/images/history-periods/later-le/le-loi.jpg",
+      "caption": {
+        "vi": "Tượng Lê Lợi",
+        "en": "Statue of Le Loi"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/later-le/le-thanh-tong.jpg",
+      "caption": {
+        "vi": "Tranh vẽ Lê Thánh Tông",
+        "en": "Portrait of Le Thanh Tong"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/later-le/van-mieu.jpg",
+      "caption": {
+        "vi": "Văn Miếu - Quốc Tử Giám thời Lê",
+        "en": "Temple of Literature during Le Dynasty"
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Đại Việt sử ký toàn thư",
+      "author": "Ngô Sĩ Liên",
+      "year": 1479,
+      "publisher": "NXB Khoa học Xã hội"
+    },
+    {
+      "title": "Lịch sử Việt Nam tập 2",
+      "author": "Ủy ban Khoa học Xã hội Việt Nam",
+      "year": 1971,
+      "publisher": "NXB Khoa học Xã hội"
+    },
+    {
+      "title": "The Le Dynasty",
+      "author": "Alexander Woodside",
+      "year": 1988,
+      "publisher": "Yale University Press"
+    }
+  ]
+} 

@@ -1,41 +1,32 @@
 import { ApplicationConfig, importProvidersFrom } from '@angular/core';
 import { provideRouter } from '@angular/router';
+import { provideAnimations } from '@angular/platform-browser/animations';
+import { provideHttpClient } from '@angular/common/http';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { HttpClient } from '@angular/common/http';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+
 import { routes } from './app.routes';
-import { provideClientHydration } from '@angular/platform-browser';
-import { HttpClient, HttpClientModule, provideHttpClient, withFetch, HttpBackend } from '@angular/common/http';
-import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-import { TRANSLATE_HTTP_LOADER_CONFIG, TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { Observable } from 'rxjs';
-import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 // AoT requires an exported function for factories
-export function HttpLoaderFactory() {
-  return new TranslateHttpLoader();
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, '/assets/data/i18n/', '.json');
 }
 
 export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
-    provideClientHydration(),
-    provideHttpClient(withFetch()),
+    provideAnimations(),
+    provideHttpClient(),
     importProvidersFrom(
-      HttpClientModule,
       TranslateModule.forRoot({
         defaultLanguage: 'vi',
         loader: {
           provide: TranslateLoader,
           useFactory: HttpLoaderFactory,
-          deps: []
+          deps: [HttpClient]
         }
       })
-    ),
-    {
-      provide: TRANSLATE_HTTP_LOADER_CONFIG,
-      useValue: {
-        prefix: './assets/i18n/',
-        suffix: '.json',
-      }
-    },
-    provideAnimationsAsync()
+    )
   ]
 };

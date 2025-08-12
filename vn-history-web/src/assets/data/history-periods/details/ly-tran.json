@@ -1,0 +1,384 @@
+{
+  "id": "ly-tran",
+  "name": "Thời kỳ Lý - Trần",
+  "nameEn": "Ly - Tran Dynasty Period",
+  "timeRange": {
+    "from": 1009,
+    "to": 1400,
+    "display": "1009 - 1400"
+  },
+  "overview": {
+    "vi": "Thời kỳ Lý - Trần là giai đoạn phát triển rực rỡ nhất của nền văn minh Đại Việt, với những thành tựu vượt bậc trong văn hóa, kinh tế, quân sự và ngoại giao. Đặc biệt, đây là thời kỳ ba lần đánh thắng quân Mông-Nguyên và phát triển Phật giáo cực thịnh.",
+    "en": "The Ly - Tran period represents the golden age of Dai Viet civilization, with remarkable achievements in culture, economy, military, and diplomacy. Notably, this period saw three victories against the Mongol-Yuan invasions and the peak of Buddhist development."
+  },
+  "dynasties": [
+    {
+      "name": "Nhà Lý",
+      "nameEn": "Ly Dynasty",
+      "period": "1009-1225",
+      "rulers": [
+        {
+          "name": "Lý Thái Tổ",
+          "period": "1009-1028",
+          "achievements": [
+            {
+              "vi": "Dời đô từ Hoa Lư về Thăng Long",
+              "en": "Moved capital from Hoa Lu to Thang Long"
+            },
+            {
+              "vi": "Xây dựng kinh thành Thăng Long",
+              "en": "Built Thang Long citadel"
+            },
+            {
+              "vi": "Phát triển Phật giáo",
+              "en": "Developed Buddhism"
+            }
+          ]
+        },
+        {
+          "name": "Lý Thánh Tông",
+          "period": "1054-1072",
+          "achievements": [
+            {
+              "vi": "Đặt quốc hiệu Đại Việt",
+              "en": "Named the country Dai Viet"
+            },
+            {
+              "vi": "Xây dựng Văn Miếu",
+              "en": "Built Temple of Literature"
+            }
+          ]
+        },
+        {
+          "name": "Lý Nhân Tông",
+          "period": "1072-1127",
+          "achievements": [
+            {
+              "vi": "Mở khoa thi Tam trường",
+              "en": "Established Three-Level Examination"
+            },
+            {
+              "vi": "Phát triển văn học chữ Hán",
+              "en": "Developed Chinese character literature"
+            }
+          ]
+        }
+      ],
+      "achievements": [
+        {
+          "vi": "Phát triển văn hóa Phật giáo",
+          "en": "Development of Buddhist culture"
+        },
+        {
+          "vi": "Xây dựng kinh thành Thăng Long",
+          "en": "Construction of Thang Long citadel"
+        },
+        {
+          "vi": "Cải cách hành chính",
+          "en": "Administrative reforms"
+        }
+      ]
+    },
+    {
+      "name": "Nhà Trần",
+      "nameEn": "Tran Dynasty",
+      "period": "1225-1400",
+      "rulers": [
+        {
+          "name": "Trần Thái Tông",
+          "period": "1225-1258",
+          "achievements": [
+            {
+              "vi": "Củng cố thể chế",
+              "en": "Strengthened state institutions"
+            },
+            {
+              "vi": "Phát triển văn học",
+              "en": "Developed literature"
+            }
+          ]
+        },
+        {
+          "name": "Trần Thánh Tông",
+          "period": "1258-1278",
+          "achievements": [
+            {
+              "vi": "Lãnh đạo kháng chiến chống Mông-Nguyên lần 1",
+              "en": "Led first resistance against Mongol-Yuan"
+            }
+          ]
+        },
+        {
+          "name": "Trần Nhân Tông",
+          "period": "1278-1293",
+          "achievements": [
+            {
+              "vi": "Lãnh đạo kháng chiến chống Mông-Nguyên lần 2, 3",
+              "en": "Led second and third resistance against Mongol-Yuan"
+            },
+            {
+              "vi": "Sáng lập Thiền phái Trúc Lâm",
+              "en": "Founded Truc Lam Zen sect"
+            }
+          ]
+        }
+      ],
+      "wars": [
+        {
+          "name": "Kháng chiến chống Mông-Nguyên lần 1",
+          "year": "1258",
+          "leader": "Trần Thái Tông",
+          "result": "Chiến thắng",
+          "significance": {
+            "vi": "Đánh bại đế quốc lớn nhất thế giới thời đó",
+            "en": "Defeated the world's largest empire of the time"
+          }
+        },
+        {
+          "name": "Kháng chiến chống Mông-Nguyên lần 2",
+          "year": "1285",
+          "leader": "Trần Nhân Tông",
+          "result": "Chiến thắng",
+          "battles": [
+            "Chương Dương",
+            "Hàm Tử",
+            "Tây Kết"
+          ]
+        },
+        {
+          "name": "Kháng chiến chống Mông-Nguyên lần 3",
+          "year": "1288",
+          "leader": "Trần Nhân Tông",
+          "result": "Chiến thắng",
+          "battles": [
+            "Vân Đồn",
+            "Bạch Đằng"
+          ]
+        }
+      ]
+    }
+  ],
+  "culture": {
+    "literature": {
+      "genres": [
+        {
+          "name": "Văn học chữ Hán",
+          "nameEn": "Chinese character literature",
+          "works": [
+            "Thiền Uyển Tập Anh",
+            "Việt Điện U Linh"
+          ]
+        },
+        {
+          "name": "Văn học chữ Nôm",
+          "nameEn": "Nom script literature",
+          "significance": {
+            "vi": "Đánh dấu sự phát triển của văn học dân tộc",
+            "en": "Marked development of national literature"
+          }
+        }
+      ],
+      "authors": [
+        "Nguyễn Trãi",
+        "Trần Nhân Tông",
+        "Tuệ Trung Thượng Sĩ"
+      ]
+    },
+    "religion": {
+      "buddhism": {
+        "schools": [
+          {
+            "name": "Thiền phái Trúc Lâm",
+            "nameEn": "Truc Lam Zen sect",
+            "founder": "Trần Nhân Tông",
+            "significance": {
+              "vi": "Phái thiền mang đậm bản sắc Việt Nam",
+              "en": "Zen sect with strong Vietnamese characteristics"
+            }
+          }
+        ],
+        "temples": [
+          "Chùa Một Cột",
+          "Chùa Tháp Phổ Minh",
+          "Chùa Quỳnh Lâm"
+        ]
+      }
+    },
+    "architecture": {
+      "monuments": [
+        {
+          "name": "Văn Miếu",
+          "nameEn": "Temple of Literature",
+          "built": 1070,
+          "significance": {
+            "vi": "Trường đại học đầu tiên của Việt Nam",
+            "en": "First university of Vietnam"
+          }
+        },
+        {
+          "name": "Khu Hoàng thành Thăng Long",
+          "nameEn": "Thang Long Imperial Citadel",
+          "built": 1010,
+          "significance": {
+            "vi": "Trung tâm chính trị của Đại Việt",
+            "en": "Political center of Dai Viet"
+          }
+        }
+      ]
+    },
+    "arts": [
+      {
+        "name": "Điêu khắc Phật giáo",
+        "nameEn": "Buddhist sculpture",
+        "examples": [
+          "Tượng Phật chùa Phật Tích",
+          "Tượng Amitabha chùa Quỳnh Lâm"
+        ]
+      },
+      {
+        "name": "Nghệ thuật gốm sứ",
+        "nameEn": "Ceramics art",
+        "centers": [
+          "Bát Tràng",
+          "Phố Hà"
+        ]
+      }
+    ]
+  },
+  "economy": {
+    "agriculture": {
+      "developments": [
+        {
+          "vi": "Cải tiến kỹ thuật canh tác",
+          "en": "Improved farming techniques"
+        },
+        {
+          "vi": "Mở rộng diện tích đất canh tác",
+          "en": "Expanded farming land"
+        }
+      ],
+      "products": [
+        "Lúa",
+        "Dâu tằm",
+        "Mía"
+      ]
+    },
+    "crafts": {
+      "industries": [
+        {
+          "name": "Gốm sứ",
+          "nameEn": "Ceramics",
+          "centers": ["Bát Tràng"]
+        },
+        {
+          "name": "Dệt lụa",
+          "nameEn": "Silk weaving",
+          "centers": ["La Cả"]
+        }
+      ]
+    },
+    "trade": {
+      "domestic": {
+        "markets": ["Chợ Cầu Đông", "Chợ Bắc"],
+        "products": ["Gạo", "Lụa", "Gốm"]
+      },
+      "international": {
+        "partners": ["Trung Quốc", "Champa"],
+        "ports": ["Vân Đồn"]
+      }
+    }
+  },
+  "military": {
+    "organization": {
+      "units": [
+        {
+          "name": "Quân cấm vệ",
+          "nameEn": "Royal guard"
+        },
+        {
+          "name": "Quân địa phương",
+          "nameEn": "Local forces"
+        }
+      ],
+      "strategy": {
+        "vi": "Kết hợp phòng thủ và phản công",
+        "en": "Combined defense and counterattack"
+      }
+    },
+    "weapons": [
+      {
+        "name": "Thuyền chiến",
+        "nameEn": "War boats",
+        "description": {
+          "vi": "Sử dụng trong chiến tranh trên sông",
+          "en": "Used in river warfare"
+        }
+      },
+      {
+        "name": "Cọc ngầm",
+        "nameEn": "Underwater stakes",
+        "description": {
+          "vi": "Dùng trong trận Bạch Đằng",
+          "en": "Used in Bach Dang battle"
+        }
+      }
+    ]
+  },
+  "significance": {
+    "political": {
+      "vi": "Xây dựng và củng cố nền độc lập, chủ quyền",
+      "en": "Built and strengthened independence and sovereignty"
+    },
+    "cultural": {
+      "vi": "Phát triển văn hóa dân tộc đến đỉnh cao",
+      "en": "Developed national culture to its peak"
+    },
+    "military": {
+      "vi": "Ba lần đánh bại quân Mông-Nguyên",
+      "en": "Three victories against Mongol-Yuan forces"
+    }
+  },
+  "images": [
+    {
+      "url": "/assets/images/history-periods/ly-tran/thang-long.jpg",
+      "caption": {
+        "vi": "Hoàng thành Thăng Long",
+        "en": "Thang Long Imperial Citadel"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/ly-tran/van-mieu.jpg",
+      "caption": {
+        "vi": "Văn Miếu - Quốc Tử Giám",
+        "en": "Temple of Literature"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/ly-tran/tran-hung-dao.jpg",
+      "caption": {
+        "vi": "Tượng Trần Hưng Đạo",
+        "en": "Statue of Tran Hung Dao"
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Đại Việt Sử Ký Toàn Thư",
+      "author": "Ngô Sĩ Liên",
+      "year": 1479,
+      "publisher": "NXB Khoa học Xã hội"
+    },
+    {
+      "title": "The Birth of Vietnam",
+      "author": "Keith Weller Taylor",
+      "year": 1983,
+      "publisher": "University of California Press"
+    },
+    {
+      "title": "Lịch sử văn minh Việt Nam",
+      "author": "Trần Quốc Vượng",
+      "year": 2000,
+      "publisher": "NXB Văn hóa Thông tin"
+    }
+  ]
+} 

@@ -1,0 +1,195 @@
+:root {
+    /* Dong Son cultural colors */
+    --dong-son-gold: #B8860B;  /* Main gold color */
+    --dong-son-gold-light: #DAA520;  /* Lighter gold for hover */
+    --dong-son-bronze: #CD853F;  /* Bronze color for accents */
+    --dong-son-dark: #8B4513;  /* Dark brown for text */
+    --dong-son-light: #FFE4B5;  /* Light gold for backgrounds */
+    
+    /* Theme colors */
+    --primary-color: var(--dong-son-gold);
+    --primary-color-text: #FFFFFF;
+    --primary-dark: var(--dong-son-dark);
+    --primary-light: var(--dong-son-light);
+    
+    --surface-a: #FFFFFF;
+    --surface-b: #FFF8DC;  /* Cornsilk background */
+    --surface-c: #FFE4B5;  /* Moccasin for hover */
+    --surface-d: var(--dong-son-bronze);
+    --surface-e: #FFFFFF;
+    --surface-f: #FFFFFF;
+    
+    --text-color: var(--dong-son-dark);
+    --text-color-secondary: #6c757d;
+    
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Navigation Menu Styles */
+.layout-topbar {
+    background: linear-gradient(135deg, var(--dong-son-gold) 0%, var(--dong-son-bronze) 100%);
+    border-bottom: 3px solid var(--dong-son-dark);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 2rem;
+}
+
+.layout-topbar-logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+.layout-topbar-logo:hover {
+    color: var(--dong-son-light);
+}
+
+.layout-menu {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.layout-menu li {
+    position: relative;
+}
+
+.layout-menu .p-button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.layout-menu .p-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+.layout-menu .p-button.p-button-outlined {
+    border: 1px solid var(--dong-son-light);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Mobile Menu Button */
+.mobile-menu .p-button {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 0.5rem;
+}
+
+.mobile-menu .p-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Sidebar Styles */
+.p-sidebar {
+    background: var(--dong-son-gold);
+    padding: 2rem 1rem;
+}
+
+.p-sidebar .p-button {
+    color: white;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    border: none;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+.p-sidebar .p-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateX(5px);
+}
+
+.p-sidebar .p-button.p-button-outlined {
+    border: 1px solid var(--dong-son-light);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Custom Button Styles */
+.p-button {
+    background: var(--dong-son-gold);
+    border: 1px solid var(--dong-son-gold);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.p-button:enabled:hover {
+    background: var(--dong-son-bronze);
+    border-color: var(--dong-son-bronze);
+    transform: translateY(-2px);
+}
+
+.p-button.p-button-outlined {
+    background-color: transparent;
+    color: var(--dong-son-gold);
+    border: 1px solid var(--dong-son-gold);
+}
+
+.p-button.p-button-outlined:enabled:hover {
+    background: rgba(184, 134, 11, 0.1);
+    color: var(--dong-son-dark);
+}
+
+/* Card Styles */
+.p-card {
+    background: var(--surface-e);
+    border: 1px solid var(--dong-son-light);
+    padding: 1.25rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.p-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Styles */
+.p-inputtext:enabled:focus {
+    border-color: var(--dong-son-gold);
+    box-shadow: 0 0 0 2px rgba(184, 134, 11, 0.2);
+}
+
+/* Table Styles */
+.p-datatable .p-datatable-thead > tr > th {
+    background: var(--dong-son-light);
+    color: var(--dong-son-dark);
+    border: 1px solid var(--dong-son-bronze);
+    padding: 1rem;
+}
+
+.p-datatable .p-datatable-tbody > tr:hover {
+    background: rgba(184, 134, 11, 0.05);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--surface-b);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--dong-son-bronze);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--dong-son-gold);
+} 

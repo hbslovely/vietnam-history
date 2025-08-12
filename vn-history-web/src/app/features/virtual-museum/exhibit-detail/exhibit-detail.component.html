@@ -1,0 +1,92 @@
+<div class="exhibit-detail" *ngIf="exhibit$ | async as exhibit">
+  <div class="card">
+    <h1>{{ exhibit.name }}</h1>
+    <div class="exhibit-period">{{ exhibit.period }}</div>
+  </div>
+
+  <p-tabView>
+    <p-tabPanel header="{{ 'virtualMuseum.overview' | translate }}">
+      <p-card>
+        <p>{{ exhibit.description }}</p>
+      </p-card>
+    </p-tabPanel>
+
+    <p-tabPanel header="{{ 'virtualMuseum.details' | translate }}" *ngIf="exhibit.details">
+      <p-card>
+        <p>{{ exhibit.details }}</p>
+      </p-card>
+    </p-tabPanel>
+
+    <p-tabPanel header="{{ 'virtualMuseum.origin' | translate }}" *ngIf="exhibit.origin">
+      <p-card>
+        <p>{{ exhibit.origin }}</p>
+      </p-card>
+    </p-tabPanel>
+
+    <p-tabPanel header="{{ 'virtualMuseum.significance' | translate }}" *ngIf="exhibit.significance">
+      <p-card>
+        <p>{{ exhibit.significance }}</p>
+      </p-card>
+    </p-tabPanel>
+
+    <p-tabPanel header="{{ 'virtualMuseum.virtualTour' | translate }}" *ngIf="exhibit.virtualTour">
+      <p-card>
+        <div class="virtual-tour">
+          <p>{{ exhibit.virtualTour.description }}</p>
+          
+          <div class="tour-info" *ngIf="exhibit.virtualTour.instructions">
+            <h3>{{ 'virtualMuseum.instructions' | translate }}</h3>
+            <p>{{ exhibit.virtualTour.instructions }}</p>
+          </div>
+
+          <div class="tour-requirements" *ngIf="exhibit.virtualTour.requirements?.length">
+            <h3>{{ 'virtualMuseum.requirements' | translate }}</h3>
+            <ul>
+              <li *ngFor="let req of exhibit.virtualTour.requirements">{{ req }}</li>
+            </ul>
+          </div>
+
+          <div class="tour-actions">
+            <p-button 
+              [label]="'virtualMuseum.startTour' | translate"
+              icon="pi pi-external-link"
+              (onClick)="openVirtualTour(exhibit.virtualTour.url)"
+              styleClass="p-button-lg">
+            </p-button>
+          </div>
+        </div>
+      </p-card>
+    </p-tabPanel>
+
+    <p-tabPanel header="{{ 'virtualMuseum.images' | translate }}" *ngIf="exhibit.images?.length">
+      <p-card>
+        <p-galleria 
+          [value]="exhibit.images" 
+          [responsiveOptions]="[
+            {
+              breakpoint: '1024px',
+              numVisible: 5
+            },
+            {
+              breakpoint: '768px',
+              numVisible: 3
+            },
+            {
+              breakpoint: '560px',
+              numVisible: 1
+            }
+          ]" 
+          [circular]="true" 
+          [showItemNavigators]="true"
+          [showThumbnails]="false">
+          <ng-template pTemplate="item" let-image>
+            <img [src]="image.url" [alt]="image.title">
+            <div class="image-caption" *ngIf="image.description">
+              {{ image.description }}
+            </div>
+          </ng-template>
+        </p-galleria>
+      </p-card>
+    </p-tabPanel>
+  </p-tabView>
+</div> 

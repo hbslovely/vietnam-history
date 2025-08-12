@@ -1,0 +1,247 @@
+{
+  "id": "hong-bang",
+  "name": "Thời kỳ Hồng Bàng",
+  "nameEn": "Hong Bang Period",
+  "timeRange": {
+    "from": -2879,
+    "to": -258,
+    "display": "2879 BCE - 258 BCE"
+  },
+  "overview": {
+    "vi": "Thời kỳ Hồng Bàng là giai đoạn lịch sử đầu tiên của dân tộc Việt Nam, với sự ra đời của nhà nước Văn Lang dưới sự lãnh đạo của các vua Hùng. Đây là thời kỳ hình thành nền văn minh Việt cổ với những thành tựu văn hóa đặc sắc, đặc biệt là văn hóa Đông Sơn.",
+    "en": "The Hong Bang period marks the first historical era of the Vietnamese nation, with the establishment of the Van Lang state under the Hung Kings. This period saw the formation of ancient Vietnamese civilization with remarkable cultural achievements, particularly the Dong Son culture."
+  },
+  "rulers": {
+    "title": {
+      "vi": "Các vua Hùng",
+      "en": "The Hung Kings"
+    },
+    "description": {
+      "vi": "18 đời vua Hùng đã trị vì và xây dựng đất nước Văn Lang, thiết lập nền móng cho văn hóa và bản sắc Việt Nam",
+      "en": "18 generations of Hung Kings ruled and built the Van Lang state, establishing the foundation for Vietnamese culture and identity"
+    },
+    "details": [
+      {
+        "name": "Kinh Dương Vương",
+        "period": "2879 BCE - 2794 BCE",
+        "achievements": [
+          {
+            "vi": "Lập nước Xích Quỷ",
+            "en": "Established the Xich Quy state"
+          },
+          {
+            "vi": "Xây dựng cơ cấu tổ chức xã hội",
+            "en": "Built social organizational structure"
+          }
+        ]
+      },
+      {
+        "name": "Lạc Long Quân",
+        "period": "2793 BCE - 2525 BCE",
+        "achievements": [
+          {
+            "vi": "Dạy dân trồng lúa nước",
+            "en": "Taught people wet rice cultivation"
+          },
+          {
+            "vi": "Phát triển nghề thủ công",
+            "en": "Developed handicraft industries"
+          }
+        ]
+      }
+    ]
+  },
+  "territory": {
+    "capital": {
+      "name": "Phong Châu",
+      "location": "Phú Thọ",
+      "description": {
+        "vi": "Kinh đô của nhà nước Văn Lang, nằm trên vùng đất cao và chiến lược",
+        "en": "Capital of Van Lang state, located on strategic highland"
+      }
+    },
+    "regions": [
+      {
+        "name": "Bộ Văn Lang",
+        "nameEn": "Van Lang Region",
+        "location": "Bắc bộ",
+        "description": {
+          "vi": "Vùng đồng bằng sông Hồng và trung du",
+          "en": "Red River Delta and midland region"
+        }
+      },
+      {
+        "name": "Bộ Vũ Ninh",
+        "nameEn": "Vu Ninh Region",
+        "location": "Bắc Ninh - Bắc Giang",
+        "description": {
+          "vi": "Vùng đông bắc đồng bằng",
+          "en": "Northeastern delta region"
+        }
+      }
+    ]
+  },
+  "culture": {
+    "dongSon": {
+      "name": "Văn hóa Đông Sơn",
+      "nameEn": "Dong Son Culture",
+      "period": "1000 BCE - 100 CE",
+      "overview": {
+        "vi": "Văn hóa Đông Sơn là đỉnh cao của thời đại đồ đồng ở Việt Nam, với kỹ thuật luyện kim tiên tiến và nghệ thuật trang trí độc đáo",
+        "en": "Dong Son culture represents the peak of the Bronze Age in Vietnam, with advanced metallurgy and unique decorative arts"
+      },
+      "artifacts": [
+        {
+          "name": "Trống đồng",
+          "nameEn": "Bronze drums",
+          "description": {
+            "vi": "Biểu tượng văn hóa quan trọng, thể hiện kỹ thuật đúc đồng tinh xảo",
+            "en": "Important cultural symbol, demonstrating sophisticated bronze casting techniques"
+          },
+          "types": [
+            "Trống Ngọc Lũ",
+            "Trống Hoàng Hạ",
+            "Trống Sông Đà"
+          ]
+        },
+        {
+          "name": "Thạp đồng",
+          "nameEn": "Bronze jars",
+          "description": {
+            "vi": "Đồ đựng nghi lễ, thể hiện đời sống tâm linh phong phú",
+            "en": "Ritual vessels, reflecting rich spiritual life"
+          }
+        }
+      ],
+      "techniques": [
+        {
+          "name": "Đúc đồng",
+          "nameEn": "Bronze casting",
+          "description": {
+            "vi": "Kỹ thuật đúc đồng tiên tiến với phương pháp sáp mất",
+            "en": "Advanced bronze casting using lost-wax method"
+          }
+        },
+        {
+          "name": "Chạm khắc",
+          "nameEn": "Engraving",
+          "description": {
+            "vi": "Nghệ thuật trang trí với các họa tiết hình học và tự nhiên",
+            "en": "Decorative art with geometric and natural patterns"
+          }
+        }
+      ]
+    },
+    "lifestyle": {
+      "housing": {
+        "vi": "Nhà sàn được xây dựng trên cọc gỗ, thích nghi với điều kiện tự nhiên",
+        "en": "Stilt houses built on wooden poles, adapted to natural conditions"
+      },
+      "agriculture": {
+        "vi": "Canh tác lúa nước, trồng rau và cây ăn quả",
+        "en": "Wet rice cultivation, vegetable and fruit farming"
+      },
+      "crafts": {
+        "vi": "Phát triển nghề dệt, gốm và rèn",
+        "en": "Development of weaving, pottery and blacksmithing"
+      }
+    }
+  },
+  "achievements": [
+    {
+      "category": "Chính trị - Xã hội",
+      "categoryEn": "Political - Social",
+      "items": [
+        {
+          "name": "Tổ chức nhà nước",
+          "nameEn": "State organization",
+          "description": {
+            "vi": "Hình thành bộ máy nhà nước sơ khai với vua và các lạc tướng",
+            "en": "Formation of primitive state apparatus with king and military leaders"
+          }
+        },
+        {
+          "name": "Phân chia bộ lạc",
+          "nameEn": "Tribal division",
+          "description": {
+            "vi": "Tổ chức xã hội theo đơn vị bộ lạc, mỗi bộ có lạc tướng đứng đầu",
+            "en": "Social organization by tribal units, each led by a military chief"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Kinh tế",
+      "categoryEn": "Economy",
+      "items": [
+        {
+          "name": "Nông nghiệp",
+          "nameEn": "Agriculture",
+          "description": {
+            "vi": "Phát triển kỹ thuật canh tác lúa nước và các công cụ sản xuất",
+            "en": "Development of wet rice cultivation techniques and production tools"
+          }
+        },
+        {
+          "name": "Thủ công nghiệp",
+          "nameEn": "Handicraft",
+          "description": {
+            "vi": "Phát triển nghề đúc đồng, dệt vải, làm gốm",
+            "en": "Development of bronze casting, weaving, and pottery making"
+          }
+        }
+      ]
+    }
+  ],
+  "significance": {
+    "political": {
+      "vi": "Xây dựng nhà nước đầu tiên của dân tộc Việt Nam",
+      "en": "Establishment of the first Vietnamese state"
+    },
+    "cultural": {
+      "vi": "Hình thành nền văn hóa Việt cổ với những đặc trưng riêng",
+      "en": "Formation of ancient Vietnamese culture with distinct characteristics"
+    },
+    "technological": {
+      "vi": "Phát triển kỹ thuật luyện kim và các nghề thủ công",
+      "en": "Development of metallurgy and handicraft techniques"
+    }
+  },
+  "images": [
+    {
+      "url": "/assets/images/history-periods/hong-bang/trong-dong.jpg",
+      "caption": {
+        "vi": "Trống đồng Đông Sơn",
+        "en": "Dong Son bronze drum"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/hong-bang/den-hung.jpg",
+      "caption": {
+        "vi": "Đền Hùng, Phú Thọ",
+        "en": "Hung Temple, Phu Tho"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/hong-bang/do-dong.jpg",
+      "caption": {
+        "vi": "Các hiện vật đồ đồng thời Hùng Vương",
+        "en": "Bronze artifacts from Hung Kings period"
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Lịch sử Việt Nam tập 1",
+      "author": "Ủy ban Khoa học Xã hội Việt Nam",
+      "year": 2017,
+      "publisher": "NXB Khoa học Xã hội"
+    },
+    {
+      "title": "The Birth of Vietnam",
+      "author": "Keith Weller Taylor",
+      "year": 1983,
+      "publisher": "University of California Press"
+    }
+  ]
+} 

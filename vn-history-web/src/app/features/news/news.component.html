@@ -1,0 +1,42 @@
+<div class="news">
+  <div class="card">
+    <h1>{{ 'news.title' | translate }}</h1>
+  </div>
+
+  <div class="grid">
+    <div class="col-12 lg:col-9">
+      <p-dataView [value]="(categories$ | async) || []" layout="list">
+        <ng-template pTemplate="list" let-categories>
+          <div class="news-list">
+            <div class="news-item" *ngFor="let category of categories">
+              <p-card [header]="category.name" styleClass="mb-4">
+                <p>{{ category.description }}</p>
+                <ng-template pTemplate="footer">
+                  <div class="card-footer">
+                    <p-button 
+                      [label]="'common.viewDetails' | translate"
+                      [routerLink]="['/news', category.id]"
+                      styleClass="p-button-outlined">
+                    </p-button>
+                  </div>
+                </ng-template>
+              </p-card>
+            </div>
+          </div>
+        </ng-template>
+      </p-dataView>
+    </div>
+
+    <div class="col-12 lg:col-3">
+      <p-card [header]="'news.categories' | translate" styleClass="categories-card">
+        <div class="categories-list">
+          <p-chip *ngFor="let category of (categories$ | async) || []"
+                 [label]="category.name"
+                 [routerLink]="['/news', category.id]"
+                 styleClass="mr-2 mb-2">
+          </p-chip>
+        </div>
+      </p-card>
+    </div>
+  </div>
+</div>

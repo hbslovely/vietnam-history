@@ -1,0 +1,90 @@
+<div class="site-detail" *ngIf="site">
+  <div class="site-header">
+    <h2>{{ site.name }}</h2>
+    <p class="period">{{ site.period.from }} - {{ site.period.to || 'Present' }}</p>
+    <p class="location">{{ site.location.province }}, {{ site.location.district }}</p>
+    <p class="recognition">
+      {{ 'historicalSites.recognition.' + site.recognition.level | translate }}
+      ({{ site.recognition.year }})
+    </p>
+  </div>
+
+  <div class="site-content">
+    <div class="description">
+      <h3>{{ 'historicalSites.description' | translate }}</h3>
+      <p>{{ site.description }}</p>
+    </div>
+
+    <div class="history" *ngIf="site.history">
+      <h3>{{ 'historicalSites.history' | translate }}</h3>
+      <p>{{ site.history }}</p>
+    </div>
+
+    <div class="architecture" *ngIf="site.architecture">
+      <h3>{{ 'historicalSites.architecture' | translate }}</h3>
+      <p>{{ site.architecture }}</p>
+    </div>
+
+    <div class="significance" *ngIf="site.significance">
+      <h3>{{ 'historicalSites.significance' | translate }}</h3>
+      <p>{{ site.significance }}</p>
+    </div>
+
+    <div class="visiting-info" *ngIf="site.visitingInfo">
+      <h3>{{ 'historicalSites.visitingInfo' | translate }}</h3>
+      
+      <div class="info-grid">
+        <div class="info-item">
+          <h4>{{ 'historicalSites.address' | translate }}</h4>
+          <p>{{ site.visitingInfo.address }}</p>
+        </div>
+
+        <div class="info-item">
+          <h4>{{ 'historicalSites.openingHours' | translate }}</h4>
+          <p>{{ site.visitingInfo.openingHours }}</p>
+        </div>
+
+        <div class="info-item" *ngIf="site.visitingInfo.ticketPrice">
+          <h4>{{ 'historicalSites.ticketPrice' | translate }}</h4>
+          <p>{{ site.visitingInfo.ticketPrice }}</p>
+        </div>
+
+        <div class="info-item" *ngIf="site.visitingInfo.contact">
+          <h4>{{ 'historicalSites.contact' | translate }}</h4>
+          <p>{{ site.visitingInfo.contact }}</p>
+        </div>
+
+        <div class="info-item" *ngIf="site.visitingInfo.transportation">
+          <h4>{{ 'historicalSites.transportation' | translate }}</h4>
+          <p>{{ site.visitingInfo.transportation }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="images" *ngIf="site.images?.length">
+      <h3>{{ 'historicalSites.images' | translate }}</h3>
+      <p-galleria 
+        [value]="site.images"
+        [responsiveOptions]="responsiveOptions"
+        [containerStyle]="{ 'max-width': '800px', 'margin': 'auto' }"
+        [numVisible]="5"
+        [showThumbnails]="true"
+        [showIndicators]="true"
+        [changeItemOnIndicatorHover]="true"
+        [showItemNavigators]="true"
+        [circular]="true">
+        <ng-template pTemplate="item" let-item>
+          <img [src]="item" style="width: 100%; display: block;" />
+        </ng-template>
+        <ng-template pTemplate="thumbnail" let-item>
+          <img [src]="item" style="width: 100px; display: block;" />
+        </ng-template>
+      </p-galleria>
+    </div>
+  </div>
+</div>
+
+<p-message *ngIf="!site" 
+           severity="info" 
+           [text]="'historicalSites.notFound' | translate">
+</p-message> 

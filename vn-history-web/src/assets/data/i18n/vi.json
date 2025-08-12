@@ -1,0 +1,152 @@
+{
+  "common": {
+    "explore": "Khám phá",
+    "readMore": "Đọc thêm",
+    "viewDetails": "Xem chi tiết"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "historicalPeriods": "Thời kỳ lịch sử",
+    "historicalFigures": "Nhân vật lịch sử",
+    "historicalSites": "Di tích lịch sử",
+    "culture": "Văn hóa",
+    "virtualMuseum": "Bảo tàng ảo",
+    "historicalMaps": "Bản đồ lịch sử",
+    "news": "Tin tức"
+  },
+  "chatbot": {
+    "trigger": "Hỏi về Lịch sử Việt Nam",
+    "title": "Trợ lý Lịch sử",
+    "welcome": "Xin chào! Tôi là Trợ lý Lịch sử Việt Nam. Hãy hỏi tôi bất cứ điều gì về lịch sử Việt Nam!",
+    "inputPlaceholder": "Hỏi bất kỳ điều gì về lịch sử Việt Nam...",
+    "error": "Tôi xin lỗi, nhưng hiện đang gặp sự cố kết nối với máy chủ. Vui lòng thử lại sau.",
+    "suggestions": {
+      "title": "Bạn có thể hỏi tôi về:",
+      "items": [
+        "Kể cho tôi nghe về thời kỳ Hùng Vương",
+        "Điều gì đã xảy ra trong thời nhà Lý?",
+        "Trần Hưng Đạo là ai?",
+        "Văn Miếu - Quốc Tử Giám là gì?",
+        "Kể về các lễ hội truyền thống của Việt Nam"
+      ]
+    }
+  },
+  "historicalPeriods": {
+    "title": "Các thời kỳ lịch sử Việt Nam",
+    "description": "Khám phá lịch sử phong phú của Việt Nam qua các thời kỳ lịch sử chính, từ thời tiền sử đến hiện đại.",
+    "timeline": "Dòng thời gian",
+    "prehistoric": "Thời kỳ tiền sử",
+    "dynasties": "Thời kỳ phong kiến",
+    "recognition": {
+      "national": "Di sản Quốc gia",
+      "special-national": "Di sản Quốc gia đặc biệt",
+      "world-heritage": "Di sản Thế giới"
+    },
+    "periodTypes": {
+      "prehistoric": "Thời kỳ tiền sử",
+      "ancient": "Thời kỳ cổ đại",
+      "medieval": "Thời kỳ trung đại",
+      "modern": "Thời kỳ cận-hiện đại"
+    },
+    "culturalAspects": {
+      "literature": "Văn học",
+      "architecture": "Kiến trúc",
+      "arts": "Nghệ thuật và thủ công",
+      "religion": "Tôn giáo và triết học",
+      "science": "Khoa học và công nghệ"
+    },
+    "filters": {
+      "all": "Tất cả các thời kỳ",
+      "byDynasty": "Theo triều đại",
+      "byEra": "Theo thời đại",
+      "byYear": "Theo năm"
+    },
+    "details": {
+      "overview": "Tổng quan",
+      "rulers": "Các đời vua",
+      "culture": "Văn hóa",
+      "achievements": "Thành tựu",
+      "significance": "Ý nghĩa lịch sử",
+      "artifacts": "Hiện vật",
+      "events": "Sự kiện quan trọng",
+      "gallery": "Thư viện ảnh"
+    }
+  },
+  "historicalFigures": {
+    "title": "Nhân vật lịch sử",
+    "categories": [
+      {
+        "id": "kings",
+        "name": "Các vị vua",
+        "figures": [
+          {
+            "id": "hung-vuong",
+            "name": "Các vua Hùng",
+            "period": "2879 TCN - 258 TCN",
+            "description": "Những vị vua đầu tiên của dân tộc Việt Nam"
+          }
+        ]
+      }
+    ]
+  },
+  "historicalSites": {
+    "title": "Di tích lịch sử",
+    "sites": [
+      {
+        "id": "van-mieu",
+        "name": "Văn Miếu - Quốc Tử Giám",
+        "location": "Hà Nội",
+        "period": "1070",
+        "description": "Trường đại học đầu tiên của Việt Nam"
+      }
+    ]
+  },
+  "culture": {
+    "title": "Văn hóa",
+    "categories": [
+      {
+        "id": "festivals",
+        "name": "Lễ hội truyền thống",
+        "items": [
+          {
+            "id": "tet",
+            "name": "Tết Nguyên Đán",
+            "description": "Lễ hội quan trọng nhất của người Việt Nam"
+          }
+        ]
+      }
+    ]
+  },
+  "virtualMuseum": {
+    "title": "Bảo tàng ảo",
+    "exhibits": [
+      {
+        "id": "dong-son",
+        "name": "Văn hóa Đông Sơn",
+        "period": "1000 TCN - 100 SCN",
+        "description": "Trưng bày các hiện vật văn hóa Đông Sơn"
+      }
+    ]
+  },
+  "historicalMaps": {
+    "title": "Bản đồ lịch sử",
+    "periods": [
+      {
+        "id": "van-lang",
+        "name": "Bản đồ Văn Lang",
+        "period": "2879 TCN - 258 TCN",
+        "description": "Bản đồ thời kỳ Văn Lang dưới thời các vua Hùng"
+      }
+    ]
+  },
+  "news": {
+    "title": "Tin tức & Sự kiện",
+    "categories": [
+      {
+        "id": "discoveries",
+        "name": "Khám phá mới",
+        "description": "Những phát hiện khảo cổ và lịch sử mới"
+      }
+    ]
+  }
+} 

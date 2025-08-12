@@ -1,0 +1,38 @@
+<div class="historical-figures">
+  <div class="card">
+    <h1>{{ 'historicalFigures.title' | translate }}</h1>
+  </div>
+
+  <div class="grid">
+    <div class="col-12" *ngFor="let category of categories$ | async">
+      <p-card [header]="category.name">
+        <p-dataView [value]="category.figures" layout="grid">
+          <ng-template pTemplate="grid" let-figures>
+            <div class="grid">
+              <div class="col-12 md:col-6 lg:col-3" *ngFor="let figure of figures">
+                <p-card styleClass="figure-card">
+                  <ng-template pTemplate="header">
+                    <div class="figure-period">{{ figure.period }}</div>
+                  </ng-template>
+                  
+                  <h3>{{ figure.name }}</h3>
+                  <p>{{ figure.description }}</p>
+                  
+                  <ng-template pTemplate="footer">
+                    <div class="card-footer">
+                      <p-button 
+                        [label]="'common.viewDetails' | translate"
+                        [routerLink]="['/historical-figures', figure.id]"
+                        styleClass="p-button-outlined">
+                      </p-button>
+                    </div>
+                  </ng-template>
+                </p-card>
+              </div>
+            </div>
+          </ng-template>
+        </p-dataView>
+      </p-card>
+    </div>
+  </div>
+</div>

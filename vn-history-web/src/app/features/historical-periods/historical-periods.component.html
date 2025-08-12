@@ -1,0 +1,134 @@
+<div class="historical-periods">
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1>{{ 'historicalPeriods.title' | translate }}</h1>
+      <p>{{ 'historicalPeriods.description' | translate }}</p>
+    </div>
+  </section>
+
+  <!-- Timeline Section -->
+  <section class="timeline-section">
+    <div class="section-header">
+      <h2>{{ 'historicalPeriods.timeline.title' | translate }}</h2>
+      <p>{{ 'historicalPeriods.timeline.description' | translate }}</p>
+    </div>
+
+    <ng-container *ngIf="timelinePeriods$ | async as timelinePeriods">
+      <p-timeline [value]="timelinePeriods"
+                  styleClass="custom-timeline"
+                  align="alternate">
+        <ng-template pTemplate="content" let-period>
+          <div class="timeline-card" [routerLink]="['/historical-periods', period.id]" pRipple>
+            <h3>{{ period.name }}</h3>
+            <div class="time-range">
+              <fa-icon [icon]="faCalendar"></fa-icon>
+              <span>{{ period.timeRange }}</span>
+            </div>
+          </div>
+        </ng-template>
+      </p-timeline>
+    </ng-container>
+  </section>
+
+  <!-- Periods Grid Section -->
+  <section class="periods-grid">
+    <!-- Prehistoric Periods -->
+    <div class="period-category">
+      <div class="section-header">
+        <h2>{{ 'historicalPeriods.prehistoric.title' | translate }}</h2>
+        <p>{{ 'historicalPeriods.prehistoric.description' | translate }}</p>
+      </div>
+
+      <div class="period-cards">
+        <ng-container *ngFor="let period of prehistoricPeriods$ | async">
+          <p-card styleClass="period-card" [routerLink]="['/historical-periods', period.id]">
+            <ng-template pTemplate="header">
+              <p-image [src]="period.images?.[0]?.url"
+                      [alt]="period.images?.[0]?.alt"
+                      [preview]="true"
+                      imageClass="period-image">
+              </p-image>
+            </ng-template>
+            <ng-template pTemplate="title">
+              {{ period.name }}
+            </ng-template>
+            <ng-template pTemplate="subtitle">
+              <div class="period-metadata">
+                <span class="time-range">
+                  <fa-icon [icon]="faCalendar"></fa-icon>
+                  {{ period.timeRange.display }}
+                </span>
+                <span class="location" *ngIf="period.location">
+                  <fa-icon [icon]="faLandmark"></fa-icon>
+                  {{ period.location }}
+                </span>
+              </div>
+            </ng-template>
+            <ng-template pTemplate="content">
+              <p class="period-description">{{ period.description }}</p>
+            </ng-template>
+            <ng-template pTemplate="footer">
+              <button pButton
+                      [label]="'common.learnMore' | translate"
+                      [routerLink]="['/historical-periods', period.id]"
+                      class="p-button-text">
+                <fa-icon [icon]="faArrowRight" class="ml-2"></fa-icon>
+              </button>
+            </ng-template>
+          </p-card>
+        </ng-container>
+      </div>
+    </div>
+
+    <p-divider></p-divider>
+
+    <!-- Dynastic Periods -->
+    <div class="period-category">
+      <div class="section-header">
+        <h2>{{ 'historicalPeriods.dynastic.title' | translate }}</h2>
+        <p>{{ 'historicalPeriods.dynastic.description' | translate }}</p>
+      </div>
+
+      <div class="period-cards">
+        <ng-container *ngFor="let period of dynasticPeriods$ | async">
+          <p-card styleClass="period-card" [routerLink]="['/historical-periods', period.id]">
+            <ng-template pTemplate="header">
+              <p-image [src]="period.images?.[0]?.url"
+                      [alt]="period.images?.[0]?.alt"
+                      [preview]="true"
+                      imageClass="period-image">
+              </p-image>
+            </ng-template>
+            <ng-template pTemplate="title">
+              {{ period.name }}
+            </ng-template>
+            <ng-template pTemplate="subtitle">
+              <div class="period-metadata">
+                <span class="time-range">
+                  <fa-icon [icon]="faCalendar"></fa-icon>
+                  {{ period.timeRange.display }}
+                </span>
+                <span class="location" *ngIf="period.location">
+                  <fa-icon [icon]="faLandmark"></fa-icon>
+                  {{ period.location }}
+                </span>
+              </div>
+            </ng-template>
+            <ng-template pTemplate="content">
+              <p class="period-description">{{ period.description }}</p>
+            </ng-template>
+            <ng-template pTemplate="footer">
+              <button pButton
+                      [label]="'common.learnMore' | translate"
+                      [routerLink]="['/historical-periods', period.id]"
+                      class="p-button-text">
+                <fa-icon [icon]="faArrowRight" class="ml-2"></fa-icon>
+              </button>
+            </ng-template>
+          </p-card>
+        </ng-container>
+      </div>
+    </div>
+  </section>
+</div>

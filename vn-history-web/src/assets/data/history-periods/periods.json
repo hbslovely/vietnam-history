@@ -1,0 +1,199 @@
+{
+  "periods": [
+    {
+      "id": "prehistoric",
+      "periodId": "prehistoric",
+      "name": "Thời kỳ tiền sử",
+      "nameEn": "Prehistoric Period",
+      "timeRange": {
+        "from": -300000,
+        "to": -2879,
+        "display": "300,000 BCE - 2879 BCE"
+      },
+      "type": "prehistoric",
+      "significance": "Đánh dấu sự xuất hiện của con người trên lãnh thổ Việt Nam và những bước phát triển đầu tiên về công cụ lao động",
+      "significanceEn": "Marks the appearance of humans in Vietnam territory and the first developments in labor tools",
+      "detailFile": "prehistoric.json"
+    },
+    {
+      "id": "hong-bang",
+      "periodId": "ancient-van-lang",
+      "name": "Thời kỳ Hồng Bàng",
+      "nameEn": "Hong Bang Period",
+      "timeRange": {
+        "from": -2879,
+        "to": -258,
+        "display": "2879 BCE - 258 BCE"
+      },
+      "type": "ancient",
+      "significance": "Thời kỳ dựng nước đầu tiên, hình thành văn hóa Việt cổ",
+      "significanceEn": "First state-building period, formation of ancient Vietnamese culture",
+      "detailFile": "hong-bang.json"
+    },
+    {
+      "id": "au-lac",
+      "periodId": "ancient-au-lac",
+      "name": "Thời kỳ Âu Lạc",
+      "nameEn": "Au Lac Period",
+      "timeRange": {
+        "from": -258,
+        "to": -207,
+        "display": "258 BCE - 207 BCE"
+      },
+      "type": "ancient",
+      "significance": "Phát triển kỹ thuật quân sự và kiến trúc phòng thủ",
+      "significanceEn": "Development of military technology and defensive architecture",
+      "detailFile": "au-lac.json"
+    },
+    {
+      "id": "chinese-domination",
+      "periodId": "bac-thuoc",
+      "name": "Thời kỳ Bắc thuộc",
+      "nameEn": "Chinese Domination Period",
+      "timeRange": {
+        "from": -207,
+        "to": 938,
+        "display": "207 BCE - 938 CE"
+      },
+      "type": "ancient",
+      "significance": "Giai đoạn đấu tranh giành độc lập và hình thành bản sắc văn hóa riêng",
+      "significanceEn": "Period of independence struggles and formation of distinct cultural identity",
+      "detailFile": "chinese-domination.json"
+    },
+    {
+      "id": "ngo-dinh-early-le",
+      "periodId": "early-independence",
+      "name": "Thời kỳ Ngô - Đinh - Tiền Lê",
+      "nameEn": "Ngo - Dinh - Early Le Dynasty Period",
+      "timeRange": {
+        "from": 939,
+        "to": 1009,
+        "display": "939 - 1009"
+      },
+      "type": "medieval",
+      "significance": "Xây dựng nền móng cho nhà nước phong kiến độc lập",
+      "significanceEn": "Building foundation for independent feudal state",
+      "detailFile": "ngo-dinh-early-le.json"
+    },
+    {
+      "id": "ly-tran",
+      "periodId": "medieval-prosperity",
+      "name": "Thời kỳ Lý - Trần",
+      "nameEn": "Ly - Tran Dynasty Period",
+      "timeRange": {
+        "from": 1009,
+        "to": 1400,
+        "display": "1009 - 1400"
+      },
+      "type": "medieval",
+      "significance": "Thời kỳ phát triển rực rỡ của văn hóa, kinh tế, quân sự",
+      "significanceEn": "Golden age of cultural, economic, and military development",
+      "detailFile": "ly-tran.json"
+    },
+    {
+      "id": "ho-and-ming",
+      "periodId": "ming-occupation",
+      "name": "Thời kỳ Hồ và Minh thuộc",
+      "nameEn": "Ho Dynasty and Ming Occupation",
+      "timeRange": {
+        "from": 1400,
+        "to": 1427,
+        "display": "1400 - 1427"
+      },
+      "type": "medieval",
+      "significance": "Giai đoạn khủng hoảng và kháng chiến chống Minh",
+      "significanceEn": "Period of crisis and resistance against Ming occupation",
+      "detailFile": "ho-and-ming.json"
+    },
+    {
+      "id": "later-le",
+      "periodId": "le-dynasty",
+      "name": "Thời Lê sơ",
+      "nameEn": "Early Le Dynasty",
+      "timeRange": {
+        "from": 1428,
+        "to": 1527,
+        "display": "1428 - 1527"
+      },
+      "type": "medieval",
+      "significance": "Thời kỳ phát triển cực thịnh của chế độ phong kiến tập quyền",
+      "significanceEn": "Peak development of centralized feudal system",
+      "detailFile": "later-le.json"
+    },
+    {
+      "id": "mac-restored-le",
+      "periodId": "mac-le-trinh-nguyen",
+      "name": "Thời kỳ Nam - Bắc triều và Trịnh - Nguyễn phân tranh",
+      "nameEn": "Mac Dynasty and Trinh-Nguyen Period",
+      "timeRange": {
+        "from": 1527,
+        "to": 1786,
+        "display": "1527 - 1786"
+      },
+      "type": "medieval",
+      "significance": "Thời kỳ phân tranh và mở rộng lãnh thổ về phía Nam",
+      "significanceEn": "Period of division and southward expansion",
+      "detailFile": "mac-restored-le.json"
+    },
+    {
+      "id": "tay-son",
+      "periodId": "tay-son",
+      "name": "Thời kỳ Tây Sơn",
+      "nameEn": "Tay Son Period",
+      "timeRange": {
+        "from": 1786,
+        "to": 1802,
+        "display": "1786 - 1802"
+      },
+      "type": "medieval",
+      "significance": "Thống nhất đất nước và cải cách xã hội",
+      "significanceEn": "National unification and social reforms",
+      "detailFile": "tay-son.json"
+    },
+    {
+      "id": "nguyen",
+      "periodId": "nguyen-dynasty",
+      "name": "Thời Nguyễn",
+      "nameEn": "Nguyen Dynasty",
+      "timeRange": {
+        "from": 1802,
+        "to": 1945,
+        "display": "1802 - 1945"
+      },
+      "type": "modern",
+      "significance": "Triều đại phong kiến cuối cùng và thời kỳ thuộc địa",
+      "significanceEn": "Last feudal dynasty and colonial period",
+      "detailFile": "nguyen.json"
+    },
+    {
+      "id": "modern-independence",
+      "periodId": "modern-vietnam",
+      "name": "Thời kỳ Độc lập",
+      "nameEn": "Modern Independence Period",
+      "timeRange": {
+        "from": 1945,
+        "to": 1976,
+        "display": "1945 - 1976"
+      },
+      "type": "modern",
+      "significance": "Giành và bảo vệ độc lập, thống nhất đất nước",
+      "significanceEn": "Gaining independence and national reunification",
+      "detailFile": "modern-independence.json"
+    },
+    {
+      "id": "contemporary",
+      "periodId": "contemporary-vietnam",
+      "name": "Thời kỳ Đổi mới và Hiện đại",
+      "nameEn": "Reform and Contemporary Period",
+      "timeRange": {
+        "from": 1976,
+        "to": 2023,
+        "display": "1976 - Present"
+      },
+      "type": "modern",
+      "significance": "Công cuộc đổi mới và phát triển đất nước",
+      "significanceEn": "Reform and national development",
+      "detailFile": "contemporary.json"
+    }
+  ]
+} 

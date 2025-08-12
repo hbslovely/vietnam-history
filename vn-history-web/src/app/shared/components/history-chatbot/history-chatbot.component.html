@@ -1,0 +1,73 @@
+<div class="chatbot-trigger" 
+     [class.expanded]="isChatOpen"
+     (click)="toggleChat()"
+     pRipple>
+  <fa-icon [icon]="faRobot"></fa-icon>
+  <span *ngIf="!isChatOpen">{{ 'chatbot.trigger' | translate }}</span>
+</div>
+
+<p-dialog [(visible)]="isChatOpen"
+          [modal]="false"
+          [draggable]="false"
+          [resizable]="false"
+          [showHeader]="false"
+          styleClass="chatbot-dialog"
+          position="bottomright">
+  <div class="chatbot-header">
+    <div class="chatbot-title">
+      <fa-icon [icon]="faRobot"></fa-icon>
+      <span>{{ 'chatbot.title' | translate }}</span>
+    </div>
+    <button pButton
+            class="p-button-text p-button-rounded"
+            (click)="toggleChat()">
+      <fa-icon [icon]="faXmark"></fa-icon>
+    </button>
+  </div>
+
+  <div class="chatbot-messages" #messageContainer>
+    <div *ngFor="let message of messages"
+         class="message"
+         [class.user-message]="message.isUser"
+         [class.error-message]="message.isError">
+      <p-avatar [icon]="message.isUser ? 'pi pi-user' : ''"
+                [image]="!message.isUser ? '/assets/images/dong-son/chatbot-avatar.png' : ''"
+                size="normal"
+                shape="circle">
+      </p-avatar>
+      <div class="message-content">
+        <div class="message-text">{{ message.content }}</div>
+        <div class="message-time">
+          {{ message.timestamp | date:'shortTime' }}
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="isLoading" class="message">
+      <p-avatar image="/assets/images/dong-son/chatbot-avatar.png"
+                size="normal"
+                shape="circle">
+      </p-avatar>
+      <div class="message-content">
+        <div class="typing-indicator">
+          <p-progressSpinner [style]="{width: '20px', height: '20px'}"></p-progressSpinner>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="chatbot-input">
+    <input type="text"
+           pInputText
+           [(ngModel)]="currentMessage"
+           (keyup.enter)="sendMessage()"
+           [placeholder]="'chatbot.inputPlaceholder' | translate"
+           [disabled]="isLoading">
+    <button pButton
+            class="p-button-rounded"
+            (click)="sendMessage()"
+            [disabled]="!currentMessage.trim() || isLoading">
+      <fa-icon [icon]="faPaperPlane"></fa-icon>
+    </button>
+  </div>
+</p-dialog> 

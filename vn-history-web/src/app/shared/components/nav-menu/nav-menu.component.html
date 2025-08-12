@@ -1,0 +1,50 @@
+<div class="layout-topbar">
+  <a class="layout-topbar-logo" routerLink="/">
+    <span>Vietnam History</span>
+  </a>
+
+  <ul class="layout-menu">
+    <li *ngFor="let item of menuItems">
+      <a pButton 
+         [routerLink]="item.path"
+         routerLinkActive="p-button-outlined"
+         class="p-button-text"
+         [label]="item.labelKey | translate">
+        <fa-icon [icon]="item.icon"></fa-icon>
+      </a>
+    </li>
+  </ul>
+
+  <div class="layout-topbar-end">
+    <app-language-switcher></app-language-switcher>
+    
+    <div class="mobile-menu">
+      <button pButton 
+              type="button" 
+              (click)="toggleSidebar()" 
+              class="p-button-text">
+        <fa-icon [icon]="faBars"></fa-icon>
+      </button>
+    </div>
+  </div>
+</div>
+
+<p-sidebar [(visible)]="sidebarVisible" 
+           position="right" 
+           [modal]="true" 
+           [baseZIndex]="1000"
+           styleClass="p-sidebar-md">
+  <div class="flex flex-column">
+    <a *ngFor="let item of menuItems"
+       pButton 
+       [routerLink]="item.path"
+       routerLinkActive="p-button-outlined"
+       class="p-button-text"
+       [label]="item.labelKey | translate"
+       (click)="closeSidebar()">
+      <fa-icon [icon]="item.icon"></fa-icon>
+    </a>
+  </div>
+</p-sidebar>
+
+<app-history-chatbot></app-history-chatbot>

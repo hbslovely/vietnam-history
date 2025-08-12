@@ -1,0 +1,118 @@
+@import "variables";
+
+.map-detail {
+  padding: $spacing-lg 0;
+
+  .card {
+    margin-bottom: $spacing-xl;
+    
+    h1 {
+      color: $text-color;
+      font-size: $font-size-xl;
+      font-weight: $font-weight-bold;
+      margin: 0 0 $spacing-sm 0;
+    }
+
+    .map-period {
+      color: $text-secondary;
+      font-size: $font-size-md;
+    }
+  }
+}
+
+:host ::ng-deep {
+  .p-tabview {
+    .p-tabview-panels {
+      padding: $spacing-lg 0;
+    }
+
+    .p-card {
+      background: $surface-card;
+      border-radius: $border-radius-lg;
+      box-shadow: $shadow-sm;
+
+      p {
+        color: $text-color;
+        line-height: 1.6;
+        margin: 0;
+      }
+    }
+  }
+
+  .map-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: $border-radius-md;
+    box-shadow: $shadow-sm;
+
+    .map-image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  .regions {
+    .region {
+      margin-bottom: $spacing-lg;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      h3 {
+        color: $text-color;
+        font-size: $font-size-lg;
+        font-weight: $font-weight-bold;
+        margin: 0 0 $spacing-sm 0;
+      }
+
+      .highlights {
+        margin-top: $spacing-md;
+        padding-left: $spacing-lg;
+        border-left: 2px solid $primary-color;
+
+        .highlight {
+          margin-bottom: $spacing-md;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          h4 {
+            color: $text-color;
+            font-size: $font-size-md;
+            font-weight: $font-weight-medium;
+            margin: 0 0 $spacing-xs 0;
+          }
+        }
+      }
+    }
+  }
+
+  .p-galleria {
+    .p-galleria-item-wrapper {
+      padding: $spacing-md;
+    }
+
+    .p-galleria-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: $spacing-sm;
+
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: $border-radius-md;
+      }
+
+      .image-caption {
+        color: $text-secondary;
+        font-size: $font-size-sm;
+        text-align: center;
+        padding: 0 $spacing-md;
+      }
+    }
+  }
+} 

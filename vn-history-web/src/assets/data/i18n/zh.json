@@ -1,0 +1,117 @@
+{
+  "common": {
+    "explore": "探索",
+    "readMore": "阅读更多",
+    "viewDetails": "查看详情"
+  },
+  "nav": {
+    "home": "首页",
+    "historicalPeriods": "历史时期",
+    "historicalFigures": "历史人物",
+    "historicalSites": "历史遗迹",
+    "culture": "文化",
+    "virtualMuseum": "虚拟博物馆",
+    "historicalMaps": "历史地图",
+    "news": "新闻"
+  },
+  "historicalPeriods": {
+    "title": "历史时期",
+    "periods": [
+      {
+        "id": "prehistoric",
+        "name": "史前时期",
+        "period": "原始时代 - 公元前2879年",
+        "description": "越南历史的第一个时期，包括山尾文化、和平文化和北山文化"
+      },
+      {
+        "id": "hong-bang",
+        "name": "鸿庞时期",
+        "period": "公元前2879年 - 公元前258年",
+        "description": "雄王建国并建立文郎文明的时代"
+      },
+      {
+        "id": "au-lac",
+        "name": "甌骆",
+        "period": "公元前258年 - 公元前207年",
+        "description": "安阳王和甌骆国时期"
+      }
+    ]
+  },
+  "historicalFigures": {
+    "title": "历史人物",
+    "categories": [
+      {
+        "id": "kings",
+        "name": "君王",
+        "figures": [
+          {
+            "id": "hung-vuong",
+            "name": "雄王",
+            "period": "公元前2879年 - 公元前258年",
+            "description": "越南民族的第一位君王"
+          }
+        ]
+      }
+    ]
+  },
+  "historicalSites": {
+    "title": "历史遗迹",
+    "sites": [
+      {
+        "id": "van-mieu",
+        "name": "文庙",
+        "location": "河内",
+        "period": "1070年",
+        "description": "越南第一所大学"
+      }
+    ]
+  },
+  "culture": {
+    "title": "文化",
+    "categories": [
+      {
+        "id": "festivals",
+        "name": "传统节日",
+        "items": [
+          {
+            "id": "tet",
+            "name": "春节",
+            "description": "越南人最重要的节日"
+          }
+        ]
+      }
+    ]
+  },
+  "virtualMuseum": {
+    "title": "虚拟博物馆",
+    "exhibits": [
+      {
+        "id": "dong-son",
+        "name": "东山文化",
+        "period": "公元前1000年 - 公元100年",
+        "description": "东山文化文物展览"
+      }
+    ]
+  },
+  "historicalMaps": {
+    "title": "历史地图",
+    "periods": [
+      {
+        "id": "van-lang",
+        "name": "文郎地图",
+        "period": "公元前2879年 - 公元前258年",
+        "description": "雄王时期的文郎地图"
+      }
+    ]
+  },
+  "news": {
+    "title": "新闻与活动",
+    "categories": [
+      {
+        "id": "discoveries",
+        "name": "新发现",
+        "description": "考古和历史新发现"
+      }
+    ]
+  }
+} 

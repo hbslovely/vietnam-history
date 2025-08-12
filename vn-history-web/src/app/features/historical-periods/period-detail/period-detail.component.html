@@ -1,0 +1,140 @@
+<div class="period-detail" *ngIf="periodDetails$ | async as period">
+  <!-- Header -->
+  <div class="header">
+    <h1>{{ currentLang === 'en' ? period.nameEn : period.name }}</h1>
+    <div class="period-time">{{ period.timeRange.display }}</div>
+  </div>
+
+  <!-- Overview -->
+  <section class="section">
+    <h2>{{ 'historicalPeriods.overview' | translate }}</h2>
+    <p>{{ getLocalizedText(period.overview) }}</p>
+  </section>
+
+  <!-- Rulers -->
+  <section class="section" *ngIf="period.rulers">
+    <h2>{{ getLocalizedText(period.rulers.title) }}</h2>
+    <p>{{ getLocalizedText(period.rulers.description) }}</p>
+    <div class="rulers-list">
+      <div class="ruler" *ngFor="let ruler of period.rulers.details">
+        <h3>{{ ruler.name }}</h3>
+        <div class="ruler-period">{{ ruler.period }}</div>
+        <ul>
+          <li *ngFor="let achievement of ruler.achievements">
+            {{ getLocalizedText(achievement) }}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Territory -->
+  <section class="section" *ngIf="period.territory">
+    <h2>{{ 'historicalPeriods.territory' | translate }}</h2>
+    <div class="capital">
+      <h3>{{ period.territory.capital.name }}</h3>
+      <p>{{ getLocalizedText(period.territory.capital.description) }}</p>
+    </div>
+    <div class="regions">
+      <div class="region" *ngFor="let region of period.territory.regions">
+        <h4>{{ currentLang === 'en' ? region.nameEn : region.name }}</h4>
+        <p>{{ getLocalizedText(region.description) }}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Culture -->
+  <section class="section" *ngIf="period.culture">
+    <h2>{{ 'historicalPeriods.culture' | translate }}</h2>
+    
+    <!-- Dong Son Culture -->
+    <div class="dong-son" *ngIf="period.culture.dongSon">
+      <h3>{{ currentLang === 'en' ? period.culture.dongSon.nameEn : period.culture.dongSon.name }}</h3>
+      <p>{{ getLocalizedText(period.culture.dongSon.overview) }}</p>
+      
+      <div class="artifacts">
+        <div class="artifact" *ngFor="let artifact of period.culture.dongSon.artifacts">
+          <h4>{{ currentLang === 'en' ? artifact.nameEn : artifact.name }}</h4>
+          <p>{{ getLocalizedText(artifact.description) }}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lifestyle -->
+    <div class="lifestyle" *ngIf="period.culture.lifestyle">
+      <h3>{{ 'historicalPeriods.lifestyle' | translate }}</h3>
+      <div class="lifestyle-aspects">
+        <p><strong>{{ 'historicalPeriods.housing' | translate }}:</strong> {{ getLocalizedText(period.culture.lifestyle.housing) }}</p>
+        <p><strong>{{ 'historicalPeriods.agriculture' | translate }}:</strong> {{ getLocalizedText(period.culture.lifestyle.agriculture) }}</p>
+        <p><strong>{{ 'historicalPeriods.crafts' | translate }}:</strong> {{ getLocalizedText(period.culture.lifestyle.crafts) }}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section class="section" *ngIf="period.achievements">
+    <h2>{{ 'historicalPeriods.achievements' | translate }}</h2>
+    <div class="achievements-list">
+      <div class="achievement-category" *ngFor="let category of period.achievements">
+        <h3>{{ currentLang === 'en' ? category.categoryEn : category.category }}</h3>
+        <div class="achievement-items">
+          <div class="achievement-item" *ngFor="let item of category.items">
+            <h4>{{ currentLang === 'en' ? item.nameEn : item.name }}</h4>
+            <p>{{ getLocalizedText(item.description) }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Significance -->
+  <section class="section" *ngIf="period.significance">
+    <h2>{{ 'historicalPeriods.significance' | translate }}</h2>
+    <div class="significance-aspects">
+      <p><strong>{{ 'historicalPeriods.political' | translate }}:</strong> {{ getLocalizedText(period.significance.political) }}</p>
+      <p><strong>{{ 'historicalPeriods.cultural' | translate }}:</strong> {{ getLocalizedText(period.significance.cultural) }}</p>
+      <p><strong>{{ 'historicalPeriods.technological' | translate }}:</strong> {{ getLocalizedText(period.significance.technological) }}</p>
+    </div>
+  </section>
+
+  <!-- Images -->
+  <section class="section" *ngIf="period.images?.length">
+    <h2>{{ 'historicalPeriods.images' | translate }}</h2>
+    <p-galleria 
+      [value]="period.images"
+      [responsiveOptions]="[
+        {
+          breakpoint: '1024px',
+          numVisible: 5
+        },
+        {
+          breakpoint: '768px',
+          numVisible: 3
+        },
+        {
+          breakpoint: '560px',
+          numVisible: 1
+        }
+      ]"
+      [circular]="true"
+      [showItemNavigators]="true"
+      [showThumbnails]="false">
+      <ng-template pTemplate="item" let-image>
+        <img [src]="image.url" [alt]="getLocalizedText(image.caption)">
+        <div class="image-caption">
+          {{ getLocalizedText(image.caption) }}
+        </div>
+      </ng-template>
+    </p-galleria>
+  </section>
+
+  <!-- References -->
+  <section class="section" *ngIf="period.references?.length">
+    <h2>{{ 'historicalPeriods.references' | translate }}</h2>
+    <ul class="references-list">
+      <li *ngFor="let ref of period.references">
+        {{ ref.title }} ({{ ref.year }}) - {{ ref.author }}, {{ ref.publisher }}
+      </li>
+    </ul>
+  </section>
+</div>

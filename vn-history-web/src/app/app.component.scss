@@ -1,48 +1,28 @@
-/* Language selector styles */
-.language-selector {
-  position: relative;
+@import "variables";
 
-  button {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
+:host {
+  display: block;
+  min-height: 100vh;
+}
 
-  .dropdown {
-    position: absolute;
-    right: 0;
-    margin-top: 0.5rem;
-    width: 12rem;
-    background-color: white;
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    display: none;
+.layout-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: $surface-ground;
+}
 
-    &.show {
-      display: block;
-    }
-  }
+.layout-main-container {
+  flex: 1 1 auto;
+  padding: calc(#{$topbar-height} + #{$spacing-xl}) $spacing-xl $spacing-xl;
+  max-width: $container-max-width;
+  margin: 0 auto;
+  width: 100%;
+  transition: margin-left 0.2s;
+}
 
-  &:hover {
-    .dropdown {
-      display: block;
-    }
-  }
-
-  .dropdown button {
-    width: 100%;
-    text-align: left;
-    padding: 0.5rem 1rem;
-    transition: all 0.2s;
-
-    &:hover {
-      background-color: var(--dong-son-color);
-      color: white;
-    }
-
-    &.active {
-      background-color: var(--dong-son-color);
-      color: white;
-    }
+@media screen and (max-width: $breakpoint-lg) {
+  .layout-main-container {
+    padding: calc(#{$topbar-height} + #{$spacing-lg}) $spacing-md $spacing-md;
   }
 }

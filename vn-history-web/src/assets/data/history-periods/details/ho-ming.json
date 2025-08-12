@@ -1,0 +1,337 @@
+{
+  "id": "ho-ming",
+  "name": "Thời kỳ Hồ - Minh",
+  "nameEn": "Ho Dynasty and Ming Domination Period",
+  "timeRange": {
+    "from": 1400,
+    "to": 1427,
+    "display": "1400 - 1427"
+  },
+  "overview": {
+    "vi": "Thời kỳ Hồ - Minh là giai đoạn chuyển tiếp ngắn nhưng đầy biến động trong lịch sử Việt Nam, bao gồm triều đại nhà Hồ (1400-1407) và thời kỳ thuộc Minh (1407-1427). Đây là thời kỳ của những cải cách táo bạo dưới thời Hồ Quý Ly và cuộc kháng chiến chống Minh thắng lợi do Lê Lợi lãnh đạo.",
+    "en": "The Ho - Ming period was a brief but turbulent transition in Vietnamese history, encompassing the Ho Dynasty (1400-1407) and Ming occupation (1407-1427). This period saw bold reforms under Ho Quy Ly and the successful resistance against Ming rule led by Le Loi."
+  },
+  "dynasties": [
+    {
+      "name": "Nhà Hồ",
+      "nameEn": "Ho Dynasty",
+      "period": "1400-1407",
+      "rulers": [
+        {
+          "name": "Hồ Quý Ly",
+          "period": "1400-1401",
+          "title": {
+            "vi": "Quốc chủ",
+            "en": "Nation's Ruler"
+          },
+          "achievements": [
+            {
+              "vi": "Cải cách tiền tệ, phát hành tiền giấy",
+              "en": "Currency reform, issued paper money"
+            },
+            {
+              "vi": "Cải cách giáo dục, chú trọng Nho học thực dụng",
+              "en": "Educational reform, emphasis on practical Confucianism"
+            },
+            {
+              "vi": "Hạn chế quyền sở hữu ruộng đất",
+              "en": "Limited land ownership"
+            }
+          ]
+        },
+        {
+          "name": "Hồ Hán Thương",
+          "period": "1401-1407",
+          "title": {
+            "vi": "Hoàng đế",
+            "en": "Emperor"
+          },
+          "achievements": [
+            {
+              "vi": "Tiếp tục cải cách của Hồ Quý Ly",
+              "en": "Continued Ho Quy Ly's reforms"
+            },
+            {
+              "vi": "Xây dựng thành Tây Đô",
+              "en": "Built Tay Do citadel"
+            }
+          ]
+        }
+      ],
+      "capital": {
+        "name": "Tây Đô",
+        "nameEn": "Tay Do",
+        "location": "Thanh Hóa",
+        "description": {
+          "vi": "Kinh đô mới được xây dựng kiên cố",
+          "en": "Newly built fortified capital"
+        }
+      },
+      "reforms": [
+        {
+          "category": "Economic",
+          "policies": [
+            {
+              "vi": "Phát hành tiền giấy",
+              "en": "Issue of paper currency"
+            },
+            {
+              "vi": "Hạn chế ruộng đất tư nhân",
+              "en": "Limitation of private land ownership"
+            },
+            {
+              "vi": "Khuyến khích thương mại",
+              "en": "Promotion of commerce"
+            }
+          ]
+        },
+        {
+          "category": "Education",
+          "policies": [
+            {
+              "vi": "Cải cách khoa cử",
+              "en": "Examination system reform"
+            },
+            {
+              "vi": "Dịch sách chữ Hán sang chữ Nôm",
+              "en": "Translation of Chinese texts to Nom script"
+            }
+          ]
+        },
+        {
+          "category": "Military",
+          "policies": [
+            {
+              "vi": "Tổ chức lại quân đội",
+              "en": "Military reorganization"
+            },
+            {
+              "vi": "Xây dựng hệ thống phòng thủ",
+              "en": "Construction of defense systems"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thời kỳ thuộc Minh",
+      "nameEn": "Ming Domination",
+      "period": "1407-1427",
+      "administration": {
+        "structure": {
+          "vi": "Chia đặt các ty, phủ, châu, huyện theo mô hình nhà Minh",
+          "en": "Established departments, prefectures, and districts following Ming model"
+        },
+        "policies": [
+          {
+            "vi": "Đồng hóa văn hóa",
+            "en": "Cultural assimilation"
+          },
+          {
+            "vi": "Tịch thu sách vở, di vật văn hóa",
+            "en": "Confiscation of books and cultural artifacts"
+          },
+          {
+            "vi": "Bắt người tài đưa về Trung Quốc",
+            "en": "Deportation of talented individuals to China"
+          }
+        ]
+      },
+      "resistance": {
+        "movements": [
+          {
+            "leader": "Trần Ngỗi",
+            "period": "1407-1409",
+            "result": {
+              "vi": "Thất bại",
+              "en": "Failed"
+            }
+          },
+          {
+            "leader": "Trần Quý Khoách",
+            "period": "1409-1413",
+            "result": {
+              "vi": "Thất bại",
+              "en": "Failed"
+            }
+          },
+          {
+            "leader": "Lê Lợi",
+            "period": "1418-1427",
+            "result": {
+              "vi": "Thắng lợi",
+              "en": "Successful"
+            },
+            "significance": {
+              "vi": "Giành lại độc lập, lập ra triều Lê",
+              "en": "Regained independence, established Le Dynasty"
+            }
+          }
+        ],
+        "lamSonUprising": {
+          "name": "Khởi nghĩa Lam Sơn",
+          "nameEn": "Lam Son Uprising",
+          "leader": "Lê Lợi",
+          "period": "1418-1427",
+          "majorBattles": [
+            {
+              "name": "Trận Tốt Động - Chúc Động",
+              "year": 1426,
+              "significance": {
+                "vi": "Phá vỡ thế phòng ngự của quân Minh",
+                "en": "Broke Ming's defensive position"
+              }
+            },
+            {
+              "name": "Trận Chi Lăng - Xương Giang",
+              "year": 1427,
+              "significance": {
+                "vi": "Tiêu diệt viện binh của Minh",
+                "en": "Destroyed Ming reinforcements"
+              }
+            }
+          ],
+          "strategy": {
+            "vi": "Kết hợp đánh du kích và trận địa",
+            "en": "Combined guerrilla warfare and conventional battles"
+          }
+        }
+      }
+    }
+  ],
+  "economy": {
+    "hoRule": {
+      "reforms": [
+        {
+          "vi": "Phát hành tiền giấy",
+          "en": "Introduction of paper currency"
+        },
+        {
+          "vi": "Hạn chế tư hữu ruộng đất",
+          "en": "Limitation of private land ownership"
+        },
+        {
+          "vi": "Phát triển thương mại",
+          "en": "Development of commerce"
+        }
+      ],
+      "impact": {
+        "vi": "Cải cách táo bạo nhưng thời gian ngắn",
+        "en": "Bold reforms but short-lived"
+      }
+    },
+    "mingDomination": {
+      "policies": [
+        {
+          "vi": "Bóc lột tài nguyên",
+          "en": "Resource exploitation"
+        },
+        {
+          "vi": "Tăng thuế khóa",
+          "en": "Increased taxation"
+        }
+      ],
+      "impact": {
+        "vi": "Kinh tế suy thoái",
+        "en": "Economic decline"
+      }
+    }
+  },
+  "culture": {
+    "hoRule": {
+      "education": {
+        "reforms": [
+          {
+            "vi": "Chú trọng Nho học thực dụng",
+            "en": "Emphasis on practical Confucianism"
+          },
+          {
+            "vi": "Khuyến khích sử dụng chữ Nôm",
+            "en": "Promotion of Nom script"
+          }
+        ]
+      },
+      "literature": {
+        "developments": [
+          {
+            "vi": "Phát triển văn học chữ Nôm",
+            "en": "Development of Nom literature"
+          }
+        ]
+      }
+    },
+    "mingDomination": {
+      "policies": [
+        {
+          "vi": "Đồng hóa văn hóa",
+          "en": "Cultural assimilation"
+        },
+        {
+          "vi": "Thu thập sách vở",
+          "en": "Collection of books and documents"
+        }
+      ],
+      "resistance": {
+        "vi": "Bảo tồn văn hóa dân tộc",
+        "en": "Preservation of national culture"
+      }
+    }
+  },
+  "significance": {
+    "political": {
+      "vi": "Thời kỳ chuyển tiếp quan trọng, đặt nền móng cho triều Lê",
+      "en": "Important transition period, laid foundation for Le Dynasty"
+    },
+    "social": {
+      "vi": "Cải cách xã hội táo bạo dưới thời Hồ",
+      "en": "Bold social reforms under Ho Dynasty"
+    },
+    "historical": {
+      "vi": "Bài học về độc lập dân tộc",
+      "en": "Lesson in national independence"
+    }
+  },
+  "images": [
+    {
+      "url": "/assets/images/history-periods/ho-ming/thanh-tay-do.jpg",
+      "caption": {
+        "vi": "Thành Tây Đô",
+        "en": "Tay Do Citadel"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/ho-ming/le-loi.jpg",
+      "caption": {
+        "vi": "Tượng Lê Lợi",
+        "en": "Statue of Le Loi"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/ho-ming/chi-lang.jpg",
+      "caption": {
+        "vi": "Di tích Chi Lăng",
+        "en": "Chi Lang Historical Site"
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Đại Việt Sử Ký Toàn Thư",
+      "author": "Ngô Sĩ Liên",
+      "year": 1479,
+      "publisher": "NXB Khoa học Xã hội"
+    },
+    {
+      "title": "Lịch sử Việt Nam tập 1",
+      "author": "Ủy ban Khoa học Xã hội Việt Nam",
+      "year": 1971,
+      "publisher": "NXB Khoa học Xã hội"
+    },
+    {
+      "title": "The Ming Occupation of Vietnam, 1407-1427",
+      "author": "John K. Whitmore",
+      "year": 1985,
+      "publisher": "Harvard University Press"
+    }
+  ]
+} 

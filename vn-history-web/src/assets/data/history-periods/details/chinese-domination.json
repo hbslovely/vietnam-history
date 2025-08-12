@@ -1,0 +1,303 @@
+{
+  "id": "chinese-domination",
+  "name": "Thời kỳ Bắc thuộc",
+  "nameEn": "Chinese Domination Period",
+  "timeRange": {
+    "from": -207,
+    "to": 938,
+    "display": "207 BCE - 938 CE"
+  },
+  "overview": {
+    "vi": "Thời kỳ Bắc thuộc kéo dài hơn 1000 năm, trải qua bốn giai đoạn chính với sự cai trị của các triều đại phương Bắc. Đây là thời kỳ đấu tranh giành độc lập và hình thành bản sắc văn hóa riêng của người Việt.",
+    "en": "The Chinese Domination period lasted over 1000 years, through four main phases under northern dynasties. This was a period of independence struggles and formation of distinct Vietnamese cultural identity."
+  },
+  "phases": [
+    {
+      "name": "Bắc thuộc lần 1",
+      "nameEn": "First Chinese Domination",
+      "period": "207 BCE - 39 CE",
+      "rulers": "Nhà Triệu, Tây Hán, Đông Hán",
+      "events": [
+        {
+          "name": "Triệu Đà chiếm Âu Lạc",
+          "year": "207 BCE",
+          "description": {
+            "vi": "Triệu Đà đánh bại An Dương Vương, sáp nhập Âu Lạc vào Nam Việt",
+            "en": "Zhao Tuo defeated An Duong Vuong, incorporating Au Lac into Nanyue"
+          }
+        },
+        {
+          "name": "Khởi nghĩa Hai Bà Trưng",
+          "year": "40-43 CE",
+          "description": {
+            "vi": "Cuộc khởi nghĩa đầu tiên giành độc lập do Trưng Trắc và Trưng Nhị lãnh đạo",
+            "en": "First independence uprising led by Trung Trac and Trung Nhi"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bắc thuộc lần 2",
+      "nameEn": "Second Chinese Domination",
+      "period": "43 - 544",
+      "rulers": "Đông Hán, Ngô, Tấn, Tống, Tề, Lương",
+      "events": [
+        {
+          "name": "Khởi nghĩa Bà Triệu",
+          "year": "248",
+          "description": {
+            "vi": "Cuộc khởi nghĩa của Triệu Thị Trinh chống lại nhà Ngô",
+            "en": "Lady Trieu's uprising against Wu Dynasty"
+          }
+        },
+        {
+          "name": "Khởi nghĩa Lý Bôn",
+          "year": "542-544",
+          "description": {
+            "vi": "Giành độc lập và thành lập nước Vạn Xuân",
+            "en": "Gained independence and established Van Xuan state"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bắc thuộc lần 3",
+      "nameEn": "Third Chinese Domination",
+      "period": "602 - 905",
+      "rulers": "Tùy, Đường",
+      "events": [
+        {
+          "name": "Khởi nghĩa Mai Thúc Loan",
+          "year": "722",
+          "description": {
+            "vi": "Cuộc khởi nghĩa lớn chống lại nhà Đường",
+            "en": "Major uprising against Tang Dynasty"
+          }
+        },
+        {
+          "name": "Khởi nghĩa Phùng Hưng",
+          "year": "766-791",
+          "description": {
+            "vi": "Giành quyền tự chủ trong thời gian ngắn",
+            "en": "Gained brief autonomy"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bắc thuộc lần 4",
+      "nameEn": "Fourth Chinese Domination",
+      "period": "905 - 938",
+      "rulers": "Nam Hán",
+      "events": [
+        {
+          "name": "Khúc Thừa Dụ giành quyền tự chủ",
+          "year": "905",
+          "description": {
+            "vi": "Thiết lập chính quyền tự chủ đầu tiên",
+            "en": "Established first autonomous government"
+          }
+        },
+        {
+          "name": "Ngô Quyền đánh bại Nam Hán",
+          "year": "938",
+          "description": {
+            "vi": "Chiến thắng trận Bạch Đằng, kết thúc thời kỳ Bắc thuộc",
+            "en": "Victory at Bach Dang River, ending Chinese domination"
+          }
+        }
+      ]
+    }
+  ],
+  "resistance": [
+    {
+      "name": "Hai Bà Trưng",
+      "period": "40-43",
+      "achievements": [
+        {
+          "vi": "Giành độc lập và xưng vương",
+          "en": "Gained independence and declared kingship"
+        },
+        {
+          "vi": "Thiết lập chính quyền tự chủ đầu tiên",
+          "en": "Established first autonomous government"
+        }
+      ],
+      "significance": {
+        "vi": "Biểu tượng đầu tiên của tinh thần đấu tranh giành độc lập",
+        "en": "First symbol of independence struggle spirit"
+      }
+    },
+    {
+      "name": "Bà Triệu",
+      "period": "248",
+      "achievements": [
+        {
+          "vi": "Lãnh đạo khởi nghĩa chống nhà Ngô",
+          "en": "Led uprising against Wu Dynasty"
+        }
+      ],
+      "significance": {
+        "vi": "Biểu tượng của ý chí đấu tranh không khuất phục",
+        "en": "Symbol of unyielding resistance spirit"
+      }
+    },
+    {
+      "name": "Lý Bí",
+      "period": "542-602",
+      "achievements": [
+        {
+          "vi": "Thành lập nước Vạn Xuân",
+          "en": "Established Van Xuan state"
+        },
+        {
+          "vi": "Xây dựng bộ máy nhà nước độc lập",
+          "en": "Built independent state apparatus"
+        }
+      ],
+      "significance": {
+        "vi": "Mở đầu thời kỳ tự chủ dài nhất trong thời Bắc thuộc",
+        "en": "Began longest autonomous period during Chinese domination"
+      }
+    }
+  ],
+  "culture": {
+    "influences": {
+      "chinese": {
+        "writing": {
+          "vi": "Chữ Hán được sử dụng trong văn bản chính thức",
+          "en": "Chinese characters used in official documents"
+        },
+        "education": {
+          "vi": "Hệ thống giáo dục theo mô hình Nho giáo",
+          "en": "Education system based on Confucian model"
+        },
+        "administration": {
+          "vi": "Tổ chức hành chính theo mô hình phương Bắc",
+          "en": "Administrative organization following northern model"
+        }
+      },
+      "vietnamese": {
+        "language": {
+          "vi": "Phát triển chữ Nôm để ghi âm tiếng Việt",
+          "en": "Development of Nom script for Vietnamese language"
+        },
+        "customs": {
+          "vi": "Duy trì phong tục tập quán và tín ngưỡng bản địa",
+          "en": "Maintained local customs and beliefs"
+        },
+        "arts": {
+          "vi": "Phát triển nghệ thuật dân gian đặc trưng",
+          "en": "Development of distinctive folk arts"
+        }
+      }
+    },
+    "society": {
+      "structure": {
+        "vi": "Xã hội phân chia theo mô hình Nho giáo, nhưng vẫn giữ đặc trưng bản địa",
+        "en": "Society organized on Confucian model while maintaining local characteristics"
+      },
+      "village": {
+        "vi": "Làng xã tự trị với các quy ước riêng",
+        "en": "Autonomous villages with own conventions"
+      }
+    }
+  },
+  "achievements": [
+    {
+      "category": "Văn hóa",
+      "categoryEn": "Culture",
+      "items": [
+        {
+          "name": "Chữ Nôm",
+          "nameEn": "Nom script",
+          "description": {
+            "vi": "Sáng tạo chữ viết riêng để ghi âm tiếng Việt",
+            "en": "Creation of unique script for Vietnamese language"
+          }
+        },
+        {
+          "name": "Văn học dân gian",
+          "nameEn": "Folk literature",
+          "description": {
+            "vi": "Phát triển các thể loại văn học dân gian đặc sắc",
+            "en": "Development of distinctive folk literature genres"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Kinh tế",
+      "categoryEn": "Economy",
+      "items": [
+        {
+          "name": "Kỹ thuật canh tác",
+          "nameEn": "Farming techniques",
+          "description": {
+            "vi": "Tiếp thu và cải tiến kỹ thuật canh tác tiên tiến",
+            "en": "Adoption and improvement of advanced farming techniques"
+          }
+        },
+        {
+          "name": "Thủ công nghiệp",
+          "nameEn": "Handicrafts",
+          "description": {
+            "vi": "Phát triển các ngành nghề thủ công truyền thống",
+            "en": "Development of traditional handicraft industries"
+          }
+        }
+      ]
+    }
+  ],
+  "significance": {
+    "political": {
+      "vi": "Hình thành ý thức độc lập, tự chủ của dân tộc",
+      "en": "Formation of national independence and autonomy consciousness"
+    },
+    "cultural": {
+      "vi": "Tiếp thu có chọn lọc văn hóa Trung Hoa và phát triển bản sắc riêng",
+      "en": "Selective absorption of Chinese culture and development of unique identity"
+    },
+    "social": {
+      "vi": "Hình thành cơ cấu xã hội và văn hóa làng xã đặc trưng",
+      "en": "Formation of distinctive social structure and village culture"
+    }
+  },
+  "images": [
+    {
+      "url": "/assets/images/history-periods/chinese-domination/hai-ba-trung.jpg",
+      "caption": {
+        "vi": "Tượng Hai Bà Trưng",
+        "en": "Statue of Trung Sisters"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/chinese-domination/van-xuan.jpg",
+      "caption": {
+        "vi": "Di tích thời Vạn Xuân",
+        "en": "Van Xuan period relics"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/chinese-domination/bach-dang.jpg",
+      "caption": {
+        "vi": "Bãi cọc trận Bạch Đằng",
+        "en": "Bach Dang battle stakes"
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Lịch sử Việt Nam tập 2",
+      "author": "Ủy ban Khoa học Xã hội Việt Nam",
+      "year": 2017,
+      "publisher": "NXB Khoa học Xã hội"
+    },
+    {
+      "title": "Vietnam: A History from Earliest Times to the Present",
+      "author": "Ben Kiernan",
+      "year": 2017,
+      "publisher": "Oxford University Press"
+    }
+  ]
+} 

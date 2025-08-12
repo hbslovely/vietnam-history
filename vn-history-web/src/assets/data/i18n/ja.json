@@ -1,0 +1,117 @@
+{
+  "common": {
+    "explore": "探索",
+    "readMore": "続きを読む",
+    "viewDetails": "詳細を見る"
+  },
+  "nav": {
+    "home": "ホーム",
+    "historicalPeriods": "歴史時代",
+    "historicalFigures": "歴史上の人物",
+    "historicalSites": "史跡",
+    "culture": "文化",
+    "virtualMuseum": "バーチャル博物館",
+    "historicalMaps": "歴史地図",
+    "news": "ニュース"
+  },
+  "historicalPeriods": {
+    "title": "歴史時代",
+    "periods": [
+      {
+        "id": "prehistoric",
+        "name": "先史時代",
+        "period": "原始時代 - 紀元前2879年",
+        "description": "ベトナム歴史の最初の時期、ソンヴィ文化、ホアビン文化、バクソン文化を含む"
+      },
+      {
+        "id": "hong-bang",
+        "name": "ホンバン時代",
+        "period": "紀元前2879年 - 紀元前258年",
+        "description": "フン王が国を建設し、ヴァンラン文明を築いた時代"
+      },
+      {
+        "id": "au-lac",
+        "name": "アウラック",
+        "period": "紀元前258年 - 紀元前207年",
+        "description": "アンズオン王とアウラック国の時代"
+      }
+    ]
+  },
+  "historicalFigures": {
+    "title": "歴史上の人物",
+    "categories": [
+      {
+        "id": "kings",
+        "name": "王",
+        "figures": [
+          {
+            "id": "hung-vuong",
+            "name": "フン王",
+            "period": "紀元前2879年 - 紀元前258年",
+            "description": "ベトナム民族の最初の王"
+          }
+        ]
+      }
+    ]
+  },
+  "historicalSites": {
+    "title": "史跡",
+    "sites": [
+      {
+        "id": "van-mieu",
+        "name": "文廟",
+        "location": "ハノイ",
+        "period": "1070年",
+        "description": "ベトナム最初の大学"
+      }
+    ]
+  },
+  "culture": {
+    "title": "文化",
+    "categories": [
+      {
+        "id": "festivals",
+        "name": "伝統的な祭り",
+        "items": [
+          {
+            "id": "tet",
+            "name": "旧正月",
+            "description": "ベトナム人の最も重要な祭り"
+          }
+        ]
+      }
+    ]
+  },
+  "virtualMuseum": {
+    "title": "バーチャル博物館",
+    "exhibits": [
+      {
+        "id": "dong-son",
+        "name": "ドンソン文化",
+        "period": "紀元前1000年 - 西暦100年",
+        "description": "ドンソン文化の遺物展示"
+      }
+    ]
+  },
+  "historicalMaps": {
+    "title": "歴史地図",
+    "periods": [
+      {
+        "id": "van-lang",
+        "name": "ヴァンラン地図",
+        "period": "紀元前2879年 - 紀元前258年",
+        "description": "フン王時代のヴァンラン地図"
+      }
+    ]
+  },
+  "news": {
+    "title": "ニュース・イベント",
+    "categories": [
+      {
+        "id": "discoveries",
+        "name": "新発見",
+        "description": "考古学と歴史の新しい発見"
+      }
+    ]
+  }
+} 

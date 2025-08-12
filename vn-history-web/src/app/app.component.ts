@@ -1,28 +1,43 @@
-import { Component, inject } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { TranslateModule } from '@ngx-translate/core';
-import { TranslationService } from './core/services/translation.service';
+import { NavMenuComponent } from './shared/components/nav-menu/nav-menu.component';
+import { PrimeNGConfig } from 'primeng/api';
+import { TranslateService, TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
-    CommonModule,
     RouterOutlet,
+    NavMenuComponent,
     TranslateModule
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  translationService = inject(TranslationService);
+export class AppComponent implements OnInit {
+  constructor(
+    private primengConfig: PrimeNGConfig,
+    private translateService: TranslateService
+  ) {
+    // Initialize PrimeNG config
+    this.primengConfig.ripple = true;
+    this.primengConfig.zIndex = {
+      modal: 1100,
+      overlay: 1000,
+      menu: 1000,
+      tooltip: 1100
+    };
 
-  getCurrentLanguageName(): string {
-    const currentLang = this.translationService.currentLang();
-    const language = this.translationService.availableLanguages.find(
-      lang => lang.code === currentLang
-    );
-    return language?.nativeName || '';
+    // Initialize translations
+    this.translateService.setDefaultLang('vi');
+    this.translateService.use('vi');
+  }
+
+  ngOnInit() {
+    // Load translations for PrimeNG components
+    this.translateService.get('primeng').subscribe(res => {
+      this.primengConfig.setTranslation(res);
+    });
   }
 }

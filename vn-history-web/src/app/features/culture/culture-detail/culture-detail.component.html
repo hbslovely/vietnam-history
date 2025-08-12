@@ -1,0 +1,62 @@
+<div class="culture-detail" *ngIf="item$ | async as item">
+  <div class="card">
+    <h1>{{ item.name }}</h1>
+  </div>
+
+  <p-tabView>
+    <p-tabPanel header="Tổng quan">
+      <p-card>
+        <p>{{ item.description }}</p>
+      </p-card>
+    </p-tabPanel>
+
+    <p-tabPanel header="Chi tiết" *ngIf="item.details">
+      <p-card>
+        <p>{{ item.details }}</p>
+      </p-card>
+    </p-tabPanel>
+
+    <p-tabPanel header="Nguồn gốc" *ngIf="item.origin">
+      <p-card>
+        <p>{{ item.origin }}</p>
+      </p-card>
+    </p-tabPanel>
+
+    <p-tabPanel header="Ý nghĩa" *ngIf="item.significance">
+      <p-card>
+        <p>{{ item.significance }}</p>
+      </p-card>
+    </p-tabPanel>
+
+    <p-tabPanel header="Hình ảnh" *ngIf="item.images?.length">
+      <p-card>
+        <p-galleria 
+          [value]="item.images" 
+          [responsiveOptions]="[
+            {
+              breakpoint: '1024px',
+              numVisible: 5
+            },
+            {
+              breakpoint: '768px',
+              numVisible: 3
+            },
+            {
+              breakpoint: '560px',
+              numVisible: 1
+            }
+          ]" 
+          [circular]="true" 
+          [showItemNavigators]="true"
+          [showThumbnails]="false">
+          <ng-template pTemplate="item" let-image>
+            <img [src]="image.url" [alt]="image.title">
+            <div class="image-caption" *ngIf="image.description">
+              {{ image.description }}
+            </div>
+          </ng-template>
+        </p-galleria>
+      </p-card>
+    </p-tabPanel>
+  </p-tabView>
+</div> 

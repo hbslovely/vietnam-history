@@ -1,0 +1,22 @@
+<div class="language-switcher">
+  <button pButton
+          class="p-button-text"
+          [label]="getCurrentLanguage().name"
+          (click)="op.toggle($event)">
+    <img [src]="getCurrentLanguage().flag"
+         [alt]="getCurrentLanguage().code"
+         class="language-flag mr-2">
+  </button>
+
+  <p-overlayPanel #op>
+    <div class="language-list">
+      <div *ngFor="let lang of languages"
+           class="language-item"
+           (click)="switchLanguage(lang.code); op.hide()"
+           pRipple>
+        <img [src]="lang.flag" [alt]="lang.code" class="language-flag">
+        <span>{{ lang.name }}</span>
+      </div>
+    </div>
+  </p-overlayPanel>
+</div> 

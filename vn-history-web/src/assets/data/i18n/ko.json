@@ -1,0 +1,117 @@
+{
+  "common": {
+    "explore": "탐험하기",
+    "readMore": "더 보기",
+    "viewDetails": "자세히 보기"
+  },
+  "nav": {
+    "home": "홈",
+    "historicalPeriods": "역사 시대",
+    "historicalFigures": "역사적 인물",
+    "historicalSites": "역사 유적지",
+    "culture": "문화",
+    "virtualMuseum": "가상 박물관",
+    "historicalMaps": "역사 지도",
+    "news": "뉴스"
+  },
+  "historicalPeriods": {
+    "title": "역사 시대",
+    "periods": [
+      {
+        "id": "prehistoric",
+        "name": "선사 시대",
+        "period": "원시 시대 - 기원전 2879년",
+        "description": "베트남 역사의 첫 시기, 선비 문화, 호아빈 문화, 박선 문화 포함"
+      },
+      {
+        "id": "hong-bang",
+        "name": "홍방 시대",
+        "period": "기원전 2879년 - 기원전 258년",
+        "description": "훙 왕이 나라를 세우고 반랑 문명을 건설한 시대"
+      },
+      {
+        "id": "au-lac",
+        "name": "어락",
+        "period": "기원전 258년 - 기원전 207년",
+        "description": "안즈엉 왕과 어락국의 시대"
+      }
+    ]
+  },
+  "historicalFigures": {
+    "title": "역사적 인물",
+    "categories": [
+      {
+        "id": "kings",
+        "name": "왕",
+        "figures": [
+          {
+            "id": "hung-vuong",
+            "name": "훙 왕",
+            "period": "기원전 2879년 - 기원전 258년",
+            "description": "베트남 민족의 첫 번째 왕"
+          }
+        ]
+      }
+    ]
+  },
+  "historicalSites": {
+    "title": "역사 유적지",
+    "sites": [
+      {
+        "id": "van-mieu",
+        "name": "문묘",
+        "location": "하노이",
+        "period": "1070년",
+        "description": "베트남의 첫 번째 대학"
+      }
+    ]
+  },
+  "culture": {
+    "title": "문화",
+    "categories": [
+      {
+        "id": "festivals",
+        "name": "전통 축제",
+        "items": [
+          {
+            "id": "tet",
+            "name": "설날",
+            "description": "베트남인의 가장 중요한 축제"
+          }
+        ]
+      }
+    ]
+  },
+  "virtualMuseum": {
+    "title": "가상 박물관",
+    "exhibits": [
+      {
+        "id": "dong-son",
+        "name": "동선 문화",
+        "period": "기원전 1000년 - 서기 100년",
+        "description": "동선 문화 유물 전시"
+      }
+    ]
+  },
+  "historicalMaps": {
+    "title": "역사 지도",
+    "periods": [
+      {
+        "id": "van-lang",
+        "name": "반랑 지도",
+        "period": "기원전 2879년 - 기원전 258년",
+        "description": "훙 왕 시대의 반랑 지도"
+      }
+    ]
+  },
+  "news": {
+    "title": "뉴스 & 이벤트",
+    "categories": [
+      {
+        "id": "discoveries",
+        "name": "새로운 발견",
+        "description": "고고학과 역사의 새로운 발견"
+      }
+    ]
+  }
+} 

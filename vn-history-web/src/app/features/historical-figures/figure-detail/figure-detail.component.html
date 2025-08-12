@@ -1,0 +1,61 @@
+<div class="figure-detail" *ngIf="figure$ | async as figure">
+  <div class="card">
+    <h1>{{ figure.name }}</h1>
+    <div class="figure-period">{{ figure.period }}</div>
+  </div>
+
+  <p-tabView>
+    <p-tabPanel header="Tổng quan">
+      <p-card>
+        <p>{{ figure.description }}</p>
+      </p-card>
+    </p-tabPanel>
+
+    <p-tabPanel header="Tiểu sử" *ngIf="figure.biography">
+      <p-card>
+        <p>{{ figure.biography }}</p>
+      </p-card>
+    </p-tabPanel>
+
+    <p-tabPanel header="Thành tựu" *ngIf="figure.achievements?.length">
+      <p-card>
+        <div class="achievements">
+          <div class="achievement" *ngFor="let achievement of figure.achievements">
+            <p-chip [label]="achievement"></p-chip>
+          </div>
+        </div>
+      </p-card>
+    </p-tabPanel>
+
+    <p-tabPanel header="Hình ảnh" *ngIf="figure.images?.length">
+      <p-card>
+        <p-galleria 
+          [value]="figure.images" 
+          [responsiveOptions]="[
+            {
+              breakpoint: '1024px',
+              numVisible: 5
+            },
+            {
+              breakpoint: '768px',
+              numVisible: 3
+            },
+            {
+              breakpoint: '560px',
+              numVisible: 1
+            }
+          ]" 
+          [circular]="true" 
+          [showItemNavigators]="true"
+          [showThumbnails]="false">
+          <ng-template pTemplate="item" let-image>
+            <img [src]="image.url" [alt]="image.title">
+            <div class="image-caption" *ngIf="image.description">
+              {{ image.description }}
+            </div>
+          </ng-template>
+        </p-galleria>
+      </p-card>
+    </p-tabPanel>
+  </p-tabView>
+</div> 

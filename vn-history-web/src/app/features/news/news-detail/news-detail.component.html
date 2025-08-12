@@ -1,0 +1,57 @@
+<div class="news-detail" *ngIf="newsItem$ | async as newsItem">
+  <div class="card">
+    <h1>{{ newsItem.title }}</h1>
+    <div class="news-meta">
+      <div class="date">{{ newsItem.date }}</div>
+      <div class="author" *ngIf="newsItem.author">{{ 'news.by' | translate }} {{ newsItem.author }}</div>
+      <div class="category">{{ newsItem.category }}</div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="col-12 lg:col-8">
+      <p-card>
+        <div class="news-content">
+          <p class="summary">{{ newsItem.summary }}</p>
+          <div [innerHTML]="newsItem.content"></div>
+        </div>
+
+        <div class="news-tags" *ngIf="newsItem.tags?.length">
+          <h3>{{ 'news.tags' | translate }}</h3>
+          <p-chip *ngFor="let tag of newsItem.tags" [label]="tag"></p-chip>
+        </div>
+      </p-card>
+    </div>
+
+    <div class="col-12 lg:col-4">
+      <p-card *ngIf="newsItem.images?.length" [header]="'news.relatedImages' | translate">
+        <p-galleria 
+          [value]="newsItem.images" 
+          [responsiveOptions]="[
+            {
+              breakpoint: '1024px',
+              numVisible: 5
+            },
+            {
+              breakpoint: '768px',
+              numVisible: 3
+            },
+            {
+              breakpoint: '560px',
+              numVisible: 1
+            }
+          ]" 
+          [circular]="true" 
+          [showItemNavigators]="true"
+          [showThumbnails]="false">
+          <ng-template pTemplate="item" let-image>
+            <img [src]="image.url" [alt]="image.title">
+            <div class="image-caption" *ngIf="image.description">
+              {{ image.description }}
+            </div>
+          </ng-template>
+        </p-galleria>
+      </p-card>
+    </div>
+  </div>
+</div> 

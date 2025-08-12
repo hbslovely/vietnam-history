@@ -1,0 +1,114 @@
+@import "variables";
+
+.news-detail {
+  padding: $spacing-lg 0;
+
+  .card {
+    margin-bottom: $spacing-xl;
+    
+    h1 {
+      color: $text-color;
+      font-size: $font-size-xl;
+      font-weight: $font-weight-bold;
+      margin: 0 0 $spacing-sm 0;
+    }
+
+    .news-meta {
+      display: flex;
+      gap: $spacing-md;
+      color: $text-secondary;
+      font-size: $font-size-sm;
+
+      .date {
+        color: $primary-color;
+      }
+
+      .author {
+        font-weight: $font-weight-medium;
+      }
+
+      .category {
+        background: $surface-hover;
+        padding: 0 $spacing-sm;
+        border-radius: $border-radius-sm;
+      }
+    }
+  }
+}
+
+:host ::ng-deep {
+  .p-card {
+    background: $surface-card;
+    border-radius: $border-radius-lg;
+    box-shadow: $shadow-sm;
+    height: 100%;
+
+    .news-content {
+      .summary {
+        font-size: $font-size-lg;
+        color: $text-color;
+        font-weight: $font-weight-medium;
+        margin-bottom: $spacing-lg;
+        line-height: 1.6;
+      }
+
+      div {
+        color: $text-color;
+        line-height: 1.8;
+
+        p {
+          margin-bottom: $spacing-md;
+        }
+      }
+    }
+
+    .news-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: $spacing-sm;
+      margin-top: $spacing-lg;
+      padding-top: $spacing-lg;
+      border-top: 1px solid $surface-border;
+
+      .p-chip {
+        background: $surface-hover;
+      }
+    }
+  }
+
+  .images-card {
+    .p-galleria {
+      .p-galleria-item-wrapper {
+        padding: $spacing-md;
+      }
+
+      .p-galleria-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: $spacing-sm;
+
+        img {
+          max-width: 100%;
+          height: auto;
+          border-radius: $border-radius-md;
+        }
+
+        .image-caption {
+          color: $text-secondary;
+          font-size: $font-size-sm;
+          text-align: center;
+          padding: 0 $spacing-md;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint-lg) {
+  .news-detail {
+    .images-card {
+      margin-top: $spacing-xl;
+    }
+  }
+} 

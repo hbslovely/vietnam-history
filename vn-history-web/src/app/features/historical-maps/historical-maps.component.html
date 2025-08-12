@@ -1,0 +1,37 @@
+<div class="historical-maps">
+  <div class="card">
+    <h1>{{ 'historicalMaps.title' | translate }}</h1>
+  </div>
+
+  <div class="grid">
+    <div class="col-12 md:col-6" *ngFor="let map of maps$ | async">
+      <p-card styleClass="map-card">
+        <ng-template pTemplate="header">
+          <div class="map-period">{{ map.period }}</div>
+        </ng-template>
+
+        <h3>{{ map.name }}</h3>
+        <p>{{ map.description }}</p>
+
+        <div class="map-preview">
+          <p-image 
+            [src]="map.mapUrl" 
+            [alt]="map.name"
+            [preview]="true"
+            imageClass="w-full">
+          </p-image>
+        </div>
+
+        <ng-template pTemplate="footer">
+          <div class="card-footer">
+            <p-button 
+              [label]="'common.viewDetails' | translate"
+              [routerLink]="['/historical-maps', map.id]"
+              styleClass="p-button-outlined">
+            </p-button>
+          </div>
+        </ng-template>
+      </p-card>
+    </div>
+  </div>
+</div>

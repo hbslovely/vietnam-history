@@ -1,0 +1,85 @@
+@import "variables";
+
+.news {
+  padding: $spacing-lg 0;
+
+  .card {
+    margin-bottom: $spacing-xl;
+
+    h1 {
+      color: $text-color;
+      font-size: $font-size-xl;
+      font-weight: $font-weight-bold;
+      margin: 0;
+    }
+  }
+}
+
+:host ::ng-deep {
+  .news-list {
+    .news-item {
+      margin-bottom: $spacing-md;
+
+      .p-card {
+        background: $surface-card;
+        border-radius: $border-radius-lg;
+        box-shadow: $shadow-sm;
+        transition: box-shadow 0.3s ease;
+
+        &:hover {
+          box-shadow: $shadow-lg;
+        }
+
+        .p-card-header {
+          padding: $spacing-md;
+          border-bottom: 1px solid $surface-border;
+        }
+
+        .p-card-content {
+          padding: $spacing-md;
+        }
+
+        p {
+          color: $text-color;
+          line-height: 1.6;
+          margin: 0;
+        }
+
+        .card-footer {
+          display: flex;
+          justify-content: flex-end;
+          margin-top: $spacing-md;
+        }
+      }
+    }
+  }
+
+  .categories-card {
+    position: sticky;
+    top: calc(#{$topbar-height} + #{$spacing-md});
+
+    .categories-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: $spacing-sm;
+
+      .p-chip {
+        cursor: pointer;
+        transition: background-color 0.2s;
+
+        &:hover {
+          background-color: $surface-hover;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint-lg) {
+  :host ::ng-deep {
+    .categories-card {
+      position: static;
+      margin-bottom: $spacing-xl;
+    }
+  }
+}

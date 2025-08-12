@@ -1,30 +1,75 @@
-.period-card {
-  @apply bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow;
+@import "variables";
 
-  .period-header {
-    @apply bg-dong-son p-4;
+:host ::ng-deep {
+  .p-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: $surface-card;
+    border-radius: $border-radius-md;
+    box-shadow: $shadow-sm;
+    transition: box-shadow 0.3s ease;
 
-    .period-title {
-      @apply text-xl font-bold text-white;
+    &:hover {
+      box-shadow: $shadow-lg;
     }
-  }
 
-  .period-content {
-    @apply p-4;
+    .p-card-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
 
-    .period-date {
-      @apply text-gray-600;
+    .p-card-content {
+      flex: 1;
+      padding: $spacing-md;
+    }
+
+    .p-card-header {
+      padding: $spacing-md;
+      background-color: $surface-hover;
+      border-top-left-radius: $border-radius-md;
+      border-top-right-radius: $border-radius-md;
+    }
+
+    .p-card-footer {
+      text-align: center;
+      padding: $spacing-md;
+      border-top: 1px solid $surface-border;
     }
   }
 }
 
-/* Responsive grid adjustments */
-.periods-grid {
-  @media (min-width: 768px) {
-    @apply grid-cols-2;
+.card {
+  background: $surface-card;
+  padding: $spacing-xl;
+  border-radius: $border-radius-lg;
+  margin-bottom: $spacing-xl;
+  box-shadow: $shadow-sm;
+
+  h1 {
+    color: $text-color;
+    font-size: $font-size-xl;
+    font-weight: $font-weight-bold;
+    margin: 0;
   }
 
-  @media (min-width: 1024px) {
-    @apply grid-cols-3;
+  p {
+    color: $text-secondary;
+    margin-top: $spacing-md;
+    font-size: $font-size-md;
   }
-} 
+}
+
+fa-icon {
+  display: flex;
+  justify-content: center;
+  color: $primary-color;
+  margin-bottom: $spacing-md;
+}
+
+.feature-description {
+  color: $text-secondary;
+  margin: $spacing-md 0;
+  line-height: 1.5;
+}

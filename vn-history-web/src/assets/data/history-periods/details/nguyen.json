@@ -1,0 +1,474 @@
+{
+  "id": "nguyen",
+  "name": "Triều Nguyễn",
+  "nameEn": "Nguyen Dynasty",
+  "timeRange": {
+    "from": 1802,
+    "to": 1945,
+    "display": "1802 - 1945"
+  },
+  "overview": {
+    "vi": "Triều Nguyễn là triều đại phong kiến cuối cùng của Việt Nam, được thành lập bởi Nguyễn Ánh (Gia Long) và kéo dài đến năm 1945. Triều đại này chứng kiến sự chuyển đổi sâu sắc của đất nước từ một vương quốc độc lập thành thuộc địa Pháp, cùng với những nỗ lực cải cách và phong trào kháng chiến chống Pháp.",
+    "en": "The Nguyen Dynasty was Vietnam's last feudal dynasty, established by Nguyen Anh (Gia Long) and lasting until 1945. This period witnessed the country's profound transformation from an independent kingdom to a French colony, along with reform efforts and resistance movements against French colonization."
+  },
+  "periods": {
+    "independent": {
+      "timeRange": {
+        "from": 1802,
+        "to": 1883,
+        "display": "1802 - 1883"
+      },
+      "description": {
+        "vi": "Giai đoạn độc lập trước khi trở thành thuộc địa Pháp",
+        "en": "Independent period before French colonization"
+      }
+    },
+    "colonial": {
+      "timeRange": {
+        "from": 1883,
+        "to": 1945,
+        "display": "1883 - 1945"
+      },
+      "description": {
+        "vi": "Giai đoạn dưới sự bảo hộ của Pháp",
+        "en": "Period under French protectorate"
+      }
+    }
+  },
+  "rulers": [
+    {
+      "name": "Gia Long",
+      "period": "1802-1820",
+      "achievements": [
+        {
+          "vi": "Thống nhất đất nước",
+          "en": "Unified the country"
+        },
+        {
+          "vi": "Xây dựng kinh đô Huế",
+          "en": "Built Hue capital"
+        },
+        {
+          "vi": "Ban hành Hoàng Việt luật lệ",
+          "en": "Promulgated Hoang Viet legal code"
+        }
+      ]
+    },
+    {
+      "name": "Minh Mạng",
+      "period": "1820-1841",
+      "achievements": [
+        {
+          "vi": "Cải cách hành chính",
+          "en": "Administrative reforms"
+        },
+        {
+          "vi": "Hoàn thiện bộ máy nhà nước",
+          "en": "Perfected state apparatus"
+        },
+        {
+          "vi": "Mở rộng lãnh thổ về phía Nam",
+          "en": "Expanded territory southward"
+        }
+      ]
+    },
+    {
+      "name": "Thiệu Trị",
+      "period": "1841-1847",
+      "achievements": [
+        {
+          "vi": "Duy trì ổn định đất nước",
+          "en": "Maintained country's stability"
+        },
+        {
+          "vi": "Phát triển văn học",
+          "en": "Developed literature"
+        }
+      ]
+    },
+    {
+      "name": "Tự Đức",
+      "period": "1847-1883",
+      "achievements": [
+        {
+          "vi": "Đối phó với thực dân Pháp",
+          "en": "Dealt with French colonialism"
+        },
+        {
+          "vi": "Cải cách giáo dục",
+          "en": "Educational reforms"
+        }
+      ],
+      "challenges": [
+        {
+          "vi": "Mất Nam Kỳ lục tỉnh",
+          "en": "Lost six southern provinces"
+        },
+        {
+          "vi": "Ký hiệp ước với Pháp",
+          "en": "Signed treaties with France"
+        }
+      ]
+    },
+    {
+      "name": "Đồng Khánh",
+      "period": "1885-1889",
+      "significance": {
+        "vi": "Vua đầu tiên dưới sự bảo hộ của Pháp",
+        "en": "First king under French protectorate"
+      }
+    },
+    {
+      "name": "Thành Thái",
+      "period": "1889-1907",
+      "significance": {
+        "vi": "Chống Pháp và bị truất phế",
+        "en": "Resisted French and was deposed"
+      }
+    },
+    {
+      "name": "Duy Tân",
+      "period": "1907-1916",
+      "significance": {
+        "vi": "Tham gia phong trào Duy Tân",
+        "en": "Participated in modernization movement"
+      }
+    },
+    {
+      "name": "Khải Định",
+      "period": "1916-1925",
+      "significance": {
+        "vi": "Hợp tác với Pháp",
+        "en": "Cooperated with French"
+      }
+    },
+    {
+      "name": "Bảo Đại",
+      "period": "1925-1945",
+      "significance": {
+        "vi": "Hoàng đế cuối cùng của triều Nguyễn",
+        "en": "Last emperor of Nguyen Dynasty"
+      }
+    }
+  ],
+  "administration": {
+    "structure": {
+      "central": {
+        "name": "Lục Bộ",
+        "nameEn": "Six Ministries",
+        "departments": [
+          {
+            "vi": "Bộ Lại (Nhân sự)",
+            "en": "Ministry of Personnel"
+          },
+          {
+            "vi": "Bộ Hộ (Tài chính)",
+            "en": "Ministry of Finance"
+          },
+          {
+            "vi": "Bộ Lễ (Nghi lễ)",
+            "en": "Ministry of Rites"
+          },
+          {
+            "vi": "Bộ Binh (Quân sự)",
+            "en": "Ministry of Military"
+          },
+          {
+            "vi": "Bộ Hình (Pháp luật)",
+            "en": "Ministry of Justice"
+          },
+          {
+            "vi": "Bộ Công (Công trình)",
+            "en": "Ministry of Public Works"
+          }
+        ]
+      },
+      "local": {
+        "units": [
+          {
+            "vi": "Tỉnh",
+            "en": "Province"
+          },
+          {
+            "vi": "Phủ",
+            "en": "Prefecture"
+          },
+          {
+            "vi": "Huyện",
+            "en": "District"
+          },
+          {
+            "vi": "Xã",
+            "en": "Commune"
+          }
+        ]
+      }
+    }
+  },
+  "colonialPeriod": {
+    "stages": [
+      {
+        "name": "Nam Kỳ thuộc địa",
+        "period": "1862-1945",
+        "status": {
+          "vi": "Thuộc địa trực tiếp của Pháp",
+          "en": "Direct French colony"
+        }
+      },
+      {
+        "name": "Bắc Kỳ và Trung Kỳ",
+        "period": "1883-1945",
+        "status": {
+          "vi": "Xứ bảo hộ",
+          "en": "Protectorates"
+        }
+      }
+    ],
+    "administration": {
+      "structure": {
+        "vi": "Chia thành ba kỳ: Bắc Kỳ, Trung Kỳ, Nam Kỳ",
+        "en": "Divided into three regions: Tonkin, Annam, Cochinchina"
+      },
+      "governance": {
+        "vi": "Chính quyền thuộc địa kết hợp với bộ máy phong kiến",
+        "en": "Colonial administration combined with feudal apparatus"
+      }
+    }
+  },
+  "modernization": {
+    "reforms": [
+      {
+        "name": "Duy Tân",
+        "period": "1905-1908",
+        "leaders": ["Phan Châu Trinh", "Trần Quý Cáp"],
+        "objectives": [
+          {
+            "vi": "Cải cách giáo dục",
+            "en": "Educational reform"
+          },
+          {
+            "vi": "Phát triển kinh tế",
+            "en": "Economic development"
+          }
+        ]
+      },
+      {
+        "name": "Đông Du",
+        "period": "1905-1909",
+        "leader": "Phan Bội Châu",
+        "objectives": [
+          {
+            "vi": "Gửi thanh niên du học Nhật Bản",
+            "en": "Sent youth to study in Japan"
+          }
+        ]
+      }
+    ],
+    "westernization": {
+      "education": [
+        {
+          "vi": "Thành lập trường Quốc học Huế",
+          "en": "Established Quoc Hoc Hue School"
+        },
+        {
+          "vi": "Áp dụng chương trình Pháp-Việt",
+          "en": "Implemented Franco-Vietnamese curriculum"
+        }
+      ],
+      "infrastructure": [
+        {
+          "vi": "Xây dựng đường sắt",
+          "en": "Built railways"
+        },
+        {
+          "vi": "Phát triển đô thị",
+          "en": "Urban development"
+        }
+      ]
+    }
+  },
+  "culture": {
+    "literature": {
+      "traditional": {
+        "genres": [
+          {
+            "name": "Thơ Nôm",
+            "works": ["Lục Vân Tiên", "Chinh phụ ngâm"]
+          },
+          {
+            "name": "Văn xuôi chữ Hán",
+            "works": ["Đại Nam thực lục"]
+          }
+        ]
+      },
+      "modern": {
+        "developments": [
+          {
+            "vi": "Chữ quốc ngữ phổ biến",
+            "en": "Popularization of quoc ngu script"
+          },
+          {
+            "vi": "Báo chí phát triển",
+            "en": "Development of journalism"
+          }
+        ]
+      }
+    },
+    "architecture": {
+      "imperial": [
+        {
+          "name": "Kinh thành Huế",
+          "features": [
+            "Hoàng thành",
+            "Tử Cấm Thành",
+            "Lăng tẩm"
+          ]
+        }
+      ],
+      "colonial": [
+        {
+          "name": "Kiến trúc Pháp",
+          "examples": [
+            "Nhà hát lớn Hà Nội",
+            "Nhà thờ Đức Bà"
+          ]
+        }
+      ]
+    }
+  },
+  "economy": {
+    "preColonial": {
+      "agriculture": {
+        "vi": "Duy trì hệ thống ruộng công",
+        "en": "Maintained public field system"
+      },
+      "trade": {
+        "domestic": ["Thăng Long", "Phố Hiến"],
+        "international": {
+          "partners": ["Trung Quốc", "Nhật Bản"],
+          "products": ["Gạo", "Tơ lụa"]
+        }
+      }
+    },
+    "colonial": {
+      "plantations": [
+        {
+          "vi": "Cao su",
+          "en": "Rubber"
+        },
+        {
+          "vi": "Cà phê",
+          "en": "Coffee"
+        }
+      ],
+      "industry": [
+        {
+          "vi": "Khai thác mỏ",
+          "en": "Mining"
+        },
+        {
+          "vi": "Dệt may",
+          "en": "Textiles"
+        }
+      ],
+      "infrastructure": [
+        {
+          "vi": "Đường sắt xuyên Đông Dương",
+          "en": "Trans-Indochina railway"
+        },
+        {
+          "vi": "Hệ thống cảng biển",
+          "en": "Seaport system"
+        }
+      ]
+    }
+  },
+  "resistance": {
+    "movements": [
+      {
+        "name": "Cần Vương",
+        "period": "1885-1896",
+        "leaders": ["Tôn Thất Thuyết", "Phan Đình Phùng"],
+        "characteristics": {
+          "vi": "Phong trào yêu nước dựa trên ý thức hệ phong kiến",
+          "en": "Patriotic movement based on feudal ideology"
+        }
+      },
+      {
+        "name": "Duy Tân",
+        "period": "1905-1908",
+        "leaders": ["Phan Châu Trinh"],
+        "characteristics": {
+          "vi": "Cải cách theo hướng dân chủ tư sản",
+          "en": "Democratic reform movement"
+        }
+      },
+      {
+        "name": "Đông Du",
+        "period": "1905-1909",
+        "leaders": ["Phan Bội Châu"],
+        "characteristics": {
+          "vi": "Cách mạng dân tộc theo mô hình Nhật Bản",
+          "en": "National revolution following Japanese model"
+        }
+      }
+    ]
+  },
+  "significance": {
+    "political": {
+      "vi": "Chuyển đổi từ chế độ phong kiến độc lập sang thuộc địa",
+      "en": "Transformation from independent feudal state to colony"
+    },
+    "cultural": {
+      "vi": "Giao thoa văn hóa Đông-Tây",
+      "en": "East-West cultural interaction"
+    },
+    "social": {
+      "vi": "Hình thành tầng lớp tư sản và công nhân",
+      "en": "Formation of bourgeoisie and working class"
+    }
+  },
+  "images": [
+    {
+      "url": "/assets/images/history-periods/nguyen/gia-long.jpg",
+      "caption": {
+        "vi": "Vua Gia Long",
+        "en": "Emperor Gia Long"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/nguyen/hoang-thanh-hue.jpg",
+      "caption": {
+        "vi": "Hoàng thành Huế",
+        "en": "Hue Imperial City"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/nguyen/can-vuong.jpg",
+      "caption": {
+        "vi": "Phong trào Cần Vương",
+        "en": "Can Vuong Movement"
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Đại Nam thực lục",
+      "author": "Quốc sử quán triều Nguyễn",
+      "year": 1844,
+      "publisher": "NXB Khoa học Xã hội"
+    },
+    {
+      "title": "Vietnam: A History",
+      "author": "Stanley Karnow",
+      "year": 1983,
+      "publisher": "Viking Press"
+    },
+    {
+      "title": "Việt Nam thời Pháp đô hộ",
+      "author": "Nguyễn Thế Anh",
+      "year": 1970,
+      "publisher": "NXB Lửa Thiêng"
+    }
+  ]
+} 

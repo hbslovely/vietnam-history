@@ -1,0 +1,323 @@
+{
+  "id": "mac-restored-le",
+  "name": "Thời kỳ Nam - Bắc triều và Trịnh - Nguyễn phân tranh",
+  "nameEn": "Mac Dynasty and Restored Le Period",
+  "timeRange": {
+    "from": 1527,
+    "to": 1789,
+    "display": "1527 - 1789"
+  },
+  "overview": {
+    "vi": "Thời kỳ này chứng kiến sự chia cắt đất nước thành ba vùng: nhà Mạc ở phía Bắc, chúa Trịnh với vua Lê ở Đàng Ngoài, và chúa Nguyễn ở Đàng Trong. Mặc dù có nhiều xung đột, đây cũng là thời kỳ phát triển văn hóa và mở rộng lãnh thổ về phía Nam.",
+    "en": "This period witnessed the division of the country into three regions: the Mac Dynasty in the North, the Trinh Lords with Le emperors in the Outer Realm, and the Nguyen Lords in the Inner Realm. Despite conflicts, it was also a time of cultural development and southward expansion."
+  },
+  "politicalDivisions": {
+    "macDynasty": {
+      "period": "1527-1677",
+      "territory": {
+        "vi": "Kiểm soát vùng Cao Bằng và phía Bắc",
+        "en": "Controlled Cao Bang and northern regions"
+      },
+      "rulers": [
+        {
+          "name": "Mạc Đăng Dung",
+          "period": "1527-1529",
+          "achievements": [
+            {
+              "vi": "Chiếm ngôi nhà Lê",
+              "en": "Usurped Le throne"
+            },
+            {
+              "vi": "Thiết lập triều Mạc",
+              "en": "Established Mac Dynasty"
+            }
+          ]
+        },
+        {
+          "name": "Mạc Đăng Doanh",
+          "period": "1530-1540",
+          "achievements": [
+            {
+              "vi": "Củng cố quyền lực",
+              "en": "Consolidated power"
+            }
+          ]
+        }
+      ]
+    },
+    "restoredLe": {
+      "period": "1533-1789",
+      "capital": {
+        "name": "Thăng Long",
+        "location": "Đàng Ngoài"
+      },
+      "structure": {
+        "emperor": {
+          "role": {
+            "vi": "Nắm quyền danh nghĩa",
+            "en": "Nominal ruler"
+          }
+        },
+        "trinhLords": {
+          "role": {
+            "vi": "Nắm quyền thực tế",
+            "en": "De facto ruler"
+          },
+          "territory": {
+            "vi": "Kiểm soát Đàng Ngoài (từ sông Gianh trở ra)",
+            "en": "Controlled Outer Realm (north of Gianh River)"
+          }
+        }
+      },
+      "significantRulers": [
+        {
+          "name": "Lê Trang Tông",
+          "period": "1533-1548",
+          "significance": {
+            "vi": "Khôi phục nhà Lê",
+            "en": "Restored Le Dynasty"
+          }
+        },
+        {
+          "name": "Trịnh Tùng",
+          "period": "1570-1623",
+          "achievements": [
+            {
+              "vi": "Đánh bại nhà Mạc",
+              "en": "Defeated Mac Dynasty"
+            },
+            {
+              "vi": "Củng cố quyền lực họ Trịnh",
+              "en": "Strengthened Trinh power"
+            }
+          ]
+        }
+      ]
+    },
+    "nguyenLords": {
+      "period": "1558-1777",
+      "territory": {
+        "vi": "Kiểm soát Đàng Trong (từ sông Gianh trở vào)",
+        "en": "Controlled Inner Realm (south of Gianh River)"
+      },
+      "capital": "Phú Xuân",
+      "significantRulers": [
+        {
+          "name": "Nguyễn Hoàng",
+          "period": "1558-1613",
+          "achievements": [
+            {
+              "vi": "Thiết lập cơ nghiệp họ Nguyễn ở Đàng Trong",
+              "en": "Established Nguyen rule in the South"
+            },
+            {
+              "vi": "Phát triển kinh tế, mở rộng lãnh thổ",
+              "en": "Developed economy, expanded territory"
+            }
+          ]
+        },
+        {
+          "name": "Nguyễn Phúc Tần",
+          "period": "1648-1687",
+          "achievements": [
+            {
+              "vi": "Đẩy mạnh Nam tiến",
+              "en": "Accelerated southward expansion"
+            },
+            {
+              "vi": "Phát triển thương mại quốc tế",
+              "en": "Developed international trade"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "civilWars": {
+    "trinhMacConflict": {
+      "period": "1533-1677",
+      "majorBattles": [
+        {
+          "name": "Trận Thăng Long",
+          "year": 1592,
+          "result": {
+            "vi": "Trịnh chiếm Thăng Long",
+            "en": "Trinh captured Thang Long"
+          }
+        }
+      ],
+      "outcome": {
+        "vi": "Họ Mạc thua, rút về Cao Bằng",
+        "en": "Mac Dynasty retreated to Cao Bang"
+      }
+    },
+    "trinhNguyenConflict": {
+      "period": "1627-1672",
+      "battles": [
+        {
+          "name": "Trận sông Gianh",
+          "year": 1648,
+          "result": {
+            "vi": "Phân định ranh giới Đàng Trong - Đàng Ngoài",
+            "en": "Established boundary between Inner and Outer Realms"
+          }
+        }
+      ],
+      "significance": {
+        "vi": "Chia cắt đất nước thành hai miền",
+        "en": "Division of country into two regions"
+      }
+    }
+  },
+  "territorialExpansion": {
+    "southward": {
+      "stages": [
+        {
+          "period": "1558-1611",
+          "area": "Thuận Hóa - Quảng Nam"
+        },
+        {
+          "period": "1611-1693",
+          "area": "Phú Yên - Bình Thuận"
+        },
+        {
+          "period": "1693-1757",
+          "area": "Gia Định - Đồng Nai"
+        }
+      ],
+      "significance": {
+        "vi": "Mở rộng lãnh thổ về phía Nam, hình thành vùng đất Nam Bộ",
+        "en": "Expanded territory southward, formed Southern region"
+      }
+    }
+  },
+  "culture": {
+    "dangNgoai": {
+      "characteristics": [
+        {
+          "vi": "Duy trì văn hóa truyền thống",
+          "en": "Maintained traditional culture"
+        },
+        {
+          "vi": "Phát triển Nho học",
+          "en": "Developed Confucian studies"
+        }
+      ],
+      "literature": [
+        {
+          "name": "Truyền kỳ mạn lục",
+          "author": "Nguyễn Dữ"
+        },
+        {
+          "name": "Hoàng Lê nhất thống chí",
+          "author": "Ngô gia văn phái"
+        }
+      ]
+    },
+    "dangTrong": {
+      "characteristics": [
+        {
+          "vi": "Tiếp thu văn hóa mới",
+          "en": "Adopted new cultural elements"
+        },
+        {
+          "vi": "Giao lưu với phương Tây",
+          "en": "Interacted with Western cultures"
+        }
+      ],
+      "developments": [
+        {
+          "vi": "Chữ Nôm phát triển",
+          "en": "Development of Nom script"
+        },
+        {
+          "vi": "Tiếp xúc Thiên Chúa giáo",
+          "en": "Contact with Christianity"
+        }
+      ]
+    }
+  },
+  "economy": {
+    "dangNgoai": {
+      "agriculture": {
+        "vi": "Duy trì hệ thống ruộng công",
+        "en": "Maintained public field system"
+      },
+      "trade": {
+        "domestic": ["Thăng Long", "Phố Hiến"],
+        "international": {
+          "partners": ["Trung Quốc", "Nhật Bản"],
+          "products": ["Tơ lụa", "Gốm sứ"]
+        }
+      }
+    },
+    "dangTrong": {
+      "agriculture": {
+        "vi": "Khai hoang, lập điền trang",
+        "en": "Land reclamation, established plantations"
+      },
+      "trade": {
+        "ports": ["Hội An", "Phố Hiến"],
+        "partners": ["Nhật Bản", "Trung Quốc", "Châu Âu"],
+        "products": ["Tơ lụa", "Đường", "Gỗ quý"]
+      }
+    }
+  },
+  "significance": {
+    "political": {
+      "vi": "Hình thành hai trung tâm chính trị-văn hóa riêng biệt",
+      "en": "Formation of two distinct political-cultural centers"
+    },
+    "cultural": {
+      "vi": "Phát triển đa dạng văn hóa Việt Nam",
+      "en": "Diversification of Vietnamese culture"
+    },
+    "territorial": {
+      "vi": "Mở rộng lãnh thổ về phía Nam",
+      "en": "Territorial expansion southward"
+    }
+  },
+  "images": [
+    {
+      "url": "/assets/images/history-periods/mac-restored-le/mac-dang-dung.jpg",
+      "caption": {
+        "vi": "Mạc Đăng Dung",
+        "en": "Mac Dang Dung"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/mac-restored-le/nguyen-hoang.jpg",
+      "caption": {
+        "vi": "Chúa Nguyễn Hoàng",
+        "en": "Lord Nguyen Hoang"
+      }
+    },
+    {
+      "url": "/assets/images/history-periods/mac-restored-le/pho-hien.jpg",
+      "caption": {
+        "vi": "Thương cảng Phố Hiến",
+        "en": "Pho Hien Trading Port"
+      }
+    }
+  ],
+  "references": [
+    {
+      "title": "Đại Việt sử ký toàn thư",
+      "author": "Ngô Sĩ Liên",
+      "year": 1479,
+      "publisher": "NXB Khoa học Xã hội"
+    },
+    {
+      "title": "Phủ biên tạp lục",
+      "author": "Lê Quý Đôn",
+      "year": 1776,
+      "publisher": "NXB Khoa học Xã hội"
+    },
+    {
+      "title": "Southern Vietnam under the Nguyen",
+      "author": "Li Tana",
+      "year": 1998,
+      "publisher": "Cornell University Press"
+    }
+  ]
+} 
