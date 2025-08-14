@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "vn-history-web": {
+    "hcmc-travel-guide": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/vn-history-web",
+            "outputPath": "dist/hcmc-travel-guide",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -30,20 +30,13 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/primeicons/primeicons.css",
-              "src/styles.scss",
-              "node_modules/primeflex/primeflex.css"
+              "src/styles.scss"
             ],
-            "stylePreprocessorOptions": {
-              "includePaths": [
-                "src/assets/scss"
-              ]
-            },
             "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
-              "entry": "src/server.ts"
+              "entry": "server.ts"
             }
           },
           "configurations": {
@@ -74,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "vn-history-web:build:production"
+              "buildTarget": "hcmc-travel-guide:build:production"
             },
             "development": {
-              "buildTarget": "vn-history-web:build:development"
+              "buildTarget": "hcmc-travel-guide:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -85,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "vn-history-web:build"
+            "buildTarget": "hcmc-travel-guide:build"
           }
         },
         "test": {
@@ -102,9 +95,7 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/primeicons/primeicons.css",
-              "src/styles.scss",
-              "node_modules/primeflex/primeflex.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }

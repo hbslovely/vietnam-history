@@ -1,0 +1,121 @@
+{
+  "app": {
+    "title": "HCMC Travel Guide",
+    "description": "Discover Saigon - Ho Chi Minh City"
+  },
+  "nav": {
+    "home": "Home",
+    "foodAndFun": "Food & Fun",
+    "accommodation": "Stay",
+    "transportation": "Getting Around",
+    "about": "About"
+  },
+  "home": {
+    "welcome": "Welcome to Saigon!",
+    "quickLinks": "Quick Access",
+    "popularPlaces": "Popular Places",
+    "latestNews": "Latest News",
+    "weather": "Weather",
+    "events": "Events"
+  },
+  "foodAndFun": {
+    "food": {
+      "title": "Food & Dining",
+      "categories": {
+        "streetFood": "Street Food",
+        "restaurants": "Restaurants",
+        "cafes": "Cafes",
+        "bars": "Bars"
+      },
+      "filters": {
+        "cuisine": "Cuisine Type",
+        "district": "District",
+        "price": "Price Range",
+        "rating": "Rating"
+      }
+    },
+    "entertainment": {
+      "title": "Entertainment",
+      "categories": {
+        "shopping": "Shopping",
+        "nightlife": "Nightlife",
+        "culture": "Culture",
+        "sports": "Sports"
+      }
+    }
+  },
+  "accommodation": {
+    "title": "Where to Stay",
+    "types": {
+      "hotel": "Hotels",
+      "hostel": "Hostels",
+      "apartment": "Apartments",
+      "homestay": "Homestays"
+    },
+    "filters": {
+      "price": "Price",
+      "district": "Area",
+      "amenities": "Amenities",
+      "rating": "Rating"
+    },
+    "amenities": {
+      "wifi": "WiFi",
+      "parking": "Parking",
+      "pool": "Swimming Pool",
+      "gym": "Gym",
+      "restaurant": "Restaurant",
+      "aircon": "Air Conditioning"
+    }
+  },
+  "transportation": {
+    "title": "Getting Around",
+    "public": {
+      "title": "Public Transport",
+      "bus": "Bus",
+      "metro": "Metro"
+    },
+    "private": {
+      "title": "Private Transport",
+      "taxi": "Taxi",
+      "grab": "Grab",
+      "bike": "Motorbike",
+      "rental": "Vehicle Rental"
+    },
+    "tips": {
+      "title": "Travel Tips",
+      "rushHour": "Rush Hours",
+      "safety": "Safety",
+      "costs": "Costs"
+    }
+  },
+  "about": {
+    "title": "About HCMC",
+    "history": "History",
+    "culture": "Culture",
+    "weather": "Weather",
+    "bestTime": "Best Time to Visit",
+    "tips": "Tips"
+  },
+  "common": {
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "viewMore": "View more",
+    "viewLess": "View less",
+    "loading": "Loading",
+    "error": "An error occurred",
+    "notFound": "Not found",
+    "price": {
+      "free": "Free",
+      "cheap": "Budget",
+      "moderate": "Moderate",
+      "expensive": "Expensive"
+    },
+    "status": {
+      "open": "Open Now",
+      "closed": "Closed",
+      "openingSoon": "Opening Soon",
+      "closingSoon": "Closing Soon"
+    }
+  }
+} 

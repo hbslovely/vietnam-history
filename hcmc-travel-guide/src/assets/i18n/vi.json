@@ -1,0 +1,121 @@
+{
+  "app": {
+    "title": "Hướng Dẫn Du Lịch TP.HCM",
+    "description": "Khám phá Sài Gòn - Thành phố Hồ Chí Minh"
+  },
+  "nav": {
+    "home": "Trang Chủ",
+    "foodAndFun": "Ăn Gì Chơi Gì",
+    "accommodation": "Ngủ/Nghỉ",
+    "transportation": "Đi Lại",
+    "about": "Giới Thiệu"
+  },
+  "home": {
+    "welcome": "Chào mừng đến với Sài Gòn!",
+    "quickLinks": "Truy Cập Nhanh",
+    "popularPlaces": "Địa Điểm Nổi Bật",
+    "latestNews": "Tin Tức Mới",
+    "weather": "Thời Tiết",
+    "events": "Sự Kiện"
+  },
+  "foodAndFun": {
+    "food": {
+      "title": "Ăn Uống",
+      "categories": {
+        "streetFood": "Ẩm Thực Đường Phố",
+        "restaurants": "Nhà Hàng",
+        "cafes": "Quán Cà Phê",
+        "bars": "Quán Bar"
+      },
+      "filters": {
+        "cuisine": "Loại Hình Ẩm Thực",
+        "district": "Quận/Huyện",
+        "price": "Giá Cả",
+        "rating": "Đánh Giá"
+      }
+    },
+    "entertainment": {
+      "title": "Giải Trí",
+      "categories": {
+        "shopping": "Mua Sắm",
+        "nightlife": "Hoạt Động Về Đêm",
+        "culture": "Văn Hóa",
+        "sports": "Thể Thao"
+      }
+    }
+  },
+  "accommodation": {
+    "title": "Chỗ Ở",
+    "types": {
+      "hotel": "Khách Sạn",
+      "hostel": "Nhà Nghỉ",
+      "apartment": "Căn Hộ",
+      "homestay": "Homestay"
+    },
+    "filters": {
+      "price": "Giá Tiền",
+      "district": "Khu Vực",
+      "amenities": "Tiện Nghi",
+      "rating": "Xếp Hạng"
+    },
+    "amenities": {
+      "wifi": "WiFi",
+      "parking": "Bãi Đậu Xe",
+      "pool": "Hồ Bơi",
+      "gym": "Phòng Tập",
+      "restaurant": "Nhà Hàng",
+      "aircon": "Máy Lạnh"
+    }
+  },
+  "transportation": {
+    "title": "Di Chuyển",
+    "public": {
+      "title": "Phương Tiện Công Cộng",
+      "bus": "Xe Buýt",
+      "metro": "Metro"
+    },
+    "private": {
+      "title": "Phương Tiện Cá Nhân",
+      "taxi": "Taxi",
+      "grab": "Grab",
+      "bike": "Xe Máy",
+      "rental": "Thuê Xe"
+    },
+    "tips": {
+      "title": "Mẹo Di Chuyển",
+      "rushHour": "Giờ Cao Điểm",
+      "safety": "An Toàn",
+      "costs": "Chi Phí"
+    }
+  },
+  "about": {
+    "title": "Về TP.HCM",
+    "history": "Lịch Sử",
+    "culture": "Văn Hóa",
+    "weather": "Thời Tiết",
+    "bestTime": "Thời Điểm Tốt Nhất",
+    "tips": "Lời Khuyên"
+  },
+  "common": {
+    "search": "Tìm kiếm",
+    "filter": "Lọc",
+    "sort": "Sắp xếp",
+    "viewMore": "Xem thêm",
+    "viewLess": "Thu gọn",
+    "loading": "Đang tải",
+    "error": "Có lỗi xảy ra",
+    "notFound": "Không tìm thấy",
+    "price": {
+      "free": "Miễn phí",
+      "cheap": "Rẻ",
+      "moderate": "Trung bình",
+      "expensive": "Đắt"
+    },
+    "status": {
+      "open": "Đang mở cửa",
+      "closed": "Đã đóng cửa",
+      "openingSoon": "Sắp mở cửa",
+      "closingSoon": "Sắp đóng cửa"
+    }
+  }
+} 
